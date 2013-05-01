@@ -8,6 +8,5 @@ It is automatically transformed by [Jekyll](https://github.com/mojombo/jekyll) i
 The following directories and their contents are Copyright Lee Dohm. You may not reuse anything therein without my permission:
 
 * `_posts/`
-* `images/`
 
 The visual design is by [mattgraham](http://twitter.com/#!/michigangraham) and was provided by [GitHub Pages](https://pages.github.com).
