@@ -15,6 +15,7 @@ task :post do
     f.puts "title: #{title}"
     f.puts 'published: false'
     f.puts 'tags: '
+    f.puts "date: #{now}"
     f.puts '---'
     f.puts
   end
