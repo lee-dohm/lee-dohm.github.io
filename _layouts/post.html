@@ -31,8 +31,16 @@
       <nav>
       {% include nav.html %}
       </nav>
+
       <section>
+        <h3>{{ page.title }}</h3>
+        <p><em>Published: {{ page.date | date_to_long_string }}</em></p>
+
         {{ content }}
+
+        {% if page.tags != empty %}
+        <p><em>Tags: {{ page.tags | join: ", " }}</em></p>
+        {% endif %}
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>

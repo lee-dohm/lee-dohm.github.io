@@ -13,11 +13,13 @@ task :post do
     f.puts '---'
     f.puts 'layout: post'
     f.puts "title: #{title}"
+    f.puts 'published: false'
+    f.puts 'tags: '
     f.puts '---'
     f.puts
   end
 end
 
 task :server do
-  sh 'jekyll --server'
+  sh 'jekyll --server --auto'
 end
