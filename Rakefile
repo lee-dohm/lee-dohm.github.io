@@ -1,13 +1,17 @@
 
-task :clean do
-  sh 'rm -rf _site'
-end
+require 'rake/clean'
 
+CLEAN.include('_site')
+
+desc 'Create a new post, must supply title='
 task :post do
-  now = Time.new
+  fail 'Must supply a title!  Example: rake post title="Best Title Evar!!!"' unless ENV['title']
   title = ENV['title']
+
+  now = Time.new
   file_title = title.downcase.gsub(' ', '-')
   filename = '_posts/%d-%02d-%02d-%s.md' % [now.year, now.month, now.day, file_title]
+
   mkdir '_posts' unless Dir.exists?('_posts')
   File.open(filename, 'w') do |f|
     f.puts '---'
@@ -21,6 +25,7 @@ task :post do
   end
 end
 
+desc 'Start the Jekyll server for local validation'
 task :server do
   sh 'jekyll --server --auto'
 end
