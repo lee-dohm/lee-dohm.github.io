@@ -9,7 +9,7 @@ task :post do
   title = ENV['title']
 
   now = Time.new
-  file_title = title.downcase.gsub(' ', '-')
+  file_title = title.downcase.gsub(/\W+/, '').gsub(' ', '-')
   filename = '_posts/%d-%02d-%02d-%s.md' % [now.year, now.month, now.day, file_title]
 
   mkdir '_posts' unless Dir.exists?('_posts')
@@ -18,7 +18,7 @@ task :post do
     f.puts 'layout: post'
     f.puts "title: #{title}"
     f.puts 'published: false'
-    f.puts 'tags: '
+    f.puts 'tags:'
     f.puts "date: #{now}"
     f.puts '---'
     f.puts
