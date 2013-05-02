@@ -1,4 +1,8 @@
 
+task :clean do
+  sh 'rm -rf _site'
+end
+
 task :post do
   now = Time.new
   title = ENV['title']
@@ -12,4 +16,8 @@ task :post do
     f.puts '---'
     f.puts
   end
+end
+
+task :server do
+  sh 'jekyll --server'
 end
