@@ -1,0 +1,4 @@
+markdown: redcarpet
+permalink: date
+pygments: true
+safe: true

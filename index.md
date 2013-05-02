@@ -5,9 +5,9 @@ title: Lee Dohm
 
 Testing Markdown!
 
-{% highlight ruby %}
+```ruby
 # Testing some code
 def foo
   puts 'foo'
 end
-{% endhighlight %}
+```
