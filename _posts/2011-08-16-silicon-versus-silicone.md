@@ -1,0 +1,8 @@
+---
+layout: post
+title: Pet Peeve - Silicon Versus Silicone
+tags: Geeky PetPeeve
+date: 2011-08-16 16:37:00 -0700
+---
+
+[Silicon](http://en.wikipedia.org/wiki/Silicon) is an element used in construction of semiconductors, most notoriously computer chips.  [Silicone](http://en.wikipedia.org/wiki/Silicone) is a type of plastic used for all manner of things, most notoriously breast implants.  Silicon is a component of silicone, but they are not synonymous.  Please stop using them as if they were.
