@@ -3,11 +3,8 @@ layout: default
 title: Lee Dohm
 ---
 
-Testing Markdown!
+### Blog Entries
 
-```ruby
-# Testing some code
-def foo
-  puts 'foo'
-end
-```
+{% for post in site.posts %}
+[{{ post.title }}]({{ post.url }})
+{% endfor %}
