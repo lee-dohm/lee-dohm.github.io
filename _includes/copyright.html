@@ -1,0 +1,9 @@
+        {% for post in site.posts %}
+          {% if forloop.first %}
+            {% capture lastyear %}{{ post.date | date: '%Y' }}{% endcapture %}
+          {% endif %}
+          {% if forloop.last %}
+            {% capture firstyear %}{{ post.date | date: '%Y' }}{% endcapture %}
+          {% endif %}
+        {% endfor %}
+        <p>Copyright &copy; {{ firstyear }}-{{ lastyear }} by Lee Dohm</p>
