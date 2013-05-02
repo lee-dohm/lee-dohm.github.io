@@ -1,4 +1,9 @@
+
+# jekyll configuration
 markdown: redcarpet
 permalink: date
 pygments: true
 safe: true
+
+# Site variables
+base_url: /
