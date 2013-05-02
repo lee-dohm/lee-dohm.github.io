@@ -5,7 +5,7 @@ tags: Coder
 date: 2011-05-10 23:22:00 -0700
 ---
 
-I read [Process Kills Developer Passion](http://radar.oreilly.com/2011/05/process-kills-developer-passion.html) earlier today and could not wait to get home and write up my thoughts.  The essay posits that "Over the past few years, the software industry has become increasingly focused on process and metrics as a way to ensure 'quality' code."  The software industry as a whole has been tilting at that particular windmill for almost as long as there has been code.  The shift in focus is that now it is developers themselves that are trying to build systems to ensure quality code, not just managers.
+I read [Process Kills Developer Passion](http://radar.oreilly.com/2011/05/process-kills-developer-passion.html) earlier today and could not wait to get home and write up my thoughts.  The essay posits that "Over the past few years, the software industry has become increasingly focused on process and metrics as a way to ensure 'quality' code."  On the contrary, the software industry as a whole has been tilting at that particular windmill for almost as long as there has been code.  The shift in focus is that now it is developers themselves that are trying to build systems to ensure quality code, not just managers.
 
 It lists a bunch of ways that one would be spending time on process rather than not-process, presumably getting real work done.  He also lists a few horror stories like "... the test cases took two- or three-times as much time to code as the actual code ...".  My only question there was, "Were they good test cases?"
 
