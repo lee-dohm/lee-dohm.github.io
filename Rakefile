@@ -16,7 +16,7 @@ task :post do
   File.open(filename, 'w') do |f|
     f.puts '---'
     f.puts 'layout: post'
-    f.puts "title: #{title}"
+    f.puts "title: \"#{title}\""
     f.puts 'published: false'
     f.puts 'tags:'
     f.puts "date: #{now}"
