@@ -1,10 +1,13 @@
 {% include beginning.html %}
         <h3>{{ page.title }}</h3>
-        <p><em>Published: {{ page.date | date_to_long_string }}</em></p>
+        <p><em>Published: <span class="reldate">{{ page.date }}</span></em></p>
 
         {{ content }}
 
+        <p>
         {% if page.tags != empty %}
-        <p><em>Tags: {{ page.tags | join: ", " }}</em></p>
+        <em>Tags: {{ page.tags | join: ", " }}</em><br/>
         {% endif %}
+        <em>Date: <span class="localdate">{{ page.date }}</span></em><br/>
+        </p>
 {% include end.html %}
