@@ -4,6 +4,9 @@ markdown: redcarpet
 permalink: date
 pygments: true
 safe: true
+exclude: ['CNAME', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'reference']
 
 # Site variables
 base_url: /
+
+
