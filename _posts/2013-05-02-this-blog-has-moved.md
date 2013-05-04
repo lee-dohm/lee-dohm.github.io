@@ -17,7 +17,7 @@ I started with computers way back in the 70s. (Yes, I'm old.) Do you know how ma
 1. LetterPerfect (on the Atari)*
 1. WordStar (on CP/M)
 1. WordStar (on IBM PC)*
-1. WordPerfect 4.0, 5.0 and 5.1
+1. WordPerfect 4.2, 5.0 and 5.1
 1. WordPerfect for Windows
 1. Microsoft Word (probably every version ever made for the PC from the late 90s until a year or so ago)
 
