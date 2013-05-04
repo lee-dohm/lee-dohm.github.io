@@ -3,6 +3,8 @@ layout: post
 title: The Abusive Relationship That Is the American Cable Industry
 tags: Geeky
 date: 2013-02-02 13:04:00 -0700
+
+excerpt: I just got done reading [I Fought the Cord and the Cord Won](http://www.macworld.com/article/2026550/i-fought-the-cord-and-the-cord-won.html) over at [MacWorld](http://www.macworld.com/).  It is a well-written article that examines one man's attempt to divest his family of cable television and to use Internet-based alternatives, an option that is becoming increasingly more attractive for many and one that I have been using happily for several months now.
 ---
 
 I just got done reading [I Fought the Cord and the Cord Won](http://www.macworld.com/article/2026550/i-fought-the-cord-and-the-cord-won.html) over at [MacWorld](http://www.macworld.com/).  It is a well-written article that examines one man's attempt to divest his family of cable television and to use Internet-based alternatives, an option that is becoming increasingly more attractive for many and one that I have been using happily for several months now.

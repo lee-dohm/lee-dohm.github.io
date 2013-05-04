@@ -1,0 +1,44 @@
+---
+layout: default
+title: Archives
+---
+    <ul class="postList archive">
+    {% for post in site.posts %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture month %}{{ post.date | date: '%B' }}{% endcapture %}
+
+      {% if post.next %}
+          {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+          {% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
+      {% endif %}
+
+      {% if forloop.first %}
+          <!-- year -->
+          <span style="text-align: center;"><h1>{{ year }}</h1></span>
+          <h2>{{ month }}</h2>
+            <ul>
+      {% else %}
+        <!-- all other posts -->
+          {% if year != nyear %}
+            </ul>
+          <!-- /month -->
+          <!-- /year -->
+          <!-- year -->
+          <span style="text-align: center;"><h1>{{ year }}</h1></span>
+          <h2>{{ month }}</h2>
+            <ul>
+          {% elsif month != nmonth %}
+            </ul>
+
+          <h2>{{ month }}</h2>
+            <ul>
+          {% endif %}
+       {% endif %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+       {% if forloop.last %}
+            </ul>
+          <!-- /month -->
+          <!-- /year -->
+       {% endif %}
+    {% endfor %}
+    </ul>
