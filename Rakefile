@@ -26,6 +26,6 @@ task :post do
 end
 
 desc 'Start the Jekyll server for local validation'
-task :server do
+task :server => :clean do
   sh 'jekyll --server --auto'
 end
