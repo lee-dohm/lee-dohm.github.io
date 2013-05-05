@@ -67,7 +67,7 @@ People have been asking me a lot lately why I like Ruby so much. And mostly the 
 1. [TomDoc][tomdoc] has gathered a decent-sized following lately and, of course, there is a [YARD plugin for TomDoc][yard-tomdoc].
 1. [RSpec][rspec] and [Minitest][minitest] being two of the most popular. Also both examples of Ruby DSLs.
 1. Another Ruby DSL.
-1. Terse in the sense of Perl's line-noise-like syntax. From the book "Learning Perl", one of the most popular books on Perl:
+1. Terse in the sense of Perl's line-noise-like syntax. From the book "Learning Perl", one of the most popular books on the language:
 
     > Yes, sometimes Perl looks like line noise to the uninitiated, but to the seasoned Perl programmer, it looks like checksummed line noise with a mission in life.
 
