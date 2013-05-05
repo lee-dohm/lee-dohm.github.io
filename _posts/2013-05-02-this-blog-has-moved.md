@@ -17,10 +17,10 @@ I started with computers way back in the 70s. (Yes, I'm old.) Do you know how ma
 
 1. Atari Word Processor^1
 1. LetterPerfect (on the Atari)^2
-1. WordStar (on CP/M)
+1. WordStar (on [CP/M](http://en.wikipedia.org/wiki/CP/M))
 1. WordStar (on IBM PC)^3
 1. WordPerfect 4.2, 5.0 and 5.1
-1. WordPerfect for Windows
+1. WordPerfect for Windows 5.1 and 5.2
 1. Microsoft Word (probably every version ever made for the PC from the late 90s until a year or so ago)
 
 The number of graphics formats, audio formats and video formats are probably almost this large each. If I still had one of those old word processing files and could somehow read the disk it was stored on, assuming the disk hadn't demagnetized itself in the intervening decades, I could *probably* get the text out of it, but definitely not the formatting. But trying to decode an image file that preceded GIF or TIFF? Or trying to decode an audio format that preceded MP3 or WAV? Probably not happening.
