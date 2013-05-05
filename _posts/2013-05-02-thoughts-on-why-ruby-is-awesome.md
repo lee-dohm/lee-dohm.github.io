@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Thoughts on Why Ruby is Awesome"
+published: false
 tags: Coder
 date: 2013-05-02 11:45:52 -0700
 
