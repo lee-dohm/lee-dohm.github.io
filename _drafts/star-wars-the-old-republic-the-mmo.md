@@ -2,7 +2,6 @@
 layout: post
 title: "Star Wars: The Old Republic: The MMO"
 tags: Geeky
-date: 2012-01-03 02:08:00 -0700
 ---
 
 I spent the majority of the New Year's weekend playing the new [Star Wars Massively Multiplayer Online Game](http://www.swtor.com), colloquially referred to by its acronym, SWTOR.  It is by [BioWare](http://www.bioware.com), newly acquired by [Electronic Arts](http://www.ea.com).  BioWare is the game company behind many PC- and console-based role-playing games including the Baldur's Gate series, Jade Empire, the Mass Effect series and, of course, the Star Wars: Knights of the Old Republic single-player game.  If it's a role-playing game made by BioWare, I just buy it because I know it is going to be great.

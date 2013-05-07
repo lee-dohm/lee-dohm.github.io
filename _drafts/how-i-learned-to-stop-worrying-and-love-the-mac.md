@@ -2,7 +2,6 @@
 layout: post
 title: How I Learned to Stop Worrying and Love the Mac
 tags: Geeky
-date: 2011-11-29 14:27:00 -0700
 ---
 
 I came out to my friends and family earlier this year.  I had converted to using a Mac and soon afterward powered down my Windows-based PC for good.  Why did I do this after my over twenty-year love affair with the PC?  Sure, I dabbled with [OS/2](http://en.wikipedia.org/wiki/OS/2) and [BeOS](http://en.wikipedia.org/wiki/BeOS) and even at one point in college (along with my dear friend Punish) declared [BSD Unix](http://en.wikipedia.org/wiki/BSD_Unix) to be the victor in our own personal computer operating system showdown.  But I always built my own desktops from pieces I had chosen myself.  And when none of those operating systems proved to be able to unseat Windows, Windows always welcomed me back with open arms.  Each time, I was glad to be home.
