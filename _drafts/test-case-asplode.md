@@ -2,7 +2,6 @@
 layout: post
 title: Test Case 'Asplode
 tags: Coder
-published: false
 ---
 
 In my day job as a tester, in a meeting I was recently asked by the Dev Manager what I would concentrate on testing of a new feature that had a bunch of developer tests already written.  The developers were confident that it was pretty well tested and I had confidence in the skills of the developers on the job.  I was certain that they had done a decent job of making sure that the code worked.  But that's not what testers get paid to do.  I told them I would concentrate on failure modes first and then work my way back to success cases.  At first, the developers were incredulous.  Why would I spend most of my time on making sure that the code didn't work?  I answered simply that I was pretty comfortable that they had done a good job of testing most if not all of the ways the code could work, but it was often the ways that the code that could break that a developer didn't test.

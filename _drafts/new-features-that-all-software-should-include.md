@@ -2,7 +2,6 @@
 layout: post
 title: New Features That All Future Software Should Include
 tags: Geeky
-published: false
 ---
 
 Until very recently, I didn't give much thought to "the cloud". I thought it was just some new management fad like "tiger teams" or "total quality management". But then I tried out [Google Chrome](http://www.google.com/chrome) just to see how it compared to the other browsers and I found a feature that made me think about the cloud in a whole new way.
