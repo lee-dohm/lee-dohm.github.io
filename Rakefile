@@ -29,6 +29,16 @@ def file_title(title)
   title.downcase.gsub(' ', '-')
 end
 
+# Gets the title passed on the command line.
+#
+# @param [String] task_name Name of the currently executing Rake task.
+# @returns [String] Title for the post.
+# @raise [StandardError] When a title is not passed on the command line.
+def get_title(task_name)
+  fail "Must supply a title!  Example: rake #{task_name} title=\"Best Title Evar!!!\"" unless ENV['title']
+  ENV['title']
+end
+
 # Reads a post and returns its metadata and content.
 #
 # @param [String] path Path to the post.
@@ -41,6 +51,11 @@ def read_post(path)
   [metadata, chunks[2]]
 end
 
+# Writes the post to the given path.
+#
+# @param [String] path Path to which to write the post.
+# @param [Hash] metadata Metadata for the post.
+# @param [String] content Content for the post.
 def write_post(path, metadata, content = nil)
   File.open(path, 'w') do |f|
     f.puts metadata.to_yaml
@@ -50,11 +65,8 @@ def write_post(path, metadata, content = nil)
 end
 
 desc 'Create a new draft, must supply title='
-task :draft do
-  fail 'Must supply a title!  Example: rake draft title="Best Title Evar!!!"' unless ENV['title']
-  title = ENV['title']
-
-  path = draft_filename(title)
+task :draft do |task_name|
+  title = get_title(task_name)
 
   metadata = {
     'layout' => 'post',
@@ -62,21 +74,20 @@ task :draft do
     'tags' => nil
   }
 
+  path = draft_filename(title)
   mkdir '_drafts' unless Dir.exists?('_drafts')
   write_post(path, metadata)
 end
 
 desc 'Publish a draft, must supply title='
-task :publish do
-  fail 'Must supply a title!  Example: rake publish title="Best Title Evar!!!"' unless ENV['title']
-  title = ENV['title']
+task :publish do |task_name|
+  title = get_title(task_name)
 
   now = Time.new
-  draft_path = draft_filename(title)
   path = filename(title, now)
 
+  draft_path = draft_filename(title)
   metadata, content = read_post(draft_path)
-
   metadata['date'] = now
 
   mkdir '_posts' unless Dir.exists?('_posts')
