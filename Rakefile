@@ -41,6 +41,14 @@ def read_post(path)
   [metadata, chunks[2]]
 end
 
+def write_post(path, metadata, content = nil)
+  File.open(path, 'w') do |f|
+    f.puts metadata.to_yaml
+    f.puts '---'
+    f.puts content
+  end
+end
+
 desc 'Create a new draft, must supply title='
 task :draft do
   fail 'Must supply a title!  Example: rake draft title="Best Title Evar!!!"' unless ENV['title']
@@ -55,11 +63,7 @@ task :draft do
   }
 
   mkdir '_drafts' unless Dir.exists?('_drafts')
-  File.open(path, 'w') do |f|
-    f.puts metadata.to_yaml
-    f.puts '---'
-    f.puts
-  end
+  write_post(path, metadata)
 end
 
 desc 'Publish a draft, must supply title='
@@ -76,11 +80,7 @@ task :publish do
   metadata['date'] = now
 
   mkdir '_posts' unless Dir.exists?('_posts')
-  File.open(path, 'w') do |f|
-    f.puts metadata.to_yaml
-    f.puts '---'
-    f.puts content
-  end
+  write_post(path, metadata, content)
 
   rm draft_path
 end
