@@ -9,7 +9,7 @@ He has owned many different computers over the years and explored many different
 * Atari - 400, 800, 800XL
 * CP/M - A couple of different Z-80 based machines (one with eight inch floppy disks!)
 * DOS/Windows from DOS 3.x through DOS and 16-bit Windows 3.0 to 64-bit Windows 7
-* OS/2 2.0 and 2.1
+* OS/2 2.0, 2.1 and 3.0 (Warp)
 * BeOS R5 for Intel processors
 * *(currently)* OS X - MacBook Pro and iMac
 
