@@ -43,7 +43,7 @@ end
 
 desc 'Create a new draft, must supply title='
 task :draft do
-  fail 'Must supply a title!  Example: rake post title="Best Title Evar!!!"' unless ENV['title']
+  fail 'Must supply a title!  Example: rake draft title="Best Title Evar!!!"' unless ENV['title']
   title = ENV['title']
 
   path = draft_filename(title)
@@ -64,7 +64,7 @@ end
 
 desc 'Publish a draft, must supply title='
 task :publish do
-  fail 'Must supply a title!  Example: rake post title="Best Title Evar!!!"' unless ENV['title']
+  fail 'Must supply a title!  Example: rake publish title="Best Title Evar!!!"' unless ENV['title']
   title = ENV['title']
 
   now = Time.new
