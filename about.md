@@ -11,11 +11,11 @@ He has owned many different computers over the years and explored many different
 * DOS/Windows from DOS 3.x through DOS and 16-bit Windows 3.0 to 64-bit Windows 7
 * OS/2 2.0, 2.1 and 3.0 (Warp)
 * BeOS R5 for Intel processors
-* *(currently)* OS X - MacBook Pro and iMac
+* *(currently)* OS X 10.6-10.8 - MacBook Pro and iMac
 
 He's also worked with many, many programming languages over the years:
 
-* BASIC
+* BASIC^1
 * 6502 Assembler
 * Logo
 * Pascal
@@ -30,7 +30,7 @@ He's also worked with many, many programming languages over the years:
 * C#
 * PowerShell
 * Ruby
-* R^1
+* R^2
 
 Lee's other passions are video games, scuba diving and whatever shiny thing has caught his attention this week. (There is a half-built quadracopter "drone" in the garage that he keeps telling himself he needs to finish.) But for a twist of fate, Lee could have ended up a physicist, that being what he decided he wanted to be when he grew up long ago and what he majored in college ... before dropping out and learning just how much it cost to support onesself. He still dreams of someday getting a Ph.D. in quantum computing and melding his first love with his current love, but that hasn't happened yet. He also never did get that Bachelor's degree ...
 
@@ -42,5 +42,5 @@ Lee can be found in the following ways:
 
 -----
 
+1. Like with [line numbers](http://en.wikipedia.org/wiki/Line_number) and everything!
 1. More for data analysis than actual programming, but it replaced the need to write a bunch of tools.
-
