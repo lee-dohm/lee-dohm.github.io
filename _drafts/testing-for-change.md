@@ -9,7 +9,7 @@ Recently, [Blizzard's][blizzard] [Diablo III][d3] in-game economy suffered a hug
 The basic rundown of the bug is this:
 
 1. Create an auction of 6 billion gold.
-1. Auction shows up as 1,705,032,704 gold with only that much deducted from your account.
+1. Auction shows up as 1,705,032,704 gold with *only that much deducted from your account*.
 1. Cancel the auction.
 1. Find 6 billion gold refunded to your account.
 
