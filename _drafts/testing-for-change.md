@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Testing For Change
+title: Testing for Change
 tags: Coder Tester
 ---
 
