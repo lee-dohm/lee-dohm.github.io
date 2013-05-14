@@ -4,7 +4,7 @@ title: Testing For Change
 tags: Coder Tester
 ---
 
-Recently, [Blizzard's][blizzard] [Diablo III][d3] in-game economy suffered a huge malfunction that was caused, presumably, by [an integer overflow bug][bug]. This bug allegedly crept in when a last-minute change was added to a release where a limiting constant was raised from 1 million to 10 million. I wanted to take this opportunity, not to rub Blizzard's nose in it, but to talk about something that most people don't talk about. How to construct tests that keep your systems covered as much as possible when the system is changed.
+Recently, [Blizzard's][blizzard] [Diablo III][d3] in-game economy suffered a huge malfunction that was caused, presumably, by [an integer overflow bug][bug]. This bug allegedly crept in when a last-minute change was added to a release where a limiting constant was raised from 1 million to 10 million. I wanted to take this opportunity, not to rub Blizzard's nose in it, but to talk about something that most people don't talk about: how to construct tests that keep your systems covered as much as possible when the system is changed.
 
 The basic rundown of the bug is this:
 
