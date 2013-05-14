@@ -11,8 +11,10 @@
      */
     $.fn.toLocalTime = function() {
       this.each(function() {
-        var $this = $(this);
-        $this.text(Date.fromString($this.html()).toLocaleString());
+        if(!jQuery.browser['msie']) {
+            var $this = $(this);
+            $this.text(Date.fromString($this.html()).toLocaleString());
+        }
       });
     };
   })(jQuery);

@@ -15,8 +15,10 @@
      */
     $.fn.toRelativeTime = function() {
       this.each(function() {
-        var $this = $(this);
-        $this.text(Date.fromString($this.html()).toRelativeTime());
+        if(!jQuery.browser['msie']) {
+            var $this = $(this);
+            $this.text(Date.fromString($this.html()).toRelativeTime());
+        }
       });
     };
   })(jQuery);
