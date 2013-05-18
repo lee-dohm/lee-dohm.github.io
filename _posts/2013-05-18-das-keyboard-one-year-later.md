@@ -34,3 +34,4 @@ I guess what I'm really asking for is a keyboard with [Cherry MX Blue][cherry] k
 [das_keyboard]: http://www.daskeyboard.com/model-s-professional-for-mac/
 [dvorak]: http://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard
 [hhkb]: http://elitekeyboards.com/products.php?sub=pfu_keyboards,hhkbpro2&pid=pdkb400w
+
