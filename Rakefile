@@ -93,7 +93,7 @@ task :publish do |task_name|
   mkdir '_posts' unless Dir.exists?('_posts')
   write_post(path, metadata, content)
 
-  rm draft_path
+  sh "git rm #{draft_path}"
 end
 
 desc 'Start the Jekyll server for local validation'
