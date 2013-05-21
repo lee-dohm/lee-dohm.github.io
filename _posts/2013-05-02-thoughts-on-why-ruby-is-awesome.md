@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Thoughts on Why Ruby is Awesome"
-tags: Coder
+tags: Coder Ruby
 date: 2013-05-05 12:41:52 -0700
 
 excerpt: I've been thinking a lot about various programming languages because where I work now is a fairly [polyglot](http://memeagora.blogspot.com/2006/12/polyglot-programming.html) kind of place. We have significant code bases in Java, Ruby and Python, and you can probably find at least some project or another in probably any modern programming language. I've been getting the itch to learn a new language and that has made me start looking at things like [Haskell](http://www.haskell.org), [Erlang](http://www.erlang.org) and [Google's Go](http://www.golang.org). But each time I start learning a new language, when I just want to implement something, I always come back to Ruby. So I'm going to explain some of the reasons why I've been choosing Ruby as the language I'm using to implement things instead of these arguably more powerful and definitely more exotic languages.
