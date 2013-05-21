@@ -5,7 +5,7 @@ It is automatically transformed by [Jekyll](https://github.com/mojombo/jekyll) i
 
 # License
 
-The following directories and their contents are Copyright Lee Dohm. You may not reuse anything therein without my permission:
+The following directories and their contents are Copyright &copy; 2013 by Lee Dohm. You may not reuse anything therein without my permission:
 
 * `_drafts/`
 * `_posts/`
