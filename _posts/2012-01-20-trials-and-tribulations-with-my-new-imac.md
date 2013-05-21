@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Trials and Tribulations with My New iMac
-tags: Geeky
+tags: Geeky Mac
 date: 2012-01-20 09:29:00 -0700
 ---
 

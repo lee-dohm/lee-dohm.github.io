@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why I'm Considering Dumping Facebook for Google Buzz
-tags: Geeky
+tags: Geeky Google Facebook
 date: 2010-07-08 23:30:00 -0700
 ---
 

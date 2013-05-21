@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 3D Printing Potential Boon to Miniatures Wargaming
-tags: Geeky
+tags: Geeky 3D_Printing
 date: 2012-01-22 10:53:00 -0700
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pet Peeve - Silicon Versus Silicone
-tags: Geeky PetPeeve
+tags: Geeky Pet_Peeve
 date: 2011-08-16 16:37:00 -0700
 ---
 
