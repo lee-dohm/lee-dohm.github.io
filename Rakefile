@@ -31,7 +31,7 @@ end
 
 # Gets the title passed on the command line.
 #
-# @param [String] task_name Name of the currently executing Rake task.
+# @param [String] task_name Name of the currently executing Rake task for the error message if a title wasn't supplied.
 # @returns [String] Title for the post.
 # @raise [StandardError] When a title is not passed on the command line.
 def get_title(task_name)
