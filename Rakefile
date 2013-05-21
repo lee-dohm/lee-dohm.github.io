@@ -42,7 +42,7 @@ end
 # Reads a post and returns its metadata and content.
 #
 # @param [String] path Path to the post.
-# @return [Array<Hash, String>] Hash containing the metadata and String containing the content.
+# @return [Array(Hash, String)] The metadata and the content of the post.
 def read_post(path)
   chunks = IO.read(path).split(/^---\s*$/)
 
