@@ -48,7 +48,7 @@
 .highlight .py { color: #F8F8F8 } /* Name.Property */
 .highlight .nt { color: #6ab825;} /* Name.Tag */
 .highlight .nv { color: #40ffff } /* Name.Variable */
-.highlight .ow { color: #6ab825; font-weight: normal } /* Operator.Word */
+.highlight .ow { color: #FBDE2D; font-weight: normal } /* Operator.Word */
 .highlight .w { color: #666666 } /* Text.Whitespace */
 .highlight .mf { color: #3677a9 } /* Literal.Number.Float */
 .highlight .mh { color: #3677a9 } /* Literal.Number.Hex */
