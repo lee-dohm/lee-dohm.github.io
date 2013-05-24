@@ -64,6 +64,8 @@ Which is what makes the word operators best for flow control operations. They co
 chdir('/etc') or die "Can't change directory";
 ```
 
+In the above code, only if the `chdir` method fails is `die` called.
+
 What I find problematic about this is that the word operators essentially can be used (with some difficulty) as replacements for the symbolic Boolean operators and also can be used as replacements for the more commonly used modifier versions of `if` and `unless`. The following two lines are equivalent:
 
 ```ruby
