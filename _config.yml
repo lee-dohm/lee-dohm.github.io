@@ -12,17 +12,17 @@ exclude:
     - README.md
     - reference
 
-# Site variables
-base_url: /
-
 redcarpet:
     extensions:
         - fenced_code_blocks
         - superscript
 
-title: lee-dohm.com
+# Site variables
+base_url: /
 full_url: http://www.lee-dohm.com
 feed_url: feed.xml
+
+title: lee-dohm.com
 
 author:
   name: Lee Dohm
