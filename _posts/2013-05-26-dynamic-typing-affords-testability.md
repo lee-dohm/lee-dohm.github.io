@@ -37,7 +37,7 @@ That `final` keyword means that subclasses of `B` cannot override the `store` me
 
 {% gist 5653431 gymnastics.java %}
 
-Yes, this gets the job done. But `SurrogateB` is now part of our *production* code. It is going to ship with our product and could be a source of bugs. It also will be a performance hit, albeit perhaps an infinitesimally small one. Every time `A` would have called a method on `B`, a check is made to see if we are testing or not ... a check that shouldn't need to be performed in production code. This is also a violation of the [Single Responsibility Principle][srp], in that this new class is responsible both for being a stand-in for `B` as well as being responsible for affording testing.
+Yes, this gets the job done. But this version of `MockB` is now part of our *production* code. It is going to ship with our product and could be a source of bugs. It also will be a performance hit, albeit perhaps an infinitesimally small one. Every time `A` would have called a method on `B`, a check is made to see if we are testing or not ... a check that shouldn't need to be performed in production code. This is also a violation of the [Single Responsibility Principle][srp], in that this new class is responsible both for being a stand-in for `B` as well as being responsible for affording testing.
 
 In a dynamically typed language though, such as Ruby, all of these concerns and code changes go away. Let's take a look at the Ruby version of `A`:
 
