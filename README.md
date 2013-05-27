@@ -1,7 +1,7 @@
 
 # This is the data for my blog
 
-It is automatically transformed by [Jekyll](https://github.com/mojombo/jekyll) into a static site whenever I push this repository to GitHub.
+My blog can be found at [www.lee-dohm.com](http://www.lee-dohm.com). It is automatically transformed by [Jekyll](https://github.com/mojombo/jekyll) into a static site whenever I push this repository to GitHub.
 
 # License
 
