@@ -10,4 +10,4 @@ The following directories and their contents are Copyright &copy; 2010-2013 by L
 * `_drafts/`
 * `_posts/`
 
-The visual design is by [mattgraham](http://twitter.com/#!/michigangraham) and was provided by [GitHub Pages](https://pages.github.com).
+The visual design was originally by [mattgraham](http://twitter.com/#!/michigangraham) and was provided by [GitHub Pages](https://pages.github.com), though I am slowly customizing it for my needs.
