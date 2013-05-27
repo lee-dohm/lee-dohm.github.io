@@ -11,7 +11,7 @@ The author states in their article:
 
 > Examples of code you probably don't want to write unit tests for includes gameplay logic which gets written and rewritten twenty times before ship as the result of iteration. Having to write test harnesses and tests for all this throwaway code is madness. Then of course there's code that's just plain hard to unit test, such as graphics. The point is that pervasive unit testing is a fantasy - it may be feasible in some domains, but it's certainly not the case everywhere.
 
-Obviously, the author doesn't agree that completely automated testing is possible. And it seems to me that the author doesn't value completely automated testing. Part of that reason appears to be that the author rightly states that completely automated testing, even at the unit test level, is hard ... at least in statically typed languages.
+The author states that automated testing isn't valuable in all cases. Part of that reason appears to be that the author rightly states that automated testing, even at the unit test level, is hard ... at least in statically typed languages.
 
 Let's step back a moment and define our terms. A language can be considered "statically typed" if type correctness is checked at compile-time and "dynamically typed" if type correctness is not checked at compile-time.^1 What it means to be "type correct" varies from language to language, so we won't examine a more formal definition of that here. Languages like Java and Go are statically typed while languages like Ruby and Python are dynamically typed.
 
