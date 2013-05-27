@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dynamic Typing Affords Testability
-tags: Coder
+tags: Coder Tester
 ---
 
 I read [this article on language design "deal breakers"][article]. It is a thought-provoking read despite the fact that the author and I do not agree on a couple key points. Where we do agree is with regards to memory safety, both in allocation and with respect to null references, and efficient storage reclamation. I'm much less concerned than the author about Windows support though I can understand why someone would include it in their "deal breaker" list. Where I definitely don't agree is on the benefits of static typing and this reminded me that I had been meaning to write about dynamic typing and how it affords testability.
@@ -26,11 +26,33 @@ We simply create a descendant of `B` that stubs out the method we want to test a
 
 {% gist 5653431 interface-b.java %}
 
+At least in this very simplified example. If `B` had not one method, but ten or twenty then the `MockB` for that version would be much more complicated even if `store()` is all we wanted to override. At the very least, we would have to implement all of those methods to throw an exception of some sort.^2
 
+But, as is sometimes the case in these situations, perhaps `B` is declared in a library that we don't have the source to recompile from. And perhaps it is declared like this:
+
+{% gist 5653431 final-b.java %}
+
+That `final` keyword means that subclasses of `B` cannot override the `store` method.^3 What does one do in this case? Well, this is where things get weird. Because `B` doesn't implement an interface nor descend from any parent class that we can use in its stead,^4 we have to do some gymnastics to essentially work around the type system:
+
+{% gist 5653431 gymnastics.java %}
+
+Yes, this gets the job done. But `SurrogateB` is now part of our *production* code. It is going to ship with our product and could be a source of bugs. It also will be a performance hit, albeit perhaps an infinitesimally small one. Every time `A` would have called a method on `B`, a check is made to see if we are testing or not ... a check that shouldn't need to be performed in production code. This is also a violation of the [Single Responsibility Principle][srp], in that this new class is responsible both for being a stand-in for `B` as well as being responsible for affording testing.
+
+In a dynamically typed language though, such as Ruby, all of these concerns and code changes go away. Let's take a look at the Ruby version of `A`:
+
+{% gist 5653431 class-a.rb %}
+
+Because the type of the `b` parameter doesn't matter, we can create a class that does exactly what we want, similar to the first version of `MockB` in Java above. And better yet, it doesn't matter if `B` is a class or an interface, open or closed, the code for the test is the same, so all the different versions of `MockB` that we had to worry about for Java are not necessary in Ruby.
+
+This is just one example of how dynamic typing makes completely automated testing significantly easier. Static typing may catch one small class of bugs sooner, but automated testing has the potential of catching *all* classes of bugs sooner.
 
 -----
 
 1. These ideas are separate from the concepts of a "strongly typed" or "weakly typed" language, which do not have strict definitions.
+1. In Java though, this might run afoul of checked exceptions depending on how we decided to do it.
+1. There are similar challenges in other statically typed languages like C++ and C# where the author of a class can completely prevent subclassing as a means of providing dependency injection.
+1. In the case of Java, of course, it descends from `Object`, but that isn't helpful here.
 
 [article]: http://sebastiansylvan.wordpress.com/2013/05/25/language-design-deal-breakers/
 [injection]: http://en.wikipedia.org/wiki/Dependency_injection
+[srp]: http://en.wikipedia.org/wiki/Single_responsibility_principle
