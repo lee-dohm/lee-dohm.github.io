@@ -16,6 +16,6 @@ I'm sure that you were able to figure out that it checks to see that `color` is 
 
 My point is that, arguably, this is well-written code. How the code functions is very clear. It could probably be rewritten a couple different ways to maybe make it more clear to different types of people. The code works well enough for what it is being used. But what is missing is the context. What is missing is the higher-level intent of the code. The why is missing from the what and the how. What you get from reading the documentation is a quick understanding of the contract the code offers. And you get an understanding of where the code might be improved.
 
-This is what documentation of code offers. There are some things that just don't belong in the code itself but are still very useful for those that need to understand it, need to maintain it. Recording and communicating these things is not a waste of time. On the contrary, it can save you and everyone else that has to work with the code a lot of time and effort, especially when you amortize that over the lifetime of the system.
+This is what documentation of code does. There are some things that just don't belong in the code itself but are still very useful for those that need to understand and maintain it. Recording and communicating these things is not a waste of time. On the contrary, it can save you and everyone else that has to work on it a lot of time and effort, especially when you amortize that over the lifetime of the system.
 
 [documented]: https://gist.github.com/lee-dohm/5722529#file-documented-rb
