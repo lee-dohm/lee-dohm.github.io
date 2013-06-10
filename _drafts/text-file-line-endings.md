@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Text File Line Endings in the Modern Age
+title: Text File Line Endings
 tags: Coder
 ---
 
