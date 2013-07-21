@@ -8,7 +8,7 @@ title: Lee Dohm
 
 *Posted on {{ post.date | date_to_long_string }} under {{ post.tags | sort | array_to_sentence_string }}*
 
-{% if post.excerpt %}
+{% if post.excerpt != post.content %}
 {{ post.excerpt }}
 
 [Continue reading "{{ post.title }}"]({{ post.url }})
