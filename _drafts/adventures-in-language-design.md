@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Adventures in Scala
+title: Adventures in Language Design
 tags: Coder
 ---
 
