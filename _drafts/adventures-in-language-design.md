@@ -53,6 +53,10 @@ And just to prove that other languages can do it too, here it is in C++ ...
 
 The point is that there is no reason why these standard boilerplate things we do *all the time* have to be so verbose. The C version, not counting variable declarations, memory allocations or return statements is four lines. The Ruby and C++ versions are each one line. And this is an instance where the predicate is described very simply. In cases where the predicate is more complex, often they diverge even more because of the manual accounting overhead when you are writing everything in a `for` loop.
 
+## Process Queues?
+
+*A la* Go and the Action pattern in Scala?
+
 -----
 
 1. Given that definition, Ruby and many others are also multi-paradigm languages. Honestly, more and more mainstream languages are incorporating functional programming features. I think that purely functional programming languages will soon be obsolete because the mainstream languages will have incorporated enough functional programming features that truly FP code can be written in them but will still be better at the things that FP is *not* good at, like user interface code and other imperative tasks.
