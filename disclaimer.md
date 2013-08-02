@@ -9,7 +9,7 @@ The ideas expressed here do not represent the opinions of my employer, my family
 
 No other warranty expressed or implied.
 
-This blog has been rated R by the nobody in particular. Under 17 requires accompanying parent or guardian. May contain rough and/or persistent violence and suggestive material, hard language, strong horror, strong crude sexual content, sexually-oriented nudity, and/or hard drug use. (Or it may not ... I'm mercurial that way.)
+This blog has been rated R by nobody in particular. Under 17 requires accompanying parent or guardian. May contain rough and/or persistent violence and suggestive material, hard language, strong horror, strong crude sexual content, sexually-oriented nudity, and/or hard drug use. (Or it may not ... I'm mercurial that way.)
 
 Any resemblance to actual persons, living or dead, is unintentional and purely coincidental.
 
