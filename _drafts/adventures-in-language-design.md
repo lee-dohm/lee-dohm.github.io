@@ -25,13 +25,21 @@ In addition to the above language and ecosystem features, I wanted to get down s
 
 Go implements encapsulation by allowing one to control whether names are visible outside the package in which they are declared. Believe it or not, [Go directly supports inheritance][inheritance-in-go] by allowing one to embed an anonymous instance of a struct in another struct. And polymorphism is supported in Go through interfaces. Go *is* an object-oriented language. What Go isn't is a language that wraps all three of these features together into the standard model of classes and objects. Go splits them all out into their own language constructs so you can take or leave each capability as needed.^(3)
 
-Now, this isn't to say that all implementations of object-orientation are above reproach. Steve Yegge has an article about [how OOP was taken too far in Java][yegge-java].
+Now, this isn't to say that all implementations of object-orientation are above reproach. Steve Yegge has an article about [how OOP was taken too far in Java][yegge-java]. But, on the whole, OOP has been a good thing for the world of software development and I honestly wouldn't want to do any sort of significant work in a language that doesn't have it in some fashion.
+
+**Add something about interfaces, single versus multiple inheritance and mixins or traits.**
 
 ## Garbage Collection
+
+When Java appeared in 1995, garbage collection was a very controversial feature for anything that wasn't intended to be a scripting language. Now, virtually every language is garbage collected with the only commonly-used exceptions being C, C++ and [Objective-C][objective-c].^(4) I could go back to manual memory management, but why? It was always such a huge source of bugs for even the most experienced programmers. Much like manually handling the stack in Assembly language (when was the last time you worried about the order in which parameters are placed on the stack?), memory management has to be done right every single time because the *best case* scenario is that your program crashes. Seemingly the more common case is that subtle and hard to trace bugs result. It is just better to take these exacting and expensive chores out of the hands of the programmer unless there are compelling reasons not to.
+
+I know that some people want to keep manual control over memory management, but game programmers have figured out the workaround for this issue even in a garbage collected environment: allocate a really large chunk of memory and use it like a heap by implementing your own memory management functions.
 
 ## Exception Handling
 
 ## Deterministic Release of Resources
+
+{% gist 6131692 disposable.cs %}
 
 ## First-Class and Higher-Order Functions
 
@@ -43,7 +51,7 @@ Now, this isn't to say that all implementations of object-orientation are above 
 
 Pretty much every language since the beginning of time has had some sort of support for standard collections: array/vector, dictionary/hash, trees, graphs, etc. But what most standard libraries have been lacking in is implementations of standard algorithms, everything you write a `for` loop for. This is one thing that I believe the C++ Standard Template Library got right and so does Ruby. Most languages have some sort of generic sort method that implements [quicksort][quicksort] given a comparison function. What I'm talking about is all the other common operations:
 
-* **find** - Return the first item in a collection that matches a predicate^4
+* **find** - Return the first item in a collection that matches a predicate^5
 * **include** - Return true if any item in a collection matches a predicate
 * **map** - Execute a function on each item in the collection and return a new collection containing the results
 * **reduce** - Execute a function on each item in the collection and return a single summary value
@@ -73,14 +81,17 @@ The point is that there is no reason why these standard boilerplate things we do
 1. Given that definition, Ruby and many others are also multi-paradigm languages. Honestly, more and more mainstream languages are incorporating functional programming features. I think that purely functional programming languages will soon be obsolete because the mainstream languages will have incorporated enough functional programming features that truly FP code can be written in them but will still be better at the things that FP is *not* good at, like user interface code and other imperative tasks.
 1. If you think object-oriented programming is a bad thing ... you should see what we had before.
 1. An example I found to be mind-bending is something that a professor challenged me with in one of the many times I attended a college. He stated that C is an object-oriented language. When I asked him to back it up he pointed out `FILE *` in the C standard library. What structure is represented by `FILE` is never really explained unless you go hunting through the source and you have a whole slew of <strike>methods</strike>functions that operate specifically on `FILE *`. This displays obvious encapsulation. And you *can* implement both inheritance and polymorphism using pointers to `void`, casting and hand-implemented v-tables using function pointers. Now, C really *isn't* an object-oriented language because support for these features should be directly built into the language ... but it was an eye-opening discussion nonetheless.
+1. Although, the new [Automatic Reference Counting][arc] (ARC) feature in Objective-C makes it look to the programmer mostly like a garbage collected language so long as common idioms for allocation and transfer of ownership of pointers are used.
 1. A "predicate" or "predicate function" is a function that returns true or false given its input.
 
 [actor-pattern]: http://www.scala-lang.org/old/node/242
+[arc]: http://en.wikipedia.org/wiki/Automatic_Reference_Counting
 [channels]: http://golang.org/doc/effective_go.html#channels
 [f-sharp]: http://research.microsoft.com/en-us/projects/fsharp/
 [golang]: http://www.golang.org
 [inheritance-in-go]: http://code.rkevin.com/2010/10/how-to-use-inheritance-in-google-go/
 [jruby]: http://www.jruby.org
+[objective-c]: http://en.wikipedia.org/wiki/Objective-c
 [patterns]: http://www.codinghorror.com/blog/2007/07/rethinking-design-patterns.html
 [quicksort]: http://en.wikipedia.org/wiki/Quicksort
 [scala]: http://www.scala-lang.org
