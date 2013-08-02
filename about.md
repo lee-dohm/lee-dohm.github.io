@@ -1,7 +1,10 @@
 ---
 layout: default
-title: About Lee
+title: About That Lee Guy
 ---
+
+# About That Lee Guy
+
 Lee has been writing code professionally since 1995 and writing code since the early 80s. It all started with a "Kids on Kampus" program at California State University Sacramento in the late 1970s. (Yes, he's old.) In the seventies, about the only thing you could do with computers was program them. So that's what he learned to do.
 
 He has owned many different computers over the years and explored many different systems and architectures:
