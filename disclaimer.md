@@ -9,7 +9,7 @@ The ideas expressed here do not represent the opinions of my employer, my family
 
 No other warranty expressed or implied.
 
-This blog has been rated R by the Blog Rating Association of America (BRAA). Under 17 requires accompanying parent or guardian. May contain rough and/or persistent violence and suggestive material, hard language, strong horror, strong crude sexual content, sexually-oriented nudity, and/or hard drug use. (Or it may not ... I'm mercurial that way.)
+This blog has been rated R by the nobody in particular. Under 17 requires accompanying parent or guardian. May contain rough and/or persistent violence and suggestive material, hard language, strong horror, strong crude sexual content, sexually-oriented nudity, and/or hard drug use. (Or it may not ... I'm mercurial that way.)
 
 Any resemblance to actual persons, living or dead, is unintentional and purely coincidental.
 
@@ -23,9 +23,9 @@ If rash, irritation, redness, or swelling develops, discontinue reading.
 
 Terms subject to change without notice.
 
-Don't try this at home; these are trained professionals.
-
 Action figures sold separately.
+
+Do not try this at home; the author is a trained professional.
 
 Pay no attention to the man behind the curtain.
 
@@ -62,5 +62,7 @@ Do not look into laser with remaining good eye.
 Disclaimer does not cover misuse, accident, lightning, flood, tornado, tsunami, volcanic eruption, earthquake, hurricanes and other Acts of God, neglect, damage from improper or unauthorized repair, incorrect line voltage, broken antenna or marred cabinet, missing or altered serial numbers, electromagnetic radiation from nuclear blasts, sonic boom vibrations, customer adjustments that are not covered in this joke list, and incidents owing to airplane crash, alien invasion, ship sinking, motor vehicle accidents, our new robot overlords, dropping the item, falling rocks, leaky roof, broken glass, mud slides, forest fire, or projectile (which can include, but not be limited to, arrows, bullets, shot, BB's, shrapnel, lasers, napalm, torpedoes, or emissions of X-rays, Alpha, Beta and Gamma rays, knives, sticks and stones, et al.)
 
 Some disclaimers stolen from or inspired by [Bob's Big List of Disclaimers][disclaimers].
+
+This page intentionally left blank.
 
 [disclaimers]: https://sites.google.com/site/beecherbob/fun/disclaimers
