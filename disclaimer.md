@@ -33,6 +33,8 @@ No animals were used during testing.
 
 Some assembly required.
 
+Don't panic.
+
 Mind the gap.
 
 Not affiliated with any government agency.
