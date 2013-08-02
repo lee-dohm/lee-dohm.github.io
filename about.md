@@ -32,15 +32,21 @@ He's also worked with many, many programming languages over the years:
 * Ruby
 * R^2
 
-Lee's other passions are video games, scuba diving and whatever shiny thing has caught his attention this week. (There is a half-built quadracopter "drone" in the garage that he keeps telling himself he needs to finish.) But for a twist of fate, Lee could have ended up a physicist, that being what he decided he wanted to be when he grew up long ago and what he majored in college ... before dropping out and learning just how much it cost to support onesself. He still dreams of someday getting a Ph.D. in quantum computing and melding his first love with his current love, but that hasn't happened yet. He also never did get that Bachelor's degree ...
+Lee's other passions are video games, scuba diving and whatever shiny thing has caught his attention this week. (There is a half-built quadracopter "drone" in the garage that he keeps telling himself he needs to finish.) But for a twist of fate, Lee could have ended up a physicist, that being what he decided he wanted to be when he grew up long ago and what he majored in college ... before dropping out and learning just how much it cost to support oneself. He still dreams of someday getting a Ph.D. in quantum computing and melding his first love with his current love, but that hasn't happened yet. He also never did get that Bachelor's degree ...
 
 Lee can be found in the following ways:
 
-* <a href="mailto:lee@liftedstudios.com">Lee's Email</a>
-* [Lee's GitHub Profile](https://github.com/lee-dohm)
-* [Lee's Stack Overflow Profile](http://stackoverflow.com/users/1954/lee)
+* [Coursera Profile][coursera]
+* <a href="mailto:lee@liftedstudios.com">Email</a>
+* [GitHub Profile][github]
+* [Stack Overflow Profile][stack-overflow]
 
 -----
 
-1. Like with [line numbers](http://en.wikipedia.org/wiki/Line_number) and everything!
+1. Like with [line numbers][line-numbers] and everything!
 1. More for data analysis than actual programming, but it replaced the need to write a bunch of tools.
+
+[coursera]: https://www.coursera.org/user/i/67cd2d5d7720b0a7ee9f1607a2baf123
+[github]: https://github.com/lee-dohm
+[line-numbers]: http://en.wikipedia.org/wiki/Line_number
+[stack-overflow]: http://stackoverflow.com/users/1954/lee
