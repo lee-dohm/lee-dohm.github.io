@@ -45,7 +45,7 @@ Caveat emptor.
 
 No salt, MSG, artificial color or flavoring added.
 
-All federal, state and local income and other taxes are solely the responsibility of the winner.
+All federal, state and local income and other taxes are solely the responsibility of the reader.
 
 Void where prohibited except where not prohibited.
 
