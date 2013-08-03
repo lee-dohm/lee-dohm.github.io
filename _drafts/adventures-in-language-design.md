@@ -37,10 +37,6 @@ I know that some people want to keep manual control over memory management, but 
 
 ## Exception Handling
 
-## Deterministic Release of Resources
-
-{% gist 6131692 disposable.cs %}
-
 ## First-Class and Higher-Order Functions
 
 ## Blocks and Closures
