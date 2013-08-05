@@ -13,29 +13,26 @@ I've [written before][why-ruby-is-awesome] on the features of Ruby that I think 
 1. Great documentation and documentation tools
 1. Great test support
 
-In addition to the above language and ecosystem features, I wanted to get down some of the specific language and standard library features that I think are necessary or are quickly becoming so. Just as many people state that [Design Patterns are missing language features][patterns], these are the language features that I don't believe we should have to craft by hand, they are common enough and standardized enough that they belong in our languages by now.
+In addition to the above language and ecosystem features, I wanted to get down some of the specific language and standard library features that I think are necessary or are quickly becoming so. Just as many people state that [Design Patterns are missing language features][patterns], these are the language features that I don't believe we should have to craft by hand, they are common and standardized enough that they belong in our languages by now.
 
 ## Object-Orientation
 
-... or whatever core concepts that we take away from decades of writing object-oriented code. "X isn't object oriented!" is the rallying cry of the younger programming generation. As if object-oriented programming is some blight on the face of computer science.^(2) People who like [Google's Go][golang] are quick to say this about Go. But let's take a look at what the requirements are for writing object-oriented code:
-
-1. Encapsulation
-1. Inheritance
-1. Polymorphism
-
-Go implements encapsulation by allowing one to control whether names are visible outside the package in which they are declared. Believe it or not, [Go directly supports inheritance][inheritance-in-go] by allowing one to embed an anonymous instance of a struct in another struct. And polymorphism is supported in Go through interfaces. Go *is* an object-oriented language. What Go isn't is a language that wraps all three of these features together into the standard model of classes and objects. Go splits them all out into their own language constructs so you can take or leave each capability as needed.^(3)
-
-Now, this isn't to say that all implementations of object-orientation are above reproach. Steve Yegge has an article about [how OOP was taken too far in Java][yegge-java]. But, on the whole, OOP has been a good thing for the world of software development and I honestly wouldn't want to do any sort of significant work in a language that doesn't have it in some fashion.
-
-**Add something about interfaces, single versus multiple inheritance and mixins or traits.**
+"X isn't object oriented!" seems to be the rallying cry of the younger programming generation. As if object-oriented programming is some blight on the face of computer science.^(2) I think *purely* object-oriented languages are a mistake, much like any language design that favors academic or idealistic purity over the ability to get work done. Steve Yegge has an article about [how OOP was taken too far in Java][yegge-java]. But, on the whole, OOP has been a good thing for the world of software development and I honestly wouldn't want to do any sort of significant work in a language that does not have some method of writing object-oriented code.
 
 ## Garbage Collection
 
-When Java appeared in 1995, garbage collection was a very controversial feature for anything that wasn't intended to be a scripting language. Now, virtually every language is garbage collected with the only commonly-used exceptions being C, C++ and [Objective-C][objective-c].^(4) I could go back to manual memory management, but why? It was always such a huge source of bugs for even the most experienced programmers. Much like manually handling the stack in Assembly language (when was the last time you worried about the order in which parameters are placed on the stack?), memory management has to be done right every single time because the *best case* scenario is that your program crashes. Seemingly the more common case is that subtle and hard to trace bugs result. It is just better to take these exacting and expensive chores out of the hands of the programmer unless there are compelling reasons not to.
+When Java appeared in 1995, garbage collection was a very controversial feature for anything that wasn't intended to be a scripting language. Now, virtually every language is garbage collected with the only commonly-used exceptions being C, C++ and [Objective-C][objective-c].^(4) I could go back to manual memory management, but why? It was always such a huge source of bugs for even the most experienced programmers. Much like manually handling the stack in Assembly language (when was the last time you worried about the order in which parameters are placed on the stack?), memory management has to be done right every single time because the *best case* scenario is that your program crashes. Seemingly the more common case is that subtle and hard to trace bugs result. It is just better to take these exacting and expensive chores out of the hands of the programmer for the common case and allow those things to be overridden in the uncommon case.
 
-I know that some people want to keep manual control over memory management, but game programmers have figured out the workaround for this issue even in a garbage collected environment: allocate a really large chunk of memory and use it like a heap by implementing your own memory management functions.
+I know that some people want to keep manual control over memory management, but game programmers have figured out the workaround for this issue even in a garbage collected environment: allocate one really large chunk of memory and use it like a heap by implementing your own memory management functions.
 
 ## Exception Handling
+
+Pervasive use of exceptions offer at least four benefits to writing code:
+
+1. Separates error detection from error handling
+1. Separates code for the much more common successful case from the code for the hopefully abnormal error case
+1. Makes the default behavior of the code to not ignore errors that occur
+1. Provides automatic and very detailed debugging information
 
 ## First-Class and Higher-Order Functions
 
