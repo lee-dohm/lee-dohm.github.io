@@ -4,6 +4,19 @@ require 'yaml'
 
 CLEAN.include('_site')
 
+# Deletes a draft when it is no longer needed.
+#
+# First ensures that it is deleted from Git and then ensures it is removed from the filesystem.
+#
+# @param [String] filename Name of the draft file to be deleted.
+# @return [nil]
+def delete_draft(filename)
+  sh "git rm #{filename}" if `git ls-files #{filename}` != ''
+  File.delete(filename) if File.exists?(filename)
+
+  nil
+end
+
 # Creates draft path out of the title.
 #
 # @param [String] title Title of the post.
@@ -93,7 +106,7 @@ task :publish do |task_name|
   mkdir '_posts' unless Dir.exists?('_posts')
   write_post(path, metadata, content)
 
-  sh "git rm #{draft_path}" if `git ls-files #{draft_path}` != ''
+  delete_draft(draft_path)
 end
 
 desc 'Start the Jekyll server for local validation'
