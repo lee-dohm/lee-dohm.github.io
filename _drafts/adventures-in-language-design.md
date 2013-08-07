@@ -15,6 +15,16 @@ I've [written before][why-ruby-is-awesome] on the features of Ruby that I think 
 
 In addition to the above language and ecosystem features, I wanted to get down some of the specific language and standard library features that I think are necessary or are quickly becoming so. Just as many people state that [Design Patterns are missing language features][patterns], these are the language features that I don't believe we should have to craft by hand, they are common and standardized enough that they belong in our languages by now.
 
+## On Being a Control Freak
+
+Before I get down to the nitty-gritty though, I want to take the time to talk about something that I've observed in the programming world. All software developers are control freaks to one extent or another. I know that I am. I want the computer to do what I tell it to and when the computer does something slightly different, I get annoyed.
+
+Yes, I know that so far this description sounds perfectly normal. But what software developers do after they get annoyed is the difference. Normal people get frustrated and blame the computer for getting in the way or not letting them do what they want. Software developers blame themselves and resolve to write better instructions. They double down and make better code so that the computer will do the right thing. What this creates, though, is a control freak. Someone who absolutely must have things done their way. My way or the highway you might say. And these people have a hard time letting go of that control once they're used to having it.
+
+Many if not most of the language features below are things that take over some chore for the developer, take it out of their hands and has the compiler, the interpreter or the runtime take care of it behind the scenes. And much of the resistance for some of these features seems to be simply developers having a problem letting go. They're too used to doing things their way and the system doesn't handle it *exactly* the way they would, so they balk and say that it is a bad feature.
+
+I think the sad part is that this kind of reactionary thinking [has been going on for a long, long time ...][the-story-of-mel]
+
 ## Object-Orientation
 
 "X isn't object oriented!" seems to be the rallying cry of the younger programming generation. As if object-oriented programming is some blight on the face of computer science.^(2) I think *purely* object-oriented languages are a mistake, much like any language design that favors academic or idealistic purity over the ability to get work done. Steve Yegge has an article about [how OOP was taken too far in Java][yegge-java]. But, on the whole, OOP has been a good thing for the world of software development and I honestly wouldn't want to do any sort of significant work in a language that does not have some method of writing object-oriented code.
@@ -36,7 +46,15 @@ Pervasive use of exceptions offer at least four benefits to writing code:
 
 ## First-Class and Higher-Order Functions
 
+All this really means is that the language has a data type for functions and that functions can create and return new functions. While lots of code can be written without these features, there are some things that are simply more elegant, understandable and maintainable when written in this way.
+
 ## Blocks and Closures
+
+Blocks are simply anonymous functions with special syntax so that they can be easily passed to any function. In the Ruby world, blocks are used by lots of things and the standard library makes extensive use of them. For example:
+
+{% gist 6131692 block_example.rb %}
+
+
 
 ## Pattern Matching
 
@@ -87,6 +105,7 @@ The point is that there is no reason why these standard boilerplate things we do
 [patterns]: http://www.codinghorror.com/blog/2007/07/rethinking-design-patterns.html
 [quicksort]: http://en.wikipedia.org/wiki/Quicksort
 [scala]: http://www.scala-lang.org
+[the-story-of-mel]: http://www.cs.utah.edu/~elb/folklore/mel.html
 [type-inference]: https://en.wikipedia.org/wiki/Type_inference
 [why-ruby-is-awesome]: /2013/05/05/thoughts-on-why-ruby-is-awesome.html
 [yegge-java]: http://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html
