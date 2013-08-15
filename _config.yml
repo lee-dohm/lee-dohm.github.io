@@ -1,6 +1,6 @@
 
 # jekyll configuration
-markdown: redcarpet
+markdown: kramdown
 permalink: date
 pygments: true
 safe: true

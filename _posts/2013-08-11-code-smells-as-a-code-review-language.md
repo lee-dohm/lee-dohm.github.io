@@ -13,7 +13,7 @@ Where code smells can assist with code reviews is that it can be used as a sort 
 
 So what I have decided to do is to create a list of code smells along with descriptions and examples. I hope to, over time, turn this into the canonical list of code smells.
 
-<center>*[The Code Smells Project][code-smells-project]*</center>
+<div style="text-align: center" markdown="1">*[The Code Smells Project][code-smells-project]*
 
 [code-smells-project]: https://github.com/lee-dohm/code-smells
 [lint]: http://en.wikipedia.org/wiki/Lint_(software)
