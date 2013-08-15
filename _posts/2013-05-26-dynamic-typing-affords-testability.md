@@ -13,7 +13,7 @@ The author states in their article:
 
 The author states that automated testing isn't valuable in all cases. Part of that reason appears to be that the author rightly states that automated testing, even at the unit test level, is hard ... at least in statically typed languages.
 
-Let's step back a moment and define our terms. A language can be considered "statically typed" if type correctness is checked at compile-time and "dynamically typed" if type correctness is not checked at compile-time.^1 What it means to be "type correct" varies from language to language, so we won't examine a more formal definition of that here. Languages like Java and Go are statically typed while languages like Ruby and Python are dynamically typed.
+Let's step back a moment and define our terms. A language can be considered "statically typed" if type correctness is checked at compile-time and "dynamically typed" if type correctness is not checked at compile-time.[^1] What it means to be "type correct" varies from language to language, so we won't examine a more formal definition of that here. Languages like Java and Go are statically typed while languages like Ruby and Python are dynamically typed.
 
 I'm going to take a look at the problem from the point of view of [dependency injection][injection]. Dependency injection is a very important capability in testing software in an automated fashion. This is a simple example in Java:
 
@@ -27,13 +27,13 @@ We simply create a descendant of `B` that stubs out the method we want to test a
 
 {% gist 5653431 interface-b.java %}
 
-At least in this very simplified example. If `B` had not one method, but ten or twenty then the `MockB` for that version would be much more complicated even if `store()` is all we wanted to override. At the very least, we would have to implement all of those methods to throw an exception of some sort.^2
+At least in this very simplified example. If `B` had not one method, but ten or twenty then the `MockB` for that version would be much more complicated even if `store()` is all we wanted to override. At the very least, we would have to implement all of those methods to throw an exception of some sort.[^2]
 
 But, as is sometimes the case in these situations, perhaps `B` is declared in a library that we don't have the source to recompile from. And perhaps it is declared like this:
 
 {% gist 5653431 final-b.java %}
 
-That `final` keyword means that subclasses of `B` cannot override the `store` method.^3 What does one do in this case? Well, this is where things get weird. Because `B` doesn't implement an interface nor descend from any parent class that we can use in its stead,^4 we have to do some gymnastics to essentially work around the type system:
+That `final` keyword means that subclasses of `B` cannot override the `store` method.[^3] What does one do in this case? Well, this is where things get weird. Because `B` doesn't implement an interface nor descend from any parent class that we can use in its stead,[^4] we have to do some gymnastics to essentially work around the type system:
 
 {% gist 5653431 gymnastics.java %}
 
@@ -49,10 +49,10 @@ This is just one example of how dynamic typing makes completely automated testin
 
 -----
 
-1. These ideas are separate from the concepts of a "strongly typed" or "weakly typed" language, which do not have strict definitions.
-1. In Java though, this might run afoul of checked exceptions depending on how we decided to do it.
-1. There are similar challenges in other statically typed languages like C++ and C# where the author of a class can completely prevent subclassing as a means of providing dependency injection.
-1. In the case of Java, of course, it descends from `Object`, but that isn't helpful here.
+[^1]: These ideas are separate from the concepts of a "strongly typed" or "weakly typed" language, which do not have strict definitions.
+[^2]: In Java though, this might run afoul of checked exceptions depending on how we decided to do it.
+[^3]: There are similar challenges in other statically typed languages like C++ and C# where the author of a class can completely prevent subclassing as a means of providing dependency injection.
+[^4]: In the case of Java, of course, it descends from `Object`, but that isn't helpful here.
 
 [article]: http://sebastiansylvan.wordpress.com/2013/05/25/language-design-deal-breakers/
 [injection]: http://en.wikipedia.org/wiki/Dependency_injection

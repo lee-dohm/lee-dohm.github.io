@@ -5,7 +5,7 @@ tags: Coder Tester
 date: 2013-08-14 13:33:25.516382000 -07:00
 ---
 
-I had a discussion around the deeper meaning of the commonly used but just as commonly misunderstood software development term "ZBB". ZBB is a TLA^1 that describes a milestone in the development of a software project. Most often, ZBB is a term used in development houses that have both a dev team and a test team. The reason why will become apparent in a bit. The process generally follows the progression: Development, Code/Feature Complete, ZBB, Deployment/Ship. So now we know that ZBB is a necessary step on the way to shipping something, but how do we know we've gotten there?
+I had a discussion around the deeper meaning of the commonly used but just as commonly misunderstood software development term "ZBB". ZBB is a TLA[^1] that describes a milestone in the development of a software project. Most often, ZBB is a term used in development houses that have both a dev team and a test team. The reason why will become apparent in a bit. The process generally follows the progression: Development, Code/Feature Complete, ZBB, Deployment/Ship. So now we know that ZBB is a necessary step on the way to shipping something, but how do we know we've gotten there?
 
 If you're reading this blog and you've heard the term ZBB before, you were probably told that it was something like "Zero Bug Build" or "Zero Bug Barrier". What it stood for originally is "Zero Bug Bounce". Yes, bounce. The reason why is a bit complicated ... and memorable.
 
@@ -21,6 +21,6 @@ Ideally, you know you've hit ZBB when the test team agrees that they aren't find
 
 -----
 
-1. Three Letter Acronym
+[^1]: Three Letter Acronym
 
 [moving-average]: http://en.wikipedia.org/wiki/Moving_average
