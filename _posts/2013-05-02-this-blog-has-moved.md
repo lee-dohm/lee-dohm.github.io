@@ -31,8 +31,6 @@ So I've exported all of my blog entries out of Blogger and into plain text files
 
 Because if my thoughts are important enough for me to take the time to write them down ... then they're important enough to save.
 
------
-
 [^1]: The thing I remember most about this program was that each file held only a *page* of data and there was some sort of index file that kept track of how many pages were in the document.
 [^2]: No, I don't mean the reduced-functionality version of WordPerfect.
 [^3]: I don't remember if the file formats were compatible. I *do* remember that the disk formats weren't compatible.

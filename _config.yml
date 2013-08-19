@@ -18,8 +18,13 @@ exclude:
 
 redcarpet:
   extensions:
+    - disable_indented_code_blocks
     - fenced_code_blocks
     - footnotes
+    - highlight
+    - strikethrough
+    - superscript
+    - tables
 
 # Site variables
 base_url: /

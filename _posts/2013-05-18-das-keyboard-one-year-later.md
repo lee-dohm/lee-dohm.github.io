@@ -25,7 +25,6 @@ The two above items lead me to wonder if some of these new small form factor key
 
 I guess what I'm really asking for is a keyboard with [Cherry MX Blue][cherry] key switches, with the das Keyboard materials, in the Happy Hacking layout, with unprinted keycaps (then I won't be tempted to rearrange them), and completely reprogrammable. So if I want to swap the `M` and `N` keys for some ungodly reason, I can. Oh ... and make the keys backlit. Red is my preference. I think *then* I would have my perfect keyboard. While I'm waiting for that to happen, I'm pretty certain the das Keyboard is as close to perfect as I'm going to get.
 
------
 
 [^1]: The media keys (Back, Play/Pause, Forward, Mute, Volume Down and Volume Up) and the Sleep key require the use of the `Fn` key, while the brightness controls do not.
 

@@ -59,8 +59,6 @@ Of course, these frameworks and tools wouldn't be springing up like weeds if the
 
 People have been asking me a lot lately why I like Ruby so much. And mostly the things I've been telling them are the superficial things that excite me about the language itself, things like blocks, closures, the compact but not terse[^7] syntax, the features and ideas it takes from [functional programming][functional programming] and the metaprogramming that makes writing code in Ruby both simpler and more complicated at the same time. But excitement wears off and familiarity breeds, if not contempt, then at least indifference. The things I've listed above are the things that are going to keep me coming back to Ruby, keep me writing Ruby code and keep me engaged in the Ruby community long after my ADD mentality has chased off after some new "ooo shiny!" These are also the things I will expect the next "big" language to provide before I'll be happy about switching.
 
------
-
 [^1]: "Do I use C-style `//` comments or Shell-style `#` comments?"
 [^2]: Like [Treetop][treetop gem].
 [^3]: Like [Jekyll][jekyll] that I use to build this site currently.

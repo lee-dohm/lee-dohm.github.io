@@ -47,8 +47,6 @@ Because the type of the `b` parameter doesn't matter, we can create a class that
 
 This is just one example of how dynamic typing makes completely automated testing significantly easier. Static typing may catch one small class of bugs sooner, but automated testing has the potential of catching *all* classes of bugs sooner.
 
------
-
 [^1]: These ideas are separate from the concepts of a "strongly typed" or "weakly typed" language, which do not have strict definitions.
 [^2]: In Java though, this might run afoul of checked exceptions depending on how we decided to do it.
 [^3]: There are similar challenges in other statically typed languages like C++ and C# where the author of a class can completely prevent subclassing as a means of providing dependency injection.

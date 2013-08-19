@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/vmg/redcarpet.git
+  revision: 8d0f49f796a6fa18267a072c1fa4c8234975d2d5
+  specs:
+    redcarpet (3.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -30,7 +36,6 @@ GEM
       yajl-ruby (~> 1.1.0)
     rake (10.0.4)
     rdiscount (1.6.8)
-    redcarpet (3.0.0)
     safe_yaml (0.7.1)
     syntax (1.0.0)
     yajl-ruby (1.1.0)
@@ -47,4 +52,4 @@ DEPENDENCIES
   maruku (= 0.6.1)
   rake
   rdiscount (= 1.6.8)
-  redcarpet (= 3.0.0)
+  redcarpet!

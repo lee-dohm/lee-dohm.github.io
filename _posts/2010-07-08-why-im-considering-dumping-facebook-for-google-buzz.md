@@ -27,6 +27,4 @@ I'm not using this particular feature but it is well known that Facebook doesn't
 
 Basically, what all this boils down to is a question of control.  Facebook CEO Mark Zuckerberg has publicly stated that in his opinion, [the expectation of privacy is no longer a social norm](http://www.huffingtonpost.com/2010/01/11/facebooks-zuckerberg-the_n_417969.html).  Because of this, he decided to change Facebook's policies to match his vision of the current trend in social norms.  While I applaud him for taking his company in a bold direction, something most CEOs will not do.  I'd rather that access to my information be controlled by my vision of social norms.  As far as I can tell, Google Buzz gives me that control.
 
------
-
 [^1]: Yes, I know about LinkedIn, Friendster, MySpace and the like.  LinkedIn is designed for business networking.  Friendster I can't even go to their main page without signing in.  And if you think MySpace is a serious site, comment after you get your driver's license.
