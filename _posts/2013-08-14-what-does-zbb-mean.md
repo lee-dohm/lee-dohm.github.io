@@ -22,5 +22,3 @@ Ideally, you know you've hit ZBB when the test team agrees that they aren't find
 -----
 
 1. Three Letter Acronym
-
-[moving-average]: http://en.wikipedia.org/wiki/Moving_average
