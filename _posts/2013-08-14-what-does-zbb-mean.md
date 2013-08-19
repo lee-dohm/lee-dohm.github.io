@@ -20,5 +20,3 @@ You might think that the first time the bug count hits zero is the ZBB, in the e
 Ideally, you know you've hit ZBB when the test team agrees that they aren't finding a lot of bugs anymore and the dev team agrees that they can keep up easily with what the test team is still finding.
 
 [^1]: Three Letter Acronym
-
-[moving-average]: http://en.wikipedia.org/wiki/Moving_average
