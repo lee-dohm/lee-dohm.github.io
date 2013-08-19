@@ -5,12 +5,10 @@ permalink: date
 pygments: true
 safe: true
 exclude:
-  - CNAME
   - Gemfile
   - Gemfile.lock
   - Rakefile
   - README.md
-  - reference
   - lee-dohm.com-posts.sublime-project
   - lee-dohm.com-posts.sublime-workspace
   - lee-dohm.com.sublime-project

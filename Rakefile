@@ -1,6 +1,7 @@
 
 require 'jekyll'
 require 'rake/clean'
+require 'tmpdir'
 require 'yaml'
 
 CLEAN.include('_site')
