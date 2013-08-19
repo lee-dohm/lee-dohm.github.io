@@ -1,25 +1,25 @@
 
 # jekyll configuration
-markdown: kramdown
+markdown: redcarpet
 permalink: date
 pygments: true
 safe: true
 exclude:
-    - CNAME
-    - Gemfile
-    - Gemfile.lock
-    - Rakefile
-    - README.md
-    - reference
-    - lee-dohm.com-posts.sublime-project
-    - lee-dohm.com-posts.sublime-workspace
-    - lee-dohm.com.sublime-project
-    - lee-dohm.com.sublime-workspace
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
+  - reference
+  - lee-dohm.com-posts.sublime-project
+  - lee-dohm.com-posts.sublime-workspace
+  - lee-dohm.com.sublime-project
+  - lee-dohm.com.sublime-workspace
 
 redcarpet:
-    extensions:
-        - fenced_code_blocks
-        - superscript
+  extensions:
+    - fenced_code_blocks
+    - footnotes
 
 # Site variables
 base_url: /

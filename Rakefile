@@ -1,8 +1,11 @@
 
+require 'jekyll'
 require 'rake/clean'
 require 'yaml'
 
 CLEAN.include('_site')
+
+GITHUB_REPONAME = "lee-dohm/lee-dohm.github.io"
 
 # Deletes a draft when it is no longer needed.
 #
@@ -113,3 +116,28 @@ desc 'Start the Jekyll server for local validation'
 task :server => :clean do
   sh 'jekyll serve --watch --drafts'
 end
+
+desc 'Generate blog files'
+task :generate do
+  Jekyll::Site.new(Jekyll.configuration({})).process
+end
+
+desc 'Prints the entire processed configuration'
+task :dump_config do
+  puts Jekyll.configuration({}).to_yaml
+end
+
+desc 'Generate and push blog'
+task :push => [:generate] do
+  Dir.mktmpdir do |tmp|
+    cp_r "_site/.", tmp
+    Dir.chdir tmp
+    system "git init"
+    system "git add ."
+    message = "Site updated at #{Time.now.utc}"
+    system "git commit -m #{message.shellescape}"
+    system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
+    system "git push origin master --force"
+  end
+end
+
