@@ -130,14 +130,14 @@ end
 desc 'Generate and push blog'
 task :push => [:generate] do
   Dir.mktmpdir do |tmp|
-    cp_r "_site/.", tmp
+    cp_r '_site/.', tmp
     Dir.chdir tmp
-    system "git init"
-    system "git add ."
+    sh 'git init'
+    sh 'git add .'
     message = "Site updated at #{Time.now.utc}"
-    system "git commit -m #{message.shellescape}"
-    system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
-    system "git push origin master --force"
+    sh "git commit -m #{message.shellescape}"
+    sh "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
+    sh 'git push origin master --force'
   end
 end
 
