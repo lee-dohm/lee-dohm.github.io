@@ -11,7 +11,7 @@ Why yes, it does seem rather hipster of me to include a colophon on my blog. On 
 
 I use [Jekyll][jekyll], the blog-aware static site generator, to generate the content of the site from a bunch of text files.[^text-files]
 
-I write all of the articles in [Sublime Text 3][sublime] and publish them via [git][git] to [GitHub Pages][pages]. I write everything on my 27" iMac running OS X Mountain Lion. I use the [das Keyboard Professional for Mac][das-keyboard] for all my typing.
+I write all of the articles in [Sublime Text 3][sublime] and publish them via [git][git] to [GitHub Pages][pages]. I write everything on my 27" mid-2011 iMac running OS X Mountain Lion. I use the [das Keyboard Professional for Mac][das-keyboard] for all my typing.
 
 I'm using the [Leap Day theme][theme] by [Matt Graham][matt-graham] with only minor tweaks to make Gists look correct and other personal touches.
 
