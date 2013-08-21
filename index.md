@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lee Dohm
+title: Home
 ---
 
 {% for post in site.posts limit:5 %}
