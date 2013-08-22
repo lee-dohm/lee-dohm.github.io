@@ -3,7 +3,7 @@
 markdown: redcarpet
 permalink: date
 pygments: true
-safe: true
+safe: false
 exclude:
   - Gemfile
   - Gemfile.lock
