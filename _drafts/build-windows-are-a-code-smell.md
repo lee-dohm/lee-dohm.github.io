@@ -10,7 +10,7 @@ I've worked in a lot of places that handle code over the years. I've seen all so
 
 But build windows aren't always icons with configuration information embedded in them. Sometimes build windows come in the form of a script that you have to run that sets up the build environment before you can run the build. Sometimes build windows come in the form of a series of commands one has to execute faithfully in series as a magic incantation to get the build to work correctly. Sometimes there is "the build machine" that is the only machine that is configured to properly execute the build and everyone has to wait in line to see if their changes will break the build. All of these are examples of the same code smell that I am calling Build Windows.
 
-With that said, there are things that might seem like Build Windows but aren't. That document that talks about how to install the IDE, the SDK, the 50 tools that are used in the build and do one-time configuration? That isn't an example of the Build Windows smell. Build Windows are processes that you have to execute every time or nearly every time you run the build.
+With that said, there are things that might seem like Build Windows but aren't. That document that talks about how to install the IDE, the SDK, the 50 tools that are used in the build and how to configure them for things other than the build? That isn't an example of the Build Windows smell. Build Windows are bits of the build process that are pulled out of the build process and put someplace else.
 
 ## Gather Together Those Things That Change for the Same Reason
 
