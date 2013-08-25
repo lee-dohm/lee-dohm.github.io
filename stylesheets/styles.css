@@ -1009,3 +1009,10 @@ footer {
     width: auto;
   }
 }
+
+.emoji {
+  width: 20px;
+  display: inline-block;
+  text-indent: -2000px;
+}
+

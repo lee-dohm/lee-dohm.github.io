@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 gem 'rake'
 gem 'redcarpet', git: 'git://github.com/vmg/redcarpet.git'
+
+gem 'gemoji'
+
 gem 'directory_watcher', '=1.4.1'
 gem 'jekyll',            '=1.0.3'
 gem 'liquid',            '=2.5.1'
