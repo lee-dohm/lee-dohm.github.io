@@ -1011,8 +1011,16 @@ footer {
 }
 
 .emoji {
-  width: 20px;
+  width: 14pt;
   display: inline-block;
   text-indent: -2000px;
+}
+
+.footnotes li {
+  font-size: 0.9em;
+}
+
+.footnotes p {
+  margin: 0em;
 }
 

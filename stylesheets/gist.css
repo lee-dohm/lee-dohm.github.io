@@ -1,4 +1,4 @@
-.gist { color: #000 }
+.gist { color: #000; font-size: 0.8em; line-height: 1.2em; }
 .gist-syntax .n  { color: #000 }
 .gist-syntax .nl { color: #000; font-weight: bold }
 .gist-syntax .p  { color: #000 }
