@@ -2,6 +2,7 @@
 layout: post
 title: Shells and Scripting
 tags: Coder
+date: 2013-08-25 20:00:59.750978000 -07:00
 ---
 
 I've spent a significant chunk of my weekend playing around with a new command-line shell, [fish][fish], the **F**riendly **I**nteractive **SH**ell. I'd seen people using it on a couple of screencasts and thought about checking it out for quite a while. I finally got around to it ...
@@ -31,7 +32,7 @@ And here is the equivalent Ruby code:
 
 Ruby has a reputation for being concise, so let's not look at line counts and such.[^3] But the *clarity* of the code is clearly worse in fish ... maybe not a lot worse, but worse all the same. I don't count this as a fault of fish shell. It isn't meant to be a general-purpose programming language and the code here is *much* more concise, readable, understandable and maintainable than the same thing would be in bash! The fish language is way ahead of other shell scripting languages,[^4] but that's not a high bar. I mean, it's on their homepage, "Finally, a command line shell for the 90s". And they're joking, but only just.
 
-What this all boils down to is that I'm all for shell scripts that allow you to customize your working environment. Or shell scripts that make a simple task even simpler.[^5] But if a shell script grows to over 20 lines of code, or you're confronted with error handling, or you start namespacing your environment variables so they don't clash :sob:, or you start constructing a series of libraries to manage all the shell code you have :confounded:, it is time to rewrite it in a real programming language. The command line is a great place to execute *ad hoc* commands to deal with one-off tasks.[^6] But shell scripts are not a replacement for real code.
+What this all boils down to is that I'm all for shell scripts that allow you to customize your working environment. Or shell scripts that make a simple task even simpler.[^5] But if a shell script grows to over 20 lines of code, or you're confronted with error handling, or you start namespacing your environment variables so they don't clash :sob:, or you start constructing a series of libraries to manage all the shell code you have :confounded:, it is time to rewrite it in a real programming language. The command line is a great place to execute *ad hoc* commands to deal with one-off tasks[^6] but shell scripts are not a replacement for real code.
 
 [^1]: This includes [batch files][batch] on Windows as well.
 [^2]: I nominate Perl. :laughing:
