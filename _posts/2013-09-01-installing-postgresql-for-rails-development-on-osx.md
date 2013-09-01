@@ -29,7 +29,7 @@ $ postgres -D /usr/local/var/postgres
 
 In the future, I'll probably use the [pg_ctl][pg_ctl] command to start and stop the server process in the background. But for today, this was good enough.
 
-At this point, I could actually start messing around with the server and getting things to actually communicate between Rails and PostgreSQL. Or so I thought. It turns out that Rails, by default, attempts to communicate with PostgreSQL via domain sockets. This is a good thing because they're system local and [are much more performant][domain_sockets] than TCP/IP connections. On the other hand, Rails expects the domain sockets to be created in one directory by default and my PostgreSQL installation was using a slightly different one. After taking a stab at reconfiguring the directory used, I just told Rails to connect via TCP/IP by editing the `config/database.yml` file and adding the following line to the `development` section:
+At this point, I could actually start messing around with the server and getting things to communicate between Rails and PostgreSQL. Or so I thought. It turns out that Rails, by default, attempts to communicate with PostgreSQL via domain sockets. This is a good thing because they're system local and [are much more performant][domain_sockets] than TCP/IP connections. On the other hand, Rails expects the domain sockets to be created in one directory by default and my PostgreSQL installation was using a slightly different one. After taking a stab at reconfiguring the directory used, I just told Rails to connect via TCP/IP by editing the `config/database.yml` file and adding the following line to the `development` section:
 
 ```yaml
 host: localhost
@@ -37,7 +37,7 @@ host: localhost
 
 Which is when I started getting database errors! Progress! :sunglasses:
 
-The database errors told me first that the user Rails was trying to use to connect with didn't exist. So I created it by entering:
+The database errors told me first that the user Rails was trying to connect with didn't exist. So I created it by entering:
 
 ```bash
 $ createuser username
@@ -51,7 +51,7 @@ And finally, I just needed to create the database itself:
 $ createdb website
 ```
 
-Once that was complete, I was able to execute the standard Rails commands:
+Once that was complete, I could execute the standard Rails commands:
 
 ```bash
 $ rake db:migrate
