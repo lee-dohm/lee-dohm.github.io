@@ -3,11 +3,16 @@ layout: post
 title: Installing PostgreSQL for Rails development on OS X
 tags: Coder
 date: 2013-09-01 11:48:09.594276000 -07:00
+excerpt: I'm playing around with writing a [Rails](http://rubyonrails.org) application, just to learn new things. At the same time, I wanted to understand why everyone in the Rails community seems to be using [Heroku](https://www.heroku.com). And since Heroku defaults to using [PostgreSQL](http://www.postgresql.org) for the database backend when you use Rails, I have to now set up a PostgreSQL environment on my Mac for development. This turned out to be harder than I first expected. This is how I got it to work.
 ---
+
+*Edit: Some of the commands below have changed from their initial versions to reflect things I've learned since getting it all up and running. It has also been broken out into sections.*
 
 I'm playing around with writing a [Rails][rails] application, just to learn new things. At the same time, I wanted to understand why everyone in the Rails community seems to be using [Heroku][heroku]. And since Heroku defaults to using [PostgreSQL][postgresql] for the database backend when you use Rails, I have to now set up a PostgreSQL environment on my Mac for development. This turned out to be harder than I first expected. This is how I got it to work.
 
 First, I had to realize that PostgreSQL doesn't just magically get installed when you create a Rails application that is configured to use it :wink: This was pretty easy because the first time I attempted to launch the "Hello, world!" type thing I had written I got the pretty red Rails error message page saying it couldn't connect to the database. I quickly googled[^1] for instructions on how to properly install PostgreSQL for Rails development on the Mac and was quite happy to find [a StackOverflow answer][answer] for this very issue. I thought I was done, but it seems that as the answer was posted over three years ago ... let's just say that the contents may have settled during transit :laughing: But I was able to use it as a template for how I got things to work and each time I got stuck, it helped me find my way.
+
+## Installation and Configuration of PGSQL
 
 Instead of downloading the installer and using that, I used [Homebrew][brew] to install PostgreSQL:
 
@@ -29,6 +34,8 @@ $ postgres -D /usr/local/var/postgres
 
 In the future, I'll probably use the [pg_ctl][pg_ctl] command to start and stop the server process in the background. But for today, this was good enough.
 
+## Configuration of the Project to Work with PGSQL
+
 At this point, I could actually start messing around with the server and getting things to communicate between Rails and PostgreSQL. Or so I thought. It turns out that Rails, by default, attempts to communicate with PostgreSQL via domain sockets. This is a good thing because they're system local and [are much more performant][domain_sockets] than TCP/IP connections. On the other hand, Rails expects the domain sockets to be created in one directory by default and my PostgreSQL installation was using a slightly different one. After taking a stab at reconfiguring the directory used, I just told Rails to connect via TCP/IP by editing the `config/database.yml` file and adding the following line to the `development` section:
 
 ```yaml
@@ -40,20 +47,17 @@ Which is when I started getting database errors! Progress! :sunglasses:
 The database errors told me first that the user Rails was trying to connect with didn't exist. So I created it by entering:
 
 ```bash
-$ createuser username
+$ createuser --createdb username
 ```
+
+The user needs to be created with the `createdb` permission so that when executing unit tests, the test database can be dropped and created. I've since created a `db:create_user` Rake task in my project to perform this for me.
 
 In Homebrew installations it seems that all of the PostgreSQL administration commands are also symlinked to the `/usr/local/bin` directory. Very convenient!
-
-And finally, I just needed to create the database itself:
-
-```bash
-$ createdb website
-```
 
 Once that was complete, I could execute the standard Rails commands:
 
 ```bash
+$ rake db:create
 $ rake db:migrate
 $ rails s
 ```
