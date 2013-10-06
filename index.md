@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Home
 ---
 
@@ -18,5 +18,3 @@ title: Home
 
 {% endif %}
 {% endfor %}
-
-*[Find older posts ...](/archives.html)*
