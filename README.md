@@ -17,6 +17,7 @@ The following directories and their contents are Copyright &copy; 2010-2013 by [
 * `_drafts/`
 * `_posts/`
 
-The visual design was originally by [mattgraham](http://twitter.com/#!/michigangraham) and was provided by [GitHub Pages](https://pages.github.com), though I am slowly customizing it for my needs.
+The theme used is [Twitter Bootstrap][bootstrap].
 
+[bootstrap]: http://getbootstrap.com
 [lee-dohm]: https://github.com/lee-dohm

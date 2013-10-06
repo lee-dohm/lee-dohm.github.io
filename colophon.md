@@ -13,7 +13,7 @@ I use [Jekyll][jekyll], the blog-aware static site generator, to generate the co
 
 I write all of the articles in [Sublime Text 3][sublime] and publish them via [git][git] to [GitHub Pages][pages]. I write everything on my 27" mid-2011 iMac running OS X Mountain Lion. I use the [das Keyboard Professional for Mac][das-keyboard] for all my typing.
 
-I'm using [Twitter Bootstrap][bootstrap] for the theme of the site.
+I'm using [Twitter Bootstrap][bootstrap] for the theme of the site. The top navigation bar style was generated from the [Twitter Bootstrap 3 Navbar Generator][generator]. I chose [Tardis Blue][tardis-blue] and white as my colors for it.
 
 All of the source code for the site is available on [GitHub][source].
 
@@ -24,9 +24,11 @@ All of the source code for the site is available on [GitHub][source].
 [bootstrap]: http://getbootstrap.com
 [das-keyboard]: http://www.daskeyboard.com/product/model-s-professional-for-mac/
 [git]: http://gitscm.org
+[generator]: http://twitterbootstrap3navbars.w3masters.nl/
 [jekyll]: http://jekyllrb.com
 [matt-graham]: http://twitter.com/#!/michigangraham
 [oreilly]: http://www.oreilly.com
 [pages]: https://pages.github.com
 [source]: https://github.com/lee-dohm/lee-dohm.github.io
 [sublime]: http://www.sublimetext.com
+[tardis-blue]: http://www.color-hex.com/color/003b6f
