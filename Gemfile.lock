@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/vmg/redcarpet.git
-  revision: 8d0f49f796a6fa18267a072c1fa4c8234975d2d5
+  revision: 233e466bb2d93a91f4a4494a14679efbdf05a433
   specs:
     redcarpet (3.0.0)
 
