@@ -14,7 +14,7 @@ He has owned many different computers over the years and explored many different
 * DOS/Windows from DOS 3.x through DOS and 16-bit Windows 3.0 to 64-bit Windows 7
 * OS/2 2.0, 2.1 and 3.0 (Warp)
 * BeOS R5 for Intel processors
-* *(currently)* OS X 10.6-10.8 - MacBook Pro and iMac
+* *(currently)* OS X 10.6-10.9 - MacBook Pro and iMac
 
 He's also worked with many, many programming languages over the years:
 
@@ -39,7 +39,6 @@ Lee's other passions are video games, scuba diving and whatever shiny thing has 
 
 Lee can be found in the following ways:
 
-* [Coursera Profile][coursera]
 * <a href="mailto:lee@liftedstudios.com">Email</a>
 * [GitHub Profile][github]
 * [Stack Overflow Profile][stack-overflow]
@@ -47,7 +46,6 @@ Lee can be found in the following ways:
 [^1]: Like with [line numbers][line-numbers] and everything!
 [^2]: More for data analysis than actual programming, but it replaced the need to write a bunch of tools.
 
-[coursera]: https://www.coursera.org/user/i/67cd2d5d7720b0a7ee9f1607a2baf123
 [github]: https://github.com/lee-dohm
 [line-numbers]: http://en.wikipedia.org/wiki/Line_number
 [stack-overflow]: http://stackoverflow.com/users/1954/lee
