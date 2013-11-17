@@ -43,16 +43,21 @@ end
 # @param [String] title Title of the post.
 # @return [String] Title of the post formatted for use in a filename.
 def file_title(title)
-  title.downcase.gsub(' ', '-')
+  title.downcase.gsub(' ', '-').gsub(':', '')
 end
 
 # Gets the title passed on the command line.
 #
-# @param [String] task_name Name of the currently executing Rake task for the error message if a title wasn't supplied.
+# @param [String] task_name Name of the currently executing Rake task
+#                           for the error message if a
+#                           title wasn't supplied.
 # @returns [String] Title for the post.
 # @raise [StandardError] When a title is not passed on the command line.
 def get_title(task_name)
-  fail "Must supply a title!  Example: rake #{task_name} title=\"Best Title Evar!!!\"" unless ENV['title']
+  unless ENV['title']
+    fail "Must supply a title!  Example: rake #{task_name} title=\"Best #Title Evar!!!\""
+  end
+
   ENV['title']
 end
 
