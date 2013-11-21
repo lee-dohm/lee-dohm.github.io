@@ -23,7 +23,7 @@ All of the source code for the site is available on [GitHub][source].
 [bbatsov]: http://batsov.com
 [bootstrap]: http://getbootstrap.com
 [das-keyboard]: http://www.daskeyboard.com/product/model-s-professional-for-mac/
-[emacs]: https://www.gnu.org/software/emacs/
+[emacs]: /2013/11/17/in-search-of-the-perfect-editor.html
 [generator]: http://twitterbootstrap3navbars.w3masters.nl/
 [git]: http://gitscm.org
 [imac]: http://support.apple.com/kb/SP689
