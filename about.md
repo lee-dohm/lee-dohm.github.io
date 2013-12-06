@@ -39,7 +39,7 @@ Lee's other passions are video games, scuba diving and whatever shiny thing has 
 
 Lee can be found in the following ways:
 
-* <a href="mailto:lee@liftedstudios.com">Email</a>
+* <a href="mailto:lee@lee-dohm.com">Email</a>
 * [GitHub Profile][github]
 * [Stack Overflow Profile][stack-overflow]
 
