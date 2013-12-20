@@ -10,7 +10,7 @@ Let's get one thing out of the way right off the bat. Ruby *does* support Window
 
 Mostly, I feel like they are saying that the Ruby *community* doesn't support Windows. And this is more or less true. I don't know of any serious Ruby developers[^2] that use Windows. And the only Gem that I know off the top of my head that explicitly states it supports Windows is [Nokogiri][nokogiri].
 
-[^1]: I haven't tried other Rubies like JRuby or Rubinius.
+[^1]: I haven't tried JRuby, though Rubinius at the time of this writing does *not* support Windows.
 [^2]: Though I don't know any serious Ruby developers personally, the ones I *know of* all use some Unix variant.
 
 [installer]: http://rubyinstaller.org/
