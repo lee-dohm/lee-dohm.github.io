@@ -5,9 +5,9 @@ title: About That Lee Guy
 
 # About That Lee Guy
 
-Lee has been writing code professionally since 1995 and writing code since the early 80s. It all started with a "Kids on Kampus" program at California State University Sacramento in the late 1970s. (Yes, he's old.) In the seventies, about the only thing you could do with computers was program them. So that's what he learned to do.
+I've been writing code professionally since 1995 and writing code since the early 80s. It all started with a "Kids on Kampus" program at California State University Sacramento in the late 1970s. In the seventies, about the only thing you could do with computers was program them. So that's what I learned to do.
 
-He has owned many different computers over the years and explored many different systems and architectures:
+I have owned many different computers over the years and explored many different systems and architectures:
 
 * Atari - 400, 800, 800XL
 * CP/M - A couple of different Z-80 based machines (one with eight inch floppy disks!)
@@ -16,7 +16,7 @@ He has owned many different computers over the years and explored many different
 * BeOS R5 for Intel processors
 * *(currently)* OS X 10.6-10.9 - MacBook Pro and iMac
 
-He's also worked with many, many programming languages over the years:
+I have also worked with many, many programming languages over the years:
 
 * BASIC[^1]
 * 6502 Assembler
@@ -35,9 +35,9 @@ He's also worked with many, many programming languages over the years:
 * Ruby
 * R[^2]
 
-Lee's other passions are video games, scuba diving and whatever shiny thing has caught his attention this week. (There is a half-built quadracopter "drone" in the garage that he keeps telling himself he needs to finish.) But for a twist of fate, Lee could have ended up a physicist, that being what he decided he wanted to be when he grew up long ago and what he majored in college ... before dropping out and learning just how much it cost to support oneself. He still dreams of someday getting a Ph.D. in quantum computing and melding his first love with his current love, but that hasn't happened yet. He also never did get that Bachelor's degree ...
+My other passions are video games, scuba diving and whatever shiny thing has caught my attention this week. (There is a half-built quadracopter "drone" in the garage that I keep telling himself I need to finish.) But for a twist of fate, I could have ended up a physicist, that being what I decided I wanted to be when I grew up long ago and what I majored in college ... before dropping out and learning just how much it cost to support oneself. I still dream of someday getting a Ph.D. in quantum computing and melding my first love with my current love, but that hasn't happened yet. I also never did get that Bachelor's degree ...
 
-Lee can be found in the following ways:
+I can be found in the following ways:
 
 * <a href="mailto:lee@lee-dohm.com">Email</a>
 * [GitHub Profile][github]
