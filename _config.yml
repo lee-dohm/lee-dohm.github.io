@@ -2,7 +2,7 @@
 # jekyll configuration
 markdown: redcarpet
 permalink: date
-pygments: true
+highlighter: pygments
 safe: false
 exclude:
   - Gemfile
