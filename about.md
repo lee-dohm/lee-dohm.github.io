@@ -13,7 +13,7 @@ I have owned many different computers over the years and explored many different
 * CP/M - A couple of different Z-80 based machines (one with eight inch floppy disks!)
 * DOS/Windows from DOS 3.x through DOS and 16-bit Windows 3.0 to 64-bit Windows 7
 * OS/2 2.0, 2.1 and 3.0 (Warp)
-* BeOS R5 for Intel processors
+* BeOS R5 for Intel processors and Haiku OS
 * *(currently)* OS X 10.6-10.9 - MacBook Pro and iMac
 
 I have also worked with many, many programming languages over the years:
@@ -34,6 +34,7 @@ I have also worked with many, many programming languages over the years:
 * PowerShell
 * Ruby
 * R[^2]
+* CoffeeScript/JavaScript
 
 My other passions are video games, scuba diving and whatever shiny thing has caught my attention this week. (There is a half-built quadracopter "drone" in the garage that I keep telling himself I need to finish.) But for a twist of fate, I could have ended up a physicist, that being what I decided I wanted to be when I grew up long ago and what I majored in college ... before dropping out and learning just how much it cost to support oneself. I still dream of someday getting a Ph.D. in quantum computing and melding my first love with my current love, but that hasn't happened yet. I also never did get that Bachelor's degree ...
 
