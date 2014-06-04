@@ -12,7 +12,7 @@ My blog can be found at [www.lee-dohm.com](http://www.lee-dohm.com). It is autom
 
 ## License
 
-The following directories and their contents are Copyright &copy; 2010-2013 by [Lee Dohm][lee-dohm]. You may not reuse anything therein without my permission:
+The following directories and their contents are Copyright &copy; 2010-2014 by [Lee Dohm][lee-dohm]. You may not reuse anything therein without my permission:
 
 * `_drafts/`
 * `_posts/`
