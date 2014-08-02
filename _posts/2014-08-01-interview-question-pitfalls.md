@@ -2,7 +2,13 @@
 layout: post
 title: Interview Question Pitfalls
 tags: Coder Interviewer
-excerpt: I've spent a lot of time over the last ten years or so interviewing programming candidates for large corporations. One of the things that it seems people like to try as an exercise is to come up with "great programming interview questions". The thing is, unless you've done a lot of interviewing and hiring of programmers, you're probably coming up with really bad ones. I'll try to break down some of the common pitfalls that I see first time interview question designers falling into.
+excerpt: I've spent a lot of time over the last ten years or so interviewing programming
+  candidates for large corporations. One of the things that it seems people like to
+  try as an exercise is to come up with "great programming interview questions". The
+  thing is, unless you've done a lot of interviewing and hiring of programmers, you're
+  probably coming up with really bad ones. I'll try to break down some of the common
+  pitfalls that I see first time interview question designers falling into.
+date: 2014-08-01 19:45:52.774146000 -07:00
 ---
 
 I've spent a lot of time over the last ten years or so interviewing programming candidates for large corporations. One of the things that it seems people like to try as an exercise is to come up with ["great programming interview questions"][great-questions]. The thing is, unless you've done a lot of interviewing and hiring of programmers, you're probably coming up with really bad ones. I'll try to break down some of the common pitfalls that I see first time interview question designers[^jerks] falling into.
