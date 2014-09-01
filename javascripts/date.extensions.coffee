@@ -14,11 +14,10 @@ Date::toRelativeTime = ->
     year:        12
 
   for key, value of conversions
-    if delta < value
-      break
-    else
-      units = key
-      delta = delta / value
+    break if delta < value
+
+    units = key
+    delta /= value
 
   delta = Math.floor(delta)
   units += "s" if delta isnt 1
