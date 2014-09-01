@@ -1,3 +1,6 @@
+---
+---
+
 Date::toRelativeTime = ->
   delta = new Date() - this
   units = null
