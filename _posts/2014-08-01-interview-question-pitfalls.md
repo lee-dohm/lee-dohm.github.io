@@ -40,17 +40,17 @@ One of the simplest to remember solutions[^solution] for this question that is a
 
 ```c
 long count_bits(long number) {
-  // Accumulates the total bits set in `number`
-  unsigned int count;
+    // Accumulates the total bits set in `number`
+    unsigned int count;
 
-  // This loop initializes the count, loops only until all bits have been cleared and
-  // increments the count each time through the loop.
-  for (count = 0; number; count++) {
-    // Clear the least significant bit set
-    number &= number - 1;
-  }
+    // This loop initializes the count, loops only until all bits have been cleared and
+    // increments the count each time through the loop.
+    for (count = 0; number; count++) {
+        // Clear the least significant bit set
+        number &= number - 1;
+    }
 
-  return count;
+    return count;
 }
 ```
 
