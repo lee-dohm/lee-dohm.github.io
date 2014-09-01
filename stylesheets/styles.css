@@ -2,7 +2,16 @@
 .emoji {
   width: 16pt;
   display: inline-block;
+  direction: ltr;
   text-indent: -2000px;
+}
+
+.footnotes {
+  border-top-color: #eee;
+  border-top-width: 1px;
+  border-top-style: solid;
+  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .navbar-custom {

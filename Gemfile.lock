@@ -64,4 +64,3 @@ DEPENDENCIES
   gemoji
   jekyll (~> 2.0)
   rake
-  redcarpet (~> 3.0)

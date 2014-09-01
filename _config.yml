@@ -1,8 +1,7 @@
 
 # jekyll configuration
-markdown: redcarpet
+markdown: KramdownPygments
 permalink: date
-highlighter: pygments
 safe: false
 exclude:
   - Gemfile
@@ -14,15 +13,8 @@ exclude:
   - lee-dohm.com.sublime-project
   - lee-dohm.com.sublime-workspace
 
-redcarpet:
-  extensions:
-    - disable_indented_code_blocks
-    - fenced_code_blocks
-    - footnotes
-    - highlight
-    - strikethrough
-    - superscript
-    - tables
+kramdown:
+  input: GFM
 
 emoji_dir: images/emoji
 
