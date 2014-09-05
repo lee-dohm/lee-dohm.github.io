@@ -11,7 +11,7 @@ If there is one thing that the game industry has learned from the massively-mult
 
 Let's take a look at the progression:
 
-* [Ultima Online][uo] (released in 1997) &mdash; had wide-open non-consensual PvP where the victor could take all of the loser's possessions
+* [Ultima Online][uo] (released in 1997) &mdash; had wide-open non-consensual PvP[^pvp] where the victor could take all of the loser's possessions
 * [EverQuest][eq] (released in 1999) &mdash; had opt-in PvP where the victor could take only one possession. Non-consensual PvP was restricted to certain specific servers.
 * [Dark Age of Camelot][daoc] (released in 2001) &mdash; had opt-in PvP between different "realms" but didn't allow the victor any spoils nor were characters from different realms able to talk to each other in-game
 * [World of Warcraft][wow] (released in 2004) &mdash; had opt-in PvP[^wow-opt-in] between different "factions" and experimented numerous times with methods to "punish" players that acted in an unsportsmanlike manner. Each and every one of them was abandoned when they were turned around and used against the people the systems were intended to protect.
@@ -26,6 +26,7 @@ Game designers are now not only restricting how players interact with each other
 Why are they doing this? Because it is easier to turn humans into glorified AI than it is to convince those same humans to play nice with each other.
 
 [^griefing-drivatars]: The Drivatars can pick up somewhat aggressive playstyles from their human counterparts, but a Drivatar will never send you a threatening message or taunt you with what it purportedly did to your motherboard last night.
+[^pvp]: PvP &mdash; Player versus Player, the type of activity in a game where one human player is pitted against another human player. Constrast with PvE or Player versus Environment where the human player is pitted against the game environment. Non-consensual PvP is when one can be forced into a PvP situation by another player.
 [^wow-opt-in]: There were specific World of Warcraft servers that allowed for limited non-consensual PvP but only in specific locations
 
 [article]: http://www.reddit.com/r/DestinyTheGame/comments/2fd4mo/if_you_wonder_why_there_is_no_general_chat_in/
