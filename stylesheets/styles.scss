@@ -1,0 +1,31 @@
+---
+---
+
+.emoji {
+  width: 16pt;
+  display: inline-block;
+  direction: ltr;
+  text-indent: -2000px;
+}
+
+.dateline {
+  text-align: right;
+  font-style: italic;
+}
+
+.footnotes {
+  border-top-color: #eee;
+  border-top-width: 1px;
+  border-top-style: solid;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.metadata {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.page-header h1 {
+  text-align: center;
+}

@@ -3,21 +3,18 @@ layout: base
 ---
       <section>
         <div class="page-header">
-          <h1>
-            <p class="text-center">{{ page.title }}</p>
-          </h1>
-          <p class="text-right"><em>Published: <span class="reldate">{{ page.date | date: "%Y/%m/%d %H:%M:%S %Z" }}</span></em></p>
+          <h1>{{ page.title | markdownify }}</h1>
+          <div class="dateline">Published: <span class="reldate">{{ page.date | date: "%Y/%m/%d %H:%M:%S %Z" }}</span></div>
         </div>
 
         {{ content | emojify }}
 
         <hr/>
 
-        <p>
-        {% if page.tags != empty %}
-        <em>Tags: {{ page.tags | sort | join: ", " }}</em><br/>
-        {% endif %}
-        <em>Date: <span class="localdate">{{ page.date | date: "%Y/%m/%d %H:%M:%S %Z" }}</span></em><br/>
-        </p>
+        <div class="metadata">
+          {% if page.tags != empty %}
+          <div>Tags: {{ page.tags | sort | join: ", " }}</div>
+          {% endif %}
+          <div>Date: <span class="localdate">{{ page.date | date: "%Y/%m/%d %H:%M:%S %Z" }}</span></div>
+        </div>
       </section>
-
