@@ -29,3 +29,6 @@ author:
   name: Lee Dohm
   email: lee@liftedstudios.com
   github: lee-dohm
+
+collections:
+  - links
