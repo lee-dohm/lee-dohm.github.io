@@ -1,5 +1,22 @@
 ---
 layout: default
 ---
-{{ content }}
-<p class="text-center"><a href="{{ site.base_url }}archives.html">Find older posts</a></p>
+<div class="col-md-3 left-column">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      Interesting Links
+    </div>
+    <div class="panel-body">
+      <ul>
+        {% for link in site.links limit:5 %}
+        <li><a href="{{ link.address }}">{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-9 main-column">
+  {{ content }}
+  <p class="text-center"><a href="{{ site.base_url }}archives.html">Find older posts</a></p>
+</div>
