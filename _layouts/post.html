@@ -7,7 +7,7 @@ layout: base
           <div class="dateline">Published: <span class="reldate">{{ page.date | date: "%Y/%m/%d %H:%M:%S %Z" }}</span></div>
         </div>
 
-        {{ content | emojify }}
+        {{ content | lightboxify | emojify }}
 
         <hr/>
 

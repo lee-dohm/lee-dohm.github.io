@@ -7,7 +7,7 @@ date: 2014-06-23 07:14:52.652099000 -07:00
 
 ... why Atom is the right editor to be putting my effort into, the [Ask Stack package for Atom](https://atom.io/packages/ask-stack) (and others like it) would convince me.
 
-<a href="/images/ask-stack.gif" data-lightbox="ask-stack" data-title="Ask Stack Screencap"><img src="/images/ask-stack.gif" alt="Ask Stack screencap" width="100%"></a>
+![Ask Stack Screencap](/images/ask-stack.gif)
 
 *(click to embiggen)*
 
