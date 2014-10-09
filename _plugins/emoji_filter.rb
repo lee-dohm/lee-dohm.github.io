@@ -12,12 +12,18 @@
 #   - Copy this file to your `_plugins` directory
 #   - Add a line like `emoji_dir: images/emoji` to your `_config.yml`
 #   - If you want to use external source for emoji, set `emoji_dir: http://...` to your `_config.yml`.
-# 
-# Usage: 
+#
+# Usage:
 #   - Apply the filter wherever needed e.g. {{ content | emojify }}
 #   - Add some emoji to your article! e.g. "Hello :wink:"
 
 require 'gemoji'
+
+module Emoji
+  def names
+    @names ||= Emoji.all.map { |emoji| emoji.name }
+  end
+end
 
 module Jekyll
 
