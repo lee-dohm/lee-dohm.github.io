@@ -8,10 +8,6 @@ exclude:
   - Gemfile.lock
   - Rakefile
   - README.md
-  - lee-dohm.com-posts.sublime-project
-  - lee-dohm.com-posts.sublime-workspace
-  - lee-dohm.com.sublime-project
-  - lee-dohm.com.sublime-workspace
 
 kramdown:
   input: GFM
@@ -27,7 +23,7 @@ title: lee-dohm.com
 
 author:
   name: Lee Dohm
-  email: lee@liftedstudios.com
+  email: lee@lee-dohm.com
   github: lee-dohm
 
 collections:
