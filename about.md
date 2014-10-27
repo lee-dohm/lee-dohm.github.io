@@ -43,6 +43,7 @@ I can be found in the following ways:
 * <a href="mailto:lee@lee-dohm.com">Email</a>
 * [GitHub Profile][github]
 * [Stack Overflow Profile][stack-overflow]
+* [Twitter][twitter]
 
 <a href="http://stackoverflow.com/users/1954/lee">
 <img src="http://stackoverflow.com/users/flair/1954.png" width="208" height="58" alt="profile for Lee at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Lee at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
@@ -54,3 +55,4 @@ I can be found in the following ways:
 [github]: https://github.com/lee-dohm
 [line-numbers]: http://en.wikipedia.org/wiki/Line_number
 [stack-overflow]: http://stackoverflow.com/users/1954/lee
+[twitter]: https://twitter.com/leedohm
