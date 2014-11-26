@@ -14,7 +14,7 @@ I have owned many different computers over the years and explored many different
 * DOS/Windows from DOS 3.x through DOS and 16-bit Windows 3.0 to 64-bit Windows 7
 * OS/2 2.0, 2.1 and 3.0 (Warp)
 * BeOS R5 for Intel processors and Haiku OS
-* *(currently)* OS X 10.6-10.10 (Yosemite) - MacBook Pro and iMac
+* *(currently)* OS X 10.6-10.10 (Yosemite) - MacBook Pro and Retina iMac
 
 I have also worked with many, many programming languages over the years:
 

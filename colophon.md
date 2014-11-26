@@ -11,7 +11,7 @@ Why yes, it does seem rather hipster of me to include a colophon on my blog. On 
 
 I use [Jekyll][jekyll], the blog-aware static site generator, to generate the content of the site from a bunch of text files.[^text-files]
 
-I write all of the articles in [Atom][atom] and publish them via [Git][git] to [GitHub Pages][pages]. I write everything on my [27" mid-2011 iMac][imac] running [OS X Mavericks][osx]. I use the [das Keyboard Professional for Mac][das-keyboard] for all my typing.
+I write all of the articles in [Atom][atom] and publish them via [Git][git] to [GitHub Pages][pages]. I write everything on my [27" late-2014 Retina iMac][imac] running [OS X Yosemite][osx]. I use the [das Keyboard Professional for Mac][das-keyboard] for all my typing.
 
 I'm using [Twitter Bootstrap][bootstrap] for the theme of the site. The top navigation bar style was generated from the [Twitter Bootstrap 3 Navbar Generator][generator]. I chose [Tardis Blue][tardis-blue] and white as my colors for it.
 
@@ -26,7 +26,7 @@ All of the source code for the site is available on [GitHub][source].
 [das-keyboard]: http://www.daskeyboard.com/product/model-s-professional-for-mac/
 [generator]: http://twitterbootstrap3navbars.w3masters.nl/
 [git]: http://gitscm.org
-[imac]: http://support.apple.com/kb/SP689
+[imac]: http://support.apple.com/kb/SP707
 [jekyll]: http://jekyllrb.com
 [oreilly]: http://www.oreilly.com
 [osx]: http://www.apple.com/osx/
