@@ -37,7 +37,7 @@ It is an oft-quoted fact that the sooner bugs are found, the cheaper they are to
 
 What all of the above really boils down to is: if you want to participate in Open Source, the only thing stopping you from participating is you. So jump in with both feet, be humble, take criticism well and learn, learn, learn!
 
-[^1]: Hint: It is almost never necessary to have a discussion over a bug fix. It is better to simply fix the bug and then have a discussion over whether there are edge cases.
+[^1]: Hint: It is almost never necessary to have an extended discussion over a bug fix. It is better to simply fix the bug and then have a discussion over whether there are edge cases.
 [^2]: People can contribute in many ways other than just writing code. They can triage bugs. They can reproduce bugs. They can write documentation. They can clean up code to make it more maintainable. Heck, they can even moderate discussion boards! :grinning:
 [^3]: You'll see this pattern in a lot of agile process literature referred to as the [OODA Loop][ooda-loop].
 [^4]: Well, except for my [tabs-to-spaces package][tabs-to-spaces] which was created because I got frustrated with people asking for the feature on the message board ... so in a fit of pique and inspiration, I just coded it up and released it one night :laughing:
