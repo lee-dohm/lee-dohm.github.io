@@ -2,23 +2,23 @@
 ---
 
 .emoji {
-  width: 16pt;
-  display: inline-block;
   direction: ltr;
+  display: inline-block;
   text-indent: -2000px;
+  width: 16pt;
 }
 
 .dateline {
-  text-align: right;
   font-style: italic;
+  text-align: right;
 }
 
 .footnotes {
   border-top-color: #eee;
-  border-top-width: 1px;
   border-top-style: solid;
-  padding-top: 20px;
+  border-top-width: 1px;
   margin-top: 20px;
+  padding-top: 20px;
 }
 
 .left-column {
@@ -28,19 +28,23 @@
 
   ul {
     list-style-type: none;
-    padding-left: 0px;
+    padding-left: 0;
   }
 }
 
 .main-column h1:first-of-type {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .metadata {
-  margin-bottom: 10px;
   font-style: italic;
+  margin-bottom: 10px;
 }
 
 .page-header h1 {
+  text-align: center;
+}
+
+.youtube-embed {
   text-align: center;
 }
