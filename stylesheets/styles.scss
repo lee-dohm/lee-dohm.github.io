@@ -1,6 +1,14 @@
 ---
 ---
 
+$monospace-fonts: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+
+code {
+  background-color: lighten(#337ab7, 45%);
+  color: #337ab7;
+  font-family: $monospace-fonts;
+}
+
 .emoji {
   direction: ltr;
   display: inline-block;
@@ -11,6 +19,10 @@
 .dateline {
   font-style: italic;
   text-align: right;
+}
+
+.footnote {
+  margin-left: 1px;
 }
 
 .footnotes {
