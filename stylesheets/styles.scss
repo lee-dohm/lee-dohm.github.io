@@ -1,7 +1,21 @@
 ---
 ---
 
+$font-size: 12pt;
+
 $monospace-fonts: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+$sans-serif-fonts: 'Raleway', sans-serif;
+$serif-fonts: 'Lora', serif;
+
+body {
+  font-family: $serif-fonts;
+  font-size: $font-size;
+  line-height: $font-size * 1.428;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $sans-serif-fonts;
+}
 
 code {
   background-color: lighten(#337ab7, 45%);
@@ -28,9 +42,12 @@ code {
 .footnotes {
   border-top-color: #eee;
   border-top-style: solid;
-  border-top-width: 1px;
+  border-top-width: 2px;
   margin-top: 20px;
   padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: $font-size * 0.9;
 }
 
 .left-column {
@@ -51,6 +68,10 @@ code {
 .metadata {
   font-style: italic;
   margin-bottom: 10px;
+}
+
+.navbar {
+  font-family: $sans-serif-fonts;
 }
 
 .page-header h1 {

@@ -19,6 +19,8 @@ The goal of reporting a bug is *to get the bug fixed*, otherwise why report the 
 
 In development circles one of the jokes about the lazy programmer is, "It works fine on my machine!" Great ... whoopee for you! Are we going to send your machine to all five hundred of our customers so they can each get their turn? No, didn't think so ... so get off your ass and fix it. Well, I'm also here to say that a bug report consisting only of "X is broken on my machine" is just as lazy and unhelpful and deserves to be deprioritized into oblivion. We'll get back to it when all the other bugs are fixed, thankyouverymuch ...
 
+## The Solution
+
 So now that we know a little about why to write a good bug report, let's talk about how. The absolute bare minimum things to include are:
 
 1. Include steps to reproduce the problem as reliably as possible
