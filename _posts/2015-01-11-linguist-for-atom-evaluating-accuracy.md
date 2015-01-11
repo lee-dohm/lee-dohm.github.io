@@ -56,7 +56,7 @@ While both the null grammar and an incorrect grammar being loaded means the same
 * Incorrect Identification = **-1**
 * No Identification = 0
 
-So if our system is given 100 files to classify and it identifies 42 of them correctly, 23 of them incorrectly, and the rest it does not identify, this would come out to 42-23 = 19 points out of 100 or 19% accurate. This also means that a classifier implementation could have a negative accuracy, but I think that is completely valid since it would mean that the implementation is giving an incorrect answer more often than a correct one, essentially being misleading like the car navigation system that tells you to drive off a cliff.
+So if our system is given 100 files to classify and it identifies 42 of them correctly, 23 of them incorrectly, and the rest it does not identify, this would come out to 42-23 = 19 points out of 100 or 19% accurate. This also means that a classifier implementation could have a negative accuracy. I think this is completely valid since it would mean that the implementation is giving an incorrect answer more often than a correct one, making it misleading like the car navigation system that tells you to drive off a cliff.
 
 Once I have a couple of implementations to compare, a corpus of example source code files, and the list of correct answers for the entire corpus, I'll create a test harness to execute the tests and give the accuracy values in this format. I think the data will be interesting to analyze!
 
