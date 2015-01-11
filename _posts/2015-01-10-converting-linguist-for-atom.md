@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Converting Linguist for Atom
-tags: Coder
+tags: Coder Linguist
 date: 2015-01-10 17:38:47.447217000 -08:00
 ---
 
