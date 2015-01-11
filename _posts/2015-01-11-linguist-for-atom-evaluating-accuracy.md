@@ -50,7 +50,7 @@ Now let's take a look at what these types of answers mean as far as their impact
 * Incorrect Identification &rarr; Incorrect grammar loaded
 * No Identification &rarr; Null grammar loaded
 
-While both the null grammar and an incorrect grammar being loaded means the same corrective action is required of the user, to go to the grammar selection menu and select the correct one, the incorrect grammar being loaded means that it might *appear* that the correct grammar is loaded until the error is detected later. Later detection may be after extra frustration has been incurred by expected functionality not showing up or working, incorrect snippets being expanded, etc. This means to me that a True Positive result is good, a False Positive result is bad and a False Negative result is neutral. So I'll use the following point system:[^sat-points]
+While both the null grammar and an incorrect grammar being loaded means the same corrective action is required of the user, to go to the grammar selection menu and select the correct one, the incorrect grammar being loaded means that it might *appear* that the correct grammar is loaded until the error is detected later. Later detection may be after extra frustration has been incurred by expected functionality not showing up or working, incorrect snippets being expanded, etc. This means to me that a Correct Identification result is good, an Incorrect Identification result is bad and a No Identification result is neutral. So I'll use the following point system:[^sat-points]
 
 * Correct Identification = +1
 * Incorrect Identification = **-1**
