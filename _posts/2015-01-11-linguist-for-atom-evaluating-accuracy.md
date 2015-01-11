@@ -7,10 +7,10 @@ date: 2015-01-11 14:03:23.572789000 -08:00
 
 In writing a version of Linguist for Atom, it is important to be able to evaluate whether we are making things better or worse. To do that, we need to have a system for creating a numeric representation of how accurate a language classification system is.
 
-In designing this numeric system, it is important to take a look at what answers, both desirable and undesirable, we can get back from our classifier. Imagining that we have a list of languages that we can recognize `A` through `Z` and a default of plain text[^plain-text], our classifier can give us the following answers:
+In designing this numeric system, it is important to take a look at what answers, both desirable and undesirable, we can get back from our classifier. Imagining that we have a list of languages that we can recognize `A` through `Z` and a default of plain text,[^plain-text] our classifier can give us the following answers:
 
 * Language is X - Classifier answers X
-* Language is X - Classifier answers not X
+* Language is X - Classifier answers something other than X
 * Language is X - Classifier answers Unknown
 
 We could take a very simplistic view and say that answer #1 is correct and all other answers are incorrect. This is simple to create a numeric rating for, we simply use what most people think of when they think of the term "accuracy" and use the percentage of correct answers. So if our classifier gets 42 out of 100 correct, then it is 42% accurate.
