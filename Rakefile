@@ -29,6 +29,15 @@ def draft_filename(title)
   File.join('_drafts', file_title(title) + '.md')
 end
 
+# Creates a link path out of the title and the post timestamp.
+#
+# @param [String] title Title of the post.
+# @param [Time] now Timestamp of the post.
+# @return [String] Path to the post.
+def link_filename(title, now)
+  File.join('_links', '%d-%02d-%02d-%s.md' % [now.year, now.month, now.day, file_title(title)])
+end
+
 # Creates a post path out of the title and the post timestamp.
 #
 # @param [String] title Title of the post.
@@ -59,6 +68,14 @@ def get_title(task_name)
   end
 
   ENV['title']
+end
+
+def get_url(task_name)
+  unless ENV['url']
+    fail "Must supply a URL! Example: rake #{task_name} url=\"http://www.example.com\""
+  end
+
+  ENV['url']
 end
 
 # Reads a post and returns its metadata and content.
@@ -97,7 +114,7 @@ task :draft do |task_name|
   }
 
   path = draft_filename(title)
-  mkdir '_drafts' unless Dir.exists?('_drafts')
+  mkdir '_drafts' unless Dir.exist?('_drafts')
   write_post(path, metadata)
 end
 
@@ -112,10 +129,27 @@ task :publish do |task_name|
   metadata, content = read_post(draft_path)
   metadata['date'] = now
 
-  mkdir '_posts' unless Dir.exists?('_posts')
+  mkdir '_posts' unless Dir.exist?('_posts')
   write_post(path, metadata, content)
 
   delete_draft(draft_path)
+end
+
+task :link do |task_name|
+  title = get_title(task_name)
+  url = get_url(task_name)
+
+  now = Time.new
+
+  metadata = {
+    'title' => title,
+    'address' => url,
+    'date' => now
+  }
+
+  path = link_filename(title, now)
+  mkdir '_links' unless Dir.exist?('_links')
+  write_post(path, metadata)
 end
 
 desc 'Start the Jekyll server for local validation'
