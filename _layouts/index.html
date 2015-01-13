@@ -8,7 +8,7 @@ layout: default
     </div>
     <div class="panel-body">
       <ul>
-        {% for link in site.links limit:5 %}
+        {% for link in site.links reversed limit:5 %}
         <li><a href="{{ link.address }}">{{ link.title }}</a></li>
         {% endfor %}
       </ul>
