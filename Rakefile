@@ -100,8 +100,7 @@ task :draft do |task_name|
 
   metadata = {
     'layout' => 'post',
-    'title' => title,
-    'tags' => nil
+    'title' => title
   }
 
   path = draft_filename(title)
