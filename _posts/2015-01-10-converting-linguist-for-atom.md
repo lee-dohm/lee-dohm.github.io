@@ -18,7 +18,7 @@ The challenge here is that Linguist was designed to run as a server process usin
 
 Perhaps this idea will consume too many resources for only marginal benefit over Atom's built-in algorithm. But I think this ability would be useful for Atom in too many places to not at least give it a shot. I'll be documenting each stage as they are completed and posting them here. I think it will be interesting reading as I discover how to profile and analyze JavaScript performance and memory usage. So stay tuned!
 
-[^avoid-yaml]: Linguist uses [YAML][yaml] to store a lot of the metadata around known languages. Atom uses a similar, but incompatible, format called [CSON][cson]. There isn't a need to have both libraries installed when YAML will only be used by atom-linguist.
+[^avoid-yaml]: Linguist uses [YAML][yaml] to store a lot of the metadata around known languages. Atom uses a similar, but incompatible, format called [CSON][cson]. There shouldn't be a need to have both libraries installed, so atom-linguist should use CSON.
 [^conversion]: Why can't I just use the Ruby library? Because Atom has specifically avoided adding any dependencies on languages other than CoffeeScript and a few native-compiled libraries that are guaranteed to be available cross-platform. If I want to eventually include atom-linguist in Atom itself, then it needs to be a Node module.
 
 [bayes]: https://en.wikipedia.org/wiki/Naive_Bayes_classifier
