@@ -34,7 +34,7 @@ module Kramdown
         code = pygmentize(el.value, lang)
         code_attr = {}
         code_attr['class'] = "language-#{lang}" if lang
-        "#{' '*indent}<div class=\"highlight\"><pre#{html_attributes(attr)}><code#{html_attributes(code_attr)}>#{code}</code></pre></div>\n"
+        "#{' '*indent}#{code}\n"
       end
 
       def convert_codespan(el, indent)
@@ -55,8 +55,14 @@ module Kramdown
       def pygmentize(code, lang)
         if lang
           Pygments.highlight(code,
-            :lexer => lang,
-            :options => { :startinline => true, :encoding => 'utf-8', :nowrap => true })
+                             lexer: lang,
+                             options: {
+                               startinline: true,
+                               encoding: 'utf-8',
+                               nowrap: false,
+                              #  linenos: 'inline',
+                               lineanchors: 'line'
+                             })
         else
           escape_html(code)
         end
