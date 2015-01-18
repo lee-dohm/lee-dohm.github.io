@@ -22,6 +22,10 @@ h1 {
   font-size: 24pt;
 }
 
+blockquote {
+  font-size: $font-size;
+}
+
 code {
   background-color: lighten(#337ab7, 45%);
   color: #337ab7;
@@ -70,17 +74,6 @@ a.title {
   padding-left: 5%;
   padding-right: 5%;
   font-size: $font-size * 0.9;
-}
-
-.left-column {
-  li {
-    margin-bottom: 10px;
-  }
-
-  ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
 }
 
 .row h1:first-of-type {

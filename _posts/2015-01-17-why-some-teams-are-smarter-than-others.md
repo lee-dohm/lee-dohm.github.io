@@ -5,4 +5,10 @@ address: http://mobile.nytimes.com/2015/01/18/opinion/sunday/why-some-teams-are-
 date: 2015-01-17 12:17:01.850051000 -08:00
 ---
 
-Test.
+> Instead, the smartest teams were distinguished by three characteristics.
+>
+> First, their members contributed more equally to the team’s discussions...
+>
+> Second, their members scored higher on a test ... which measures how well people can read complex emotional states...
+>
+> Finally, teams with more women outperformed teams with more men ... it was not "diversity" (having equal numbers of men and women) that mattered ... but simply having more women ... explained by the fact that women, on average, were better at "mindreading" than men.

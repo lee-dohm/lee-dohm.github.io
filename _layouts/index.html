@@ -1,22 +1,20 @@
 ---
 layout: default
 ---
-<div class="col-md-10 col-md-offset-1 main-column">
-  {% for post in site.posts limit:10 %}
-  <div class="content">
-    {% if post.layout == 'post' %}
-    <h1><a class="title" href="{{ post.url }}">{{ post.title }}</a></h1>
-    {% else %}
-    <h1><a class="title external" href="{{ post.address }}">{{ post.title }}</a></h1>
-    {% endif %}
-    <h4 class="dateline">
-      {{ post.date | date: '%B %d, %Y' }}
-      •
-      <a href="{{ post.url }}"><span class="octicon octicon-link"></span></a>
-    </h4>
+{% for post in site.posts limit:10 %}
+<div class="content">
+  {% if post.layout == 'post' %}
+  <h1><a class="title" href="{{ post.url }}">{{ post.title }}</a></h1>
+  {% else %}
+  <h1><a class="title external" href="{{ post.address }}">{{ post.title }}</a></h1>
+  {% endif %}
+  <h4 class="dateline">
+    {{ post.date | date: '%B %d, %Y' }}
+    •
+    <a href="{{ post.url }}"><span class="octicon octicon-link"></span></a>
+  </h4>
 
-    {{ post.content | lightboxify | emojify }}
-  </div>
-  {% endfor %}
-  <p class="text-center"><a href="{{ site.base_url }}archives.html">Find older posts</a></p>
+  {{ post.content | lightboxify | emojify }}
 </div>
+{% endfor %}
+<p class="text-center"><a href="{{ site.base_url }}archives.html">Find older posts</a></p>

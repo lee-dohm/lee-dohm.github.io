@@ -1,5 +1,5 @@
 ---
-layout: content
+layout: base
 title: About That Lee Guy
 ---
 
