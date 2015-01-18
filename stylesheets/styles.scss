@@ -2,6 +2,7 @@
 ---
 
 $font-size: 12pt;
+$line-height: $font-size * 1.428;
 
 $monospace-fonts: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
 $sans-serif-fonts: 'Raleway', sans-serif;
@@ -10,17 +11,38 @@ $serif-fonts: 'Lora', serif;
 body {
   font-family: $serif-fonts;
   font-size: $font-size;
-  line-height: $font-size * 1.428;
+  line-height: $line-height;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $sans-serif-fonts;
 }
 
+h1 {
+  font-size: 24pt;
+}
+
 code {
   background-color: lighten(#337ab7, 45%);
   color: #337ab7;
   font-family: $monospace-fonts;
+}
+
+a.title.external:after {
+  position: relative;
+  top: -6px;
+  right: -2px;
+  font-size: $font-size;
+  font-family: 'octicons';
+  content: ' \f07f';
+}
+
+a.title {
+  text-decoration: none;
+}
+
+.content {
+  margin-bottom: $line-height * 2;
 }
 
 .emoji {
@@ -31,8 +53,8 @@ code {
 }
 
 .dateline {
-  font-style: italic;
-  text-align: right;
+  font-size: $font-size;
+  margin-bottom: $line-height;
 }
 
 .footnote {
@@ -61,7 +83,7 @@ code {
   }
 }
 
-.main-column h1:first-of-type {
+.row h1:first-of-type {
   margin-top: 0;
 }
 
@@ -72,10 +94,6 @@ code {
 
 .navbar {
   font-family: $sans-serif-fonts;
-}
-
-.page-header h1 {
-  text-align: center;
 }
 
 .youtube-embed {

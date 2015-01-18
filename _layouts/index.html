@@ -1,24 +1,22 @@
 ---
 layout: default
 ---
-<div class="col-md-3 left-column">
-  <div class="panel panel-primary">
-    <div class="panel-heading">
-      Interesting Links
-    </div>
-    <div class="panel-body">
-      <ul>
-        {% for link in site.links reversed %}
-        {% if forloop.index0 < 5 %}
-        <li><a href="{{ link.address }}">{{ link.title }}</a></li>
-        {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</div>
+<div class="col-md-10 col-md-offset-1 main-column">
+  {% for post in site.posts limit:10 %}
+  <div class="content">
+    {% if post.layout == 'post' %}
+    <h1><a class="title" href="{{ post.url }}">{{ post.title }}</a></h1>
+    {% else %}
+    <h1><a class="title external" href="{{ post.address }}">{{ post.title }}</a></h1>
+    {% endif %}
+    <h4 class="dateline">
+      {{ post.date | date: '%B %d, %Y' }}
+      •
+      <a href="{{ post.url }}"><span class="octicon octicon-link"></span></a>
+    </h4>
 
-<div class="col-md-9 main-column">
-  {{ content }}
+    {{ post.content | lightboxify | emojify }}
+  </div>
+  {% endfor %}
   <p class="text-center"><a href="{{ site.base_url }}archives.html">Find older posts</a></p>
 </div>

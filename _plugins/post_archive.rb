@@ -1,5 +1,5 @@
 #
-# Copyright (c) 2013 by Lifted Studios. All Rights Reserved.
+# Copyright (c) 2013, 2015 by Lifted Studios. All Rights Reserved.
 #
 
 module Jekyll
@@ -12,9 +12,9 @@ module Jekyll
 
     def render_years(posts)
       lines = []
-      lines << "<!-- Rendering years -->"
+      lines << '<!-- Rendering years -->'
 
-      years = posts.map { |post| post.date.year }.uniq.sort { |x,y| y <=> x }
+      years = posts.map { |post| post.date.year }.uniq.sort { |x, y| y <=> x }
       years.each do |year|
         lines << "<h1><p class=\"text-center\">#{year}</p></h1>"
         lines << render_year(year, posts)
@@ -28,9 +28,9 @@ module Jekyll
       lines << "<!-- Rendering year #{year} -->"
       lines << '<!-- Rendering months -->'
 
-      months = posts.select { |post| post.date.year == year }.
-                     sort { |x,y| y.date.month <=> x.date.month }.
-                     map { |post| [post.date.month, post.date.strftime('%B')] }.uniq
+      months = posts.select { |post| post.date.year == year }
+                    .sort { |x, y| y.date.month <=> x.date.month }
+                    .map { |post| [post.date.month, post.date.strftime('%B')] }.uniq
       months.each do |month|
         lines << "<h2>#{month.last}</h2>"
         lines << render_month(year, month.first, posts)
@@ -45,7 +45,7 @@ module Jekyll
       lines << '<!-- Rendering posts -->'
 
       ps = posts.select { |post| post.date.year == year && post.date.month == month }.
-                 sort { |x,y| y.date <=> x.date }
+                 sort { |x, y| y.date <=> x.date }
 
       lines << '<ul>'
       ps.each do |post|

@@ -29,15 +29,6 @@ def draft_filename(title)
   File.join('_drafts', file_title(title) + '.md')
 end
 
-# Creates a link path out of the title and the post timestamp.
-#
-# @param [String] title Title of the post.
-# @param [Time] now Timestamp of the post.
-# @return [String] Path to the post.
-def link_filename(title, now)
-  File.join('_links', '%d-%02d-%02d-%s.md' % [now.year, now.month, now.day, file_title(title)])
-end
-
 # Creates a post path out of the title and the post timestamp.
 #
 # @param [String] title Title of the post.
@@ -147,8 +138,8 @@ task :link do |task_name|
     'date' => now
   }
 
-  path = link_filename(title, now)
-  mkdir '_links' unless Dir.exist?('_links')
+  path = filename(title, now)
+  mkdir '_posts' unless Dir.exist?('_posts')
   write_post(path, metadata)
 end
 
