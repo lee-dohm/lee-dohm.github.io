@@ -1,43 +1,29 @@
 blockquote {
-  display:block;
   background: #fff;
-  padding: 15px 20px 15px 45px;
-  margin: 0 0 20px;
-  position: relative;
-
-  /*Font*/
+  border-left: 15px solid #337ab7;
+  border-right: 2px solid #337ab7;
+  box-shadow: 2px 2px 15px #ccc;
+  color: #666;
+  display: block;
   font-family: $serif-fonts;
   font-size: $font-size;
   line-height: $line-height;
-  color: #666;
-  text-align: justify;
-
-  /*Borders - (Optional)*/
-  border-left: 15px solid #337ab7;
-  border-right: 2px solid #337ab7;
-
-  /*Box Shadow - (Optional)*/
-  -moz-box-shadow: 2px 2px 15px #ccc;
-  -webkit-box-shadow: 2px 2px 15px #ccc;
-  box-shadow: 2px 2px 15px #ccc;
+  margin: 0 0 20px;
+  padding: 15px 20px 15px 45px;
+  position: relative;
 }
 
-blockquote::before{
-  content: "\201C"; /*Unicode for Left Double Quote*/
-
-  /*Font*/
+blockquote::before {
+  color: #999;
+  content: '\201c'; // Unicode for left double-quote
   font-family: Georgia, serif;
   font-size: 60px;
   font-weight: bold;
-  color: #999;
-
-  /*Positioning*/
-  position: absolute;
   left: 10px;
+  position: absolute;
   top: 30px;
 }
 
-blockquote::after{
-  /*Reset to make sure*/
-  content: "";
+blockquote::after {
+  content: '';
 }
