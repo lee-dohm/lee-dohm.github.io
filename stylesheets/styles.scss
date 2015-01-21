@@ -8,6 +8,11 @@ $monospace-fonts: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', mon
 $sans-serif-fonts: 'Raleway', sans-serif;
 $serif-fonts: 'Lora', serif;
 
+$code-foreground: #337ab7;
+$code-background: lighten(#337ab7, 45%);
+
+@import "blockquotes";
+
 body {
   font-family: $serif-fonts;
   font-size: $font-size;
@@ -22,13 +27,9 @@ h1 {
   font-size: 24pt;
 }
 
-blockquote {
-  font-size: $font-size;
-}
-
 code {
-  background-color: lighten(#337ab7, 45%);
-  color: #337ab7;
+  background-color: $code-background;
+  color: $code-foreground;
   font-family: $monospace-fonts;
 }
 

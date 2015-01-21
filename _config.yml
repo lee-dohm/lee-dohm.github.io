@@ -29,3 +29,6 @@ author:
 
 collections:
   - links
+
+sass:
+  sass_dir: _sass
