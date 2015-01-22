@@ -132,6 +132,7 @@ task :link do |task_name|
   now = Time.new
 
   metadata = {
+    'layout' => 'link',
     'title' => title,
     'address' => url,
     'date' => now
