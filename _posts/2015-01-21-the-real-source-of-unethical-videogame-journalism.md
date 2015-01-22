@@ -1,4 +1,5 @@
 ---
+layout: link
 title: The Real Source of Unethical Videogame Journalism
 address: http://www.destructoid.com/the-real-sources-of-unethical-videogame-journalism-286380.phtml
 date: 2015-01-21 17:11:02.144631000 -08:00

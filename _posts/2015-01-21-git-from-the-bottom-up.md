@@ -1,4 +1,5 @@
 ---
+layout: link
 title: Git from the Bottom Up
 address: https://jwiegley.github.io/git-from-the-bottom-up/
 date: 2015-01-21 11:46:07.983215000 -08:00

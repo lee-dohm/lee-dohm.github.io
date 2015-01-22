@@ -1,4 +1,5 @@
 ---
+layout: link
 title: Difference Between the Successful and Very Successful
 address: https://agenda.weforum.org/2014/12/the-difference-between-successful-and-very-successful-people/
 date: 2015-01-20 22:47:12.815933000 -08:00
