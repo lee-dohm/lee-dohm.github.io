@@ -34,7 +34,7 @@ end
 # @param [Time] now Timestamp of the post.
 # @return [String] Path to the post.
 def filename(title, now)
-  File.join('_posts', '%d-%02d-%02d-%s.md'.format(now.year, now.month, now.day, file_title(title)))
+  File.join('_posts', format('%d-%02d-%02d-%s.md', now.year, now.month, now.day, file_title(title)))
 end
 
 # Converts a post title into a filename-formatted title.
