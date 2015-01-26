@@ -1,4 +1,3 @@
-
 require 'jekyll'
 require 'rake/clean'
 require 'tmpdir'
@@ -6,7 +5,7 @@ require 'yaml'
 
 CLEAN.include('_site')
 
-GITHUB_REPONAME = "lee-dohm/lee-dohm.github.io"
+GITHUB_REPONAME = 'lee-dohm/lee-dohm.github.io'
 
 # Deletes a draft when it is no longer needed.
 #
@@ -16,7 +15,7 @@ GITHUB_REPONAME = "lee-dohm/lee-dohm.github.io"
 # @return [nil]
 def delete_draft(filename)
   sh "git rm #{filename}" if `git ls-files #{filename}` != ''
-  File.delete(filename) if File.exists?(filename)
+  File.delete(filename) if File.exist?(filename)
 
   nil
 end
@@ -35,7 +34,7 @@ end
 # @param [Time] now Timestamp of the post.
 # @return [String] Path to the post.
 def filename(title, now)
-  File.join('_posts', '%d-%02d-%02d-%s.md' % [now.year, now.month, now.day, file_title(title)])
+  File.join('_posts', '%d-%02d-%02d-%s.md'.format(now.year, now.month, now.day, file_title(title)))
 end
 
 # Converts a post title into a filename-formatted title.
@@ -76,7 +75,7 @@ end
 def read_post(path)
   chunks = IO.read(path).split(/^---\s*$/)
 
-  metadata = YAML::load("---\n" + chunks[1])
+  metadata = YAML.load("---\n" + chunks[1])
 
   [metadata, chunks[2]]
 end
@@ -144,7 +143,7 @@ task :link do |task_name|
 end
 
 desc 'Start the Jekyll server for local validation'
-task :server => :clean do
+task server: [:clean] do
   sh 'jekyll serve --watch --drafts'
 end
 
@@ -159,7 +158,7 @@ task :dump_config do
 end
 
 desc 'Generate and push blog'
-task :push => [:generate] do
+task push: [:generate] do
   Dir.mktmpdir do |tmp|
     cp_r '_site/.', tmp
     Dir.chdir tmp
@@ -172,7 +171,7 @@ task :push => [:generate] do
   end
 end
 
-desc "Copy emoji to the Rails `public/images/emoji` directory"
+desc 'Copy emoji to the Rails `public/images/emoji` directory'
 task :emoji do
   require 'emoji'
 
