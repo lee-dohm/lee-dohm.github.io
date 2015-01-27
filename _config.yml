@@ -1,6 +1,6 @@
 
 # jekyll configuration
-markdown: KramdownPygments
+markdown: redcarpet
 permalink: date
 safe: false
 exclude:
@@ -11,6 +11,16 @@ exclude:
 
 kramdown:
   input: GFM
+
+redcarpet:
+  extensions:
+    - hard_wrap
+    - no_intra_emphasis
+    - autolink
+    - strikethrough
+    - fenced_code_blocks
+    - footnotes
+    - superscript
 
 emoji_dir: images/emoji
 
