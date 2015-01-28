@@ -4,7 +4,8 @@
 $font-size: 12pt;
 $line-height: $font-size * 1.428;
 
-$monospace-fonts: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+$monospace-fonts: 'Anonymous Pro', 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New',
+                  monospace;
 $sans-serif-fonts: 'Raleway', sans-serif;
 $serif-fonts: 'Lora', serif;
 
@@ -34,10 +35,13 @@ h1 {
   font-size: 24pt;
 }
 
+code, kbd, pre, samp {
+  font-family: $monospace-fonts;
+}
+
 code {
   background-color: $code-background;
   color: $code-foreground;
-  font-family: $monospace-fonts;
 }
 
 .bigfoot-footnote__button {
