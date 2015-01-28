@@ -11,6 +11,7 @@ $serif-fonts: 'Lora', serif;
 $code-foreground: #337ab7;
 $code-background: lighten(#337ab7, 45%);
 
+@import "bigfoot-default";
 @import "blockquotes";
 @import "code-block";
 @import "keys";
@@ -37,6 +38,15 @@ code {
   background-color: $code-background;
   color: $code-foreground;
   font-family: $monospace-fonts;
+}
+
+.bigfoot-footnote__button {
+  background-color: rgba($code-foreground, $button-standard-opacity);
+
+  &:hover,
+  &:focus {
+    background-color: rgba($code-foreground, $button-hovered-opacity);
+  }
 }
 
 .highlight {
@@ -76,11 +86,11 @@ a.title {
 }
 
 .footnotes {
-  border-top-color: #eee;
-  border-top-style: solid;
-  border-top-width: 2px;
-  margin-top: 20px;
-  padding-top: 20px;
+  // border-top-color: #eee;
+  // border-top-style: solid;
+  // border-top-width: 2px;
+  // margin-top: 20px;
+  // padding-top: 20px;
   padding-left: 5%;
   padding-right: 5%;
   font-size: $font-size * 0.9;
