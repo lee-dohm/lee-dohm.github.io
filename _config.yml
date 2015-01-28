@@ -1,6 +1,6 @@
 
 # jekyll configuration
-markdown: redcarpet
+markdown: CustomConverter
 permalink: date
 safe: false
 exclude:
