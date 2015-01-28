@@ -5,6 +5,9 @@ require 'redcarpet'
 class CustomRenderer < Redcarpet::Render::HTML
   include Redcarpet::Render::SmartyPants
 
+  # Customized code syntax highlighting.
+  #
+  # Includes support for line numbers.
   def block_code(code, language)
     Pygments.highlight(code, lexer: language, options: { lineanchors: 'line' })
   end
@@ -14,17 +17,26 @@ end
 
 # Custom Markdown converter.
 class Jekyll::Converters::Markdown::CustomConverter
+  # Initializes a new instance of the custom converter.
   def initialize(config)
     @config = config
   end
 
+  # Convert the content using the custom Redcarpet renderer.
+  #
+  # @param content Content to convert.
+  # @return [String] Generated HTML.
   def convert(content)
     renderer = Redcarpet::Markdown.new(CustomRenderer, config_to_hash)
     renderer.render(content)
   end
 
+  private
+
   # rubocop:disable Style/EachWithObject
 
+  # Converts the standard Redcarpet extensions array from the `_config.yml` into the options hash
+  # that Redcarpet expects.
   def config_to_hash
     extensions = @config['redcarpet']['extensions']
     extensions.reduce({}) do |hash, ext|
