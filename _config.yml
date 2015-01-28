@@ -21,6 +21,7 @@ redcarpet:
     - fenced_code_blocks
     - footnotes
     - superscript
+    - with_toc_data
 
 emoji_dir: images/emoji
 
