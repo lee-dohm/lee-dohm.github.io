@@ -68,6 +68,10 @@ def get_url(task_name)
   ENV['url']
 end
 
+def open_post(path)
+  sh("atom #{path}")
+end
+
 # Reads a post and returns its metadata and content.
 #
 # @param [String] path Path to the post.
@@ -105,6 +109,7 @@ task :draft do |task_name|
   path = draft_filename(title)
   mkdir '_drafts' unless Dir.exist?('_drafts')
   write_post(path, metadata)
+  open_post(path)
 end
 
 desc 'Publish a draft, must supply title='
@@ -140,6 +145,7 @@ task :link do |task_name|
   path = filename(title, now)
   mkdir '_posts' unless Dir.exist?('_posts')
   write_post(path, metadata)
+  open_post(path)
 end
 
 desc 'Start the Jekyll server for local validation'
