@@ -1,2 +1,6 @@
+# Exclude all Markdown files in the drafts directory except README.md
+_drafts/*.md
+!_drafts/README.md
+
 _site/
 .sass-cache/
