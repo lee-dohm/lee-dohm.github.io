@@ -40,10 +40,10 @@ My other passions are video games, scuba diving and whatever shiny thing has cau
 
 I can be found in the following ways:
 
-* <a href="mailto:lee@lee-dohm.com">Email</a>
-* [GitHub Profile][github]
-* [Stack Overflow Profile][stack-overflow]
-* [Twitter][twitter]
+* <a href="mailto:lee@lee-dohm.com">Email <span class="octicon octicon-mail"></span></a>
+* [GitHub <span class="octicon octicon-mark-github"></span>][github]
+* [Stack Exchange <i class="fa fa-stack-exchange"></i>][stack-overflow]
+* [Twitter <i class="fa fa-twitter"></i>][twitter]
 
 <a href="http://stackoverflow.com/users/1954/lee">
 <img src="http://stackoverflow.com/users/flair/1954.png" width="208" height="58" alt="profile for Lee at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Lee at Stack Overflow, Q&amp;A for professional and enthusiast programmers">

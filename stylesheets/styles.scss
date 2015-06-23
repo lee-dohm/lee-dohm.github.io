@@ -69,6 +69,11 @@ a.title {
   text-decoration: none;
 }
 
+.contact-list {
+  display: inline;
+  list-type: none;
+}
+
 .content {
   margin-bottom: $line-height * 2;
 }
