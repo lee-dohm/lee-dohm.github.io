@@ -76,3 +76,6 @@ DEPENDENCIES
   jekyll (~> 2.0)
   nokogiri
   rake
+
+BUNDLED WITH
+   1.10.3
