@@ -19,10 +19,12 @@ Even when the success rate is unrealistically high and the false positive rate i
 This means that \\(1million \times 99\% \simeq ~1million\\). But \\(300million \times 1\% = 3million\\)! This means that even in this unrealistic example the system will be returning *three times as many bad results as good ones*. And it only gets worse the more realistic you make the numbers:
 
 * Population of 300 million
-* 1 million of the population are Group A
+* 1 million of the population are Group A[^number-of-terrorists]
 * Success Rate = 50% \\(\Rightarrow 1million \times 50\% = 0.5million\\)
 * False Positive Rate = 20% \\(\Rightarrow 300million \times 20\% = 60million\\)
 
 Which means **bad results outnumber good by nearly 120 times** and that now you have to investigate 60.5 million people. And 60 million of them are completely innocent.
 
 How is this *not* a horrific invasion of privacy for **zero** real benefit again?
+
+[^number-of-terrorists]: There are only 400,000 entries on the FBI's [Terrorist Watch List](https://en.wikipedia.org/wiki/Terrorist_Screening_Database), so even 1 million is unrealistically high. The futility of wholesale surveillance is only more apparent the more realistic the scenarios.
