@@ -163,12 +163,7 @@ task :dump_config do
   puts Jekyll.configuration({}).to_yaml
 end
 
-task push: [:publish] do
-  puts "The `push` task is deprecated. Use `publish` instead."
-end
-
-desc 'Generate and push blog'
-task publish: [:generate] do
+task push: [:generate] do
   Dir.mktmpdir do |tmp|
     cp_r '_site/.', tmp
     Dir.chdir tmp
