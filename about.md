@@ -35,6 +35,7 @@ I have also worked with many, many programming languages over the years:
 * Ruby
 * R[^2]
 * CoffeeScript/JavaScript
+* Elixir
 
 My other passions are video games, scuba diving and whatever shiny thing has caught my attention this week. (There is a half-built quadracopter "drone" in the garage that I keep telling myself I need to finish.) But for a twist of fate, I could have ended up a physicist, that being what I decided I wanted to be when I grew up long ago and what I majored in college ... before dropping out and learning just how much it cost to support oneself. I still dream of someday getting a Ph.D. in quantum computing and melding my first love with my current love, but that hasn't happened yet. I also never did get that Bachelor's degree ...
 
