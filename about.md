@@ -46,6 +46,8 @@ I can be found in the following ways:
 * [Stack Exchange <i class="fa fa-stack-exchange"></i>][stack-overflow]
 * [Twitter <i class="fa fa-twitter"></i>][twitter]
 
+You can see the packages I've written and maintain for [Atom][atom] here: [Atom Author Page][package-author]
+
 <a href="http://stackoverflow.com/users/1954/lee">
 <img src="http://stackoverflow.com/users/flair/1954.png" width="208" height="58" alt="profile for Lee at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Lee at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
 </a>
@@ -53,7 +55,9 @@ I can be found in the following ways:
 [^1]: Like with [line numbers][line-numbers] and everything!
 [^2]: More for data analysis than actual programming, but it replaced the need to write a bunch of tools.
 
+[atom]: https://atom.io
 [github]: https://github.com/lee-dohm
 [line-numbers]: http://en.wikipedia.org/wiki/Line_number
+[package-author]: https://atom.io/users/lee-dohm
 [stack-overflow]: http://stackoverflow.com/users/1954/lee
 [twitter]: https://twitter.com/leedohm
