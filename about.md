@@ -20,7 +20,6 @@ I have also worked with many, many programming languages over the years:
 
 * BASIC[^1]
 * 6502 Assembler
-* Logo
 * Pascal
 * C
 * x86 Assembler
