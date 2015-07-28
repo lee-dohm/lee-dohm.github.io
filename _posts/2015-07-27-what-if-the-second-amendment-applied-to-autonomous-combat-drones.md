@@ -19,7 +19,7 @@ As was popularized in [a favorite movie of my youth][war-games], when the world 
 
 The world doesn't need more efficient, less guilt-ridden, easier and cheaper ways to kill people.
 
-[^1]: [A poll in 2004][ownership] found that 26% of individuals stated they owned at least one firearm. Almost half (48%) of those individuals reported owning *more than three* firearms.
+[^1]: [A poll in 2004][ownership] found that 26% of individuals in the United States stated they owned at least one firearm. Almost half (48%) of those individuals reported owning *more than three* firearms.
 [^2]: One theory about why "spree killers" take their own lives is to deny society its punishment of them. If they do not feel they will be caught, would they perhaps not kill themselves and then be able to kill again?
 [^3]: Talking about technologies falling into "the wrong hands" of course presupposes that the military having them is "the right hands", which is **not** a given in my book.
 
