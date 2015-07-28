@@ -7,7 +7,7 @@ title: Appearances
 
 I haven't made many public appearances yet. I hope to have more in the future.
 
-* [GitHub CodeConf 2015](http://codeconf.com/) &mdash; June 25<sup>th</sup> and 26<sup>th</sup> in Nashville, TN, USA &mdash; [Slide Deck with Speaker Notes](https://speakerdeck.com/leedohm/conversational-aikido-1)
+* Conversational Aikido at [GitHub CodeConf 2015](http://codeconf.com/) &mdash; June 25<sup>th</sup> and 26<sup>th</sup> in Nashville, TN, USA &mdash; [Slide Deck with Speaker Notes](https://speakerdeck.com/leedohm/conversational-aikido-1)
 
 ## Bio
 
