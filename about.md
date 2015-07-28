@@ -23,7 +23,7 @@ I have also worked with many, many programming languages over the years:
 * Logo
 * Pascal
 * C
-* 8086 Assembler
+* x86 Assembler
 * C++
 * PHP
 * ASP v1
