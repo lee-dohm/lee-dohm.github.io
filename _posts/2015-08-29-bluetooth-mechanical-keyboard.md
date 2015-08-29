@@ -28,7 +28,7 @@ The [PBT plastic](http://deskthority.net/wiki/Keycap_construction#PBT) key caps 
 * Bluetooth LE connectivity
 * Comes with a USB cable, but it is *only* for charging the internal battery which reportedly lasts for at least a week on a charge[^1]
 * Ultra-durable PBT key caps with either top-printed or front-printed legends
-* Choice of color for the metal case (black or white)
+* Choice of color for the case (black or white)
 * Choice of color for the LED backlighting (white, red, blue or none)
 * Choice of key switches from two manufacturers
 
