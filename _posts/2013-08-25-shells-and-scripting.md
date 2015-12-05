@@ -24,11 +24,40 @@ Let's take a look at an example. I wrote some code to reorder the `PATH` environ
 
 This is the implementation in fish:
 
-{% gist 6337324 relocate.fish %}
+```bash
+set --local bin_index (contains --index /usr/bin $PATH)
+set --local local_bin_index (contains --index /usr/local/bin $PATH)
+
+if test $local_bin_index -gt $bin_index
+    set --erase $PATH[$local_bin_index]
+
+    set --local local_path ''
+    if test (math $bin_index - 1) -gt 0
+        set local_path $PATH[1..(math $bin_index - 1)]
+    end
+
+    set local_path $local_path /usr/local/bin
+    set local_path $local_path $PATH[$bin_index..-1]
+
+    set --global --export PATH $local_path
+end
+```
 
 And here is the equivalent Ruby code:
 
-{% gist 6337324 relocate.rb %}
+```ruby
+path = ENV['PATH'].split(/:/)
+
+bin_index = path.find_index('/usr/bin')
+local_bin_index = path.find_index('/usr/local/bin')
+
+if local_bin_index > bin_index
+  path.delete_at(local_bin_index)
+  path.insert(bin_index, '/usr/local/bin')
+
+  ENV['PATH'] = path
+end
+```
 
 Ruby has a reputation for being concise, so let's not look at line counts and such.[^3] But the *clarity* of the code is clearly worse in fish ... maybe not a lot worse, but worse all the same. I don't count this as a fault of fish shell. It isn't meant to be a general-purpose programming language and the code here is *much* more concise, readable, understandable and maintainable than the same thing would be in bash! The fish language is way ahead of other shell scripting languages,[^4] but that's not a high bar. I mean, it's on their homepage, "Finally, a command line shell for the 90s". And they're joking, but only just.
 

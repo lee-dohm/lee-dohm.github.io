@@ -21,7 +21,7 @@ module Jekyll
     # @param context [Liquid::Context] Current Liquid template engine state.
     # @return [Integer] Year of the earliest post.
     def calculate_base_year(context)
-      context.registers[:site].posts.map { |post| post.date.year }.min
+      context.registers[:site].documents.map { |post| post.date.year }.min
     end
   end
 end

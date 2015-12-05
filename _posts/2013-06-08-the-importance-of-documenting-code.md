@@ -9,7 +9,13 @@ One of the ideas I notice gaining traction lately in software development is the
 
 Pop quiz, hotshot! What does the following code do?
 
-{% gist 5722529 undocumented.rb %}
+```ruby
+def valid_color?(color)
+  return color =~ /^#[0-9A-Fa-f]{3}([0-9A-Fa-f]{3})?$/ if color[0] == '#'
+
+  COLOR_NAMES.include?(color)
+end
+```
 
 Take a really good look. Really try to figure it out, including all of the edge cases. Now, take a look at the [documented version][documented]. Were you right?
 

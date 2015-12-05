@@ -5,9 +5,9 @@
 module Jekyll
   class PostArchiveTag < Liquid::Tag
     def render(context)
-      posts = context.registers[:site].posts
+      docs = context.registers[:site].documents
 
-      render_years(posts)
+      render_years(docs)
     end
 
     def render_years(posts)
@@ -44,12 +44,12 @@ module Jekyll
       lines << "<!-- Rendering month #{month} #{year} -->"
       lines << '<!-- Rendering posts -->'
 
-      ps = posts.select { |post| post.date.year == year && post.date.month == month }.
-                 sort { |x, y| y.date <=> x.date }
+      ps = posts.select { |post| post.date.year == year && post.date.month == month }
+                .sort { |x, y| y.date <=> x.date }
 
       lines << '<ul>'
       ps.each do |post|
-        lines << "<li><a href=\"#{post.url}\">#{post.title}</a></li>"
+        lines << "<li><a href=\"#{post.url}\">#{post.data["title"]}</a></li>"
       end
       lines << '</ul>'
 
