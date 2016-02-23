@@ -2,7 +2,8 @@
 layout: post
 title: The Evil That Is the Credit Industry
 tags: Guy
-date: 2011-04-15 09:51:00 -0700
+date: 2011-04-15 09:51:00.000000000 -07:00
+alias: 2011/04/15/the-evil-that-is-the-credit-industry.html
 ---
 
 I've had my problems with credit.  I never got to the [Confessions of a Shopaholic](http://www.imdb.com/title/tt1093908/) level, but a long time ago I realized my limitations and simply cut myself off from the credit world.  I paid in cash or money orders for a couple years and then when debit cards came out I used them.  The last two cars I've owned were paid for in cash and there is almost nothing more liberating than knowing you don't have that $200-500 per month payment that it seems all your friends have.  It was a good way to live.

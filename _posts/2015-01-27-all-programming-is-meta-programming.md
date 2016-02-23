@@ -2,6 +2,7 @@
 layout: post
 title: All Programming is Meta-Programming
 date: 2015-01-27 00:02:26.958502000 -08:00
+alias: 2015/01/27/all-programming-is-meta-programming.html
 ---
 
 At my day job, I'm currently working on a project that I'm building in Ruby. I'm building it in Ruby because I feel that it is the best tool for the job. Unfortunately, my coworkers don't have the same wealth of experience with Ruby that I do, so a few of them are showing signs of trepidation. They're worried about Ruby's syntax quirks (essentially, that it isn't a C-style language). They've got concerns about all of the "unnecessary syntactic sugar" or "crazy magic" that Ruby has. But when we write code, we're always working with abstractions and layering them one on top of the other until we can do our job with a single statement.

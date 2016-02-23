@@ -3,6 +3,7 @@ layout: link
 title: 2014 Metacritic Game Publisher Rankings
 address: http://www.metacritic.com/feature/game-publisher-rankings-for-2014-releases
 date: 2015-01-27 13:44:27.308683000 -08:00
+alias: 2015/01/27/2014-metacritic-game-publisher-rankings.html
 ---
 
 Theoretically they're the 2015 rankings in that they are published in 2015, but they're only for games released in 2014 ...

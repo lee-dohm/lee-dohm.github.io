@@ -3,6 +3,7 @@ layout: post
 title: Be Excellent to Each Other
 tags: Guy
 date: 2013-12-20 16:06:25.264202000 -08:00
+alias: 2013/12/20/be-excellent-to-each-other.html
 ---
 
 In a haunt of mine, someone was pointing to, among other things, [this article](http://www.businessinsider.com/silicon-valley-arrogance-bubble-2013-12) which talks about various examples of people in the tech industry being elitist, arrogant or myopic. The question that came out of it was what can we do, as members of the tech industry, to make the world a better place. I felt inspired to address this by correcting what I saw as flaws in the reasoning of the article and then continue by giving my advice.

@@ -2,6 +2,7 @@
 layout: post
 title: Using Project-Specific Gems Without Bundle Exec
 date: 2015-01-29 08:34:14.619757000 -08:00
+alias: 2015/01/29/using-project-specific-gems-without-bundle-exec.html
 ---
 
 If you use Ruby a lot like I do, you've probably gone through at least a few steps of this cycle:

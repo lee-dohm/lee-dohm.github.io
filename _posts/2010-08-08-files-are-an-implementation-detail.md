@@ -2,7 +2,8 @@
 layout: post
 title: Files Are an Implementation Detail
 tags: Coder Geeky
-date: 2010-08-08 08:46:00 -0700
+date: 2010-08-08 08:46:00.000000000 -07:00
+alias: 2010/08/08/files-are-an-implementation-detail.html
 ---
 
 John C. Dvorak recently wrote that [the desktop gets no respect, and it should](http://www.pcmag.com/article2/0,2817,2367202,00.asp).  This column has been a source of discussion and disagreement between my friends since it made the rounds.  Leaving aside the whole "licensing" issue, what Mr. Dvorak nearly captures is the divide between what most people need to use computers for and what professionals need to use computers for.  He claims that the desktop can do things that appliances can't.  I disagree, one only needs to look at the [TiVo](http://en.wikipedia.org/wiki/TiVo) to see an example of an appliance that does things that one would once have needed a desktop computer to do or had to do manually.  But let me start by defining my terms ...

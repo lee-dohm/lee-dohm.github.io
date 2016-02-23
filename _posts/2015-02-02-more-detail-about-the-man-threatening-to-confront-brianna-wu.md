@@ -3,6 +3,7 @@ layout: link
 title: More Detail About the Man Threatening to "Confront" Brianna Wu
 address: http://jezebel.com/a-man-is-making-bizarre-terrifying-youtube-videos-abou-1683221832
 date: 2015-02-02 08:42:16.888845000 -08:00
+alias: 2015/02/02/more-detail-about-the-man-threatening-to-confront-brianna-wu.html
 ---
 
 From the link:

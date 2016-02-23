@@ -2,7 +2,8 @@
 layout: post
 title: Why I'm Considering Dumping Facebook for Google Buzz
 tags: Geeky Google Facebook
-date: 2010-07-08 23:30:00 -0700
+date: 2010-07-08 23:30:00.000000000 -07:00
+alias: 2010/07/08/why-im-considering-dumping-facebook-for-google-buzz.html
 ---
 
 I've been following the various Facebook privacy debates and I've been just as concerned as many people, but the reality, or so I thought, is that there weren't other good options. I really like being able to update all of my friends, family and extended acquaintances on (not so) significant happenings in my life in one easy motion. I like being able to easily share stuff like pictures, videos, links and commentary with these same people. I enjoy posting nonsensical musings that might make people smile, but if people don't have time ... they don't even have to delete them from their inbox. As far as I knew, there weren't other worthwhile[^1] sites that offered that kind of functionality.

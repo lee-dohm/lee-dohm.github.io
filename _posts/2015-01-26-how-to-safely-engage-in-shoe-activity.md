@@ -3,6 +3,7 @@ layout: link
 title: How to Safely Engage in "Shoe" Activity
 address: https://www.youtube.com/watch?v=06kT9yfj7QE
 date: 2015-01-26 12:23:19.496757000 -08:00
+alias: 2015/01/26/how-to-safely-engage-in-shoe-activity.html
 ---
 
 From [Mother Jones][mother-jones]:

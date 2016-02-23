@@ -2,6 +2,7 @@
 layout: post
 title: Numeric Breakdown of Why Wholesale Surveillance Doesn't Work
 date: 2015-07-10 18:20:39.674462000 -07:00
+alias: 2015/07/10/numeric-breakdown-of-why-wholesale-surveillance-doesnt-work.html
 ---
 
 Reddit user [/u/0v3rk1ll](https://www.reddit.com/user/0v3rk1ll) gave [a detailed explanation](https://www.reddit.com/r/india/comments/3csl2y/wikileaks_releases_over_a_million_emails_from/csyjuw6) of exactly why invading the privacy of an entire country simply does not yield useful results. It boils down to the fact that for every system that is used to examine an item and then make a determination whether that item falls into Group A (in this case Terrorists) or Group B (not Terrorists) has two important qualities:

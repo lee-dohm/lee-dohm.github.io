@@ -3,6 +3,7 @@ layout: link
 title: The FBI Doesn't Want to Have to Force Tech Companies to Weaken Encryption
 address: http://www.theguardian.com/commentisfree/2015/jul/09/government-access-backdoor-encryption-bad
 date: 2015-07-09 23:26:13.977299000 -07:00
+alias: 2015/07/09/fbi-doesnt-want-to-have-to-force-tech-companies-to-weaken-encryption.html
 ---
 
 > It’s never a good sign when you have to declare during a debate that "I really am not a maniac."

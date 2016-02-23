@@ -2,7 +2,8 @@
 layout: post
 title: Making Your Own Tools
 tags: Coder Geeky
-date: 2011-10-16 11:40:00 -0700
+date: 2011-10-16 11:40:00.000000000 -07:00
+alias: 2011/10/16/making-your-own-tools.html
 ---
 
 I remember reading somewhere that you aren't a real carpenter until you've made your own tools.  Not being a carpenter of any sort, I'm not sure if its true or not, but I've started to feel like it might be true for programmers.

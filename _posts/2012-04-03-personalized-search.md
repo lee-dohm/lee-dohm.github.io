@@ -2,7 +2,8 @@
 layout: post
 title: Personalized Search
 tags: Geeky
-date: 2012-04-03 10:22:00 -0700
+date: 2012-04-03 10:22:00.000000000 -07:00
+alias: 2012/04/03/personalized-search.html
 ---
 
 I have a great idea for a search engine to implement.  I have multiple tools at my disposal for trying to remember stuff that is on the Internet.  I can make a bookmark in my web browser.  I can use a tool like [Instapaper](http://www.instapaper.com).  For programming, I can make a question and answer on [Stack Overflow](http://www.stackoverflow.com).  But these are all a bunch of data silos.  I can't readily search across all of them.  And if I forget where I read that one article ... did I archive it on Instapaper?  Did I drop it into Evernote?  I have a solution ...

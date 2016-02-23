@@ -2,7 +2,8 @@
 layout: post
 title: The Ultimate Set Top Box
 tags: Gamer Geeky
-date: 2011-03-27 11:04:00 -0700
+date: 2011-03-27 11:04:00.000000000 -07:00
+alias: 2011/03/27/the-ultimate-set-top-box.html
 ---
 
 I struck upon an idea the other night while talking to a friend on the phone.  Wouldn't it be great if I could get rid of the series of boxes in my entertainment center?  Ok, perhaps getting rid of all of them is too much to ask, but I don't think that reducing down to the TV and one "set-top" box is going too far.

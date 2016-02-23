@@ -3,7 +3,14 @@ layout: post
 title: Installing PostgreSQL for Rails development on OS X
 tags: Coder
 date: 2013-09-01 11:48:09.594276000 -07:00
-excerpt: I'm playing around with writing a [Rails](http://rubyonrails.org) application, just to learn new things. At the same time, I wanted to understand why everyone in the Rails community seems to be using [Heroku](https://www.heroku.com). And since Heroku defaults to using [PostgreSQL](http://www.postgresql.org) for the database backend when you use Rails, I have to now set up a PostgreSQL environment on my Mac for development. This turned out to be harder than I first expected. This is how I got it to work.
+excerpt: I'm playing around with writing a [Rails](http://rubyonrails.org) application,
+  just to learn new things. At the same time, I wanted to understand why everyone
+  in the Rails community seems to be using [Heroku](https://www.heroku.com). And since
+  Heroku defaults to using [PostgreSQL](http://www.postgresql.org) for the database
+  backend when you use Rails, I have to now set up a PostgreSQL environment on my
+  Mac for development. This turned out to be harder than I first expected. This is
+  how I got it to work.
+alias: 2013/09/01/installing-postgresql-for-rails-development-on-osx.html
 ---
 
 *Edit: Some of the commands below have changed from their initial versions to reflect things I've learned since getting it all up and running. It has also been broken out into sections.*

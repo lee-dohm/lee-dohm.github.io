@@ -3,6 +3,7 @@ layout: post
 title: Converting Linguist for Atom
 tags: Coder Linguist
 date: 2015-01-10 17:38:47.447217000 -08:00
+alias: 2015/01/10/converting-linguist-for-atom.html
 ---
 
 One of the more interesting (but lesser known) bits of technology that [GitHub][github] has released upon the world is a library called [Linguist][linguist]. Linguist is used to determine the primary language in any programming source code file. It checks the file name, some basic heuristics and then resorts to [Bayesian classification][bayes] to get the list of candidates down to one and only one result. This would be very useful for Atom so that it could be hyper-accurate in its guess of what language someone is editing so that all of the grammar-dependent language features would work automatically.

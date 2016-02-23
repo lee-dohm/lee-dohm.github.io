@@ -2,7 +2,8 @@
 layout: post
 title: The Perfect IDE
 tags: Coder
-date: 2010-07-10 13:35:00 -0700
+date: 2010-07-10 13:35:00.000000000 -07:00
+alias: 2010/07/10/the-perfect-ide.html
 ---
 
 I've been writing a bunch of code lately for an [Android](http://www.android.com) project I'm working on.  What this means is that I've been writing Java code in [Eclipse](http://www.eclipse.org).  The Java part isn't bad, though coming from C# and .NET there are a lot of things that I miss.  But that isn't what this is about ... this about IDEs, Integrated Development Environments.  I don't know if [Borland](http://en.wikipedia.org/wiki/Borland)'s Turbo products, [Turbo Pascal](http://en.wikipedia.org/wiki/Turbo_Pascal) being my introduction to the company, were the first ever IDEs, but they were probably pretty close.  Back in those days, one needed an IDE because computers could only run one program at a time ... so running an editor, then leaving it to compile, then running a debugger, etc was all a big pain.  Now, computers are never running just one program ... and even programs are doing multiple things at once.  My phone, right now, has a couple programs running on it with at least seven threads each.  But I digress ...

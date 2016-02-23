@@ -2,6 +2,7 @@
 layout: post
 title: Bluetooth Mechanical Keyboard
 date: 2015-08-29 00:18:59.687187000 -07:00
+alias: 2015/08/29/bluetooth-mechanical-keyboard.html
 ---
 
 I'm a fan of what is referred to as "mechanical keyboards". They are keyboards with certain kinds of key switches that use levers and springs to give a specifically designed resistance curve to give more tactile and optionally auditory feedback to someone who is used to touch typing. I've purchased a fair number of them and have quite the selection to choose from in various forms. But the one thing that all of these mechanical keyboards have in common ... the cable.

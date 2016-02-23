@@ -1,8 +1,10 @@
 ---
 layout: link
-title: MPAA Emails Reveal Plan with Media and Mississippi Attorney General to Attack Google
+title: MPAA Emails Reveal Plan with Media and Mississippi Attorney General to Attack
+  Google
 address: https://www.techdirt.com/articles/20150724/15501631756/smoking-gun-mpaa-emails-reveal-plan-to-run-anti-google-smear-campaign-via-today-show-wsj.shtml
 date: 2015-07-26 11:23:17.813518000 -07:00
+alias: 2015/07/26/mpaa-emails-reveal-plan-with-media-and-mississippi-attorney-general-to-attack-google.html
 ---
 
 > However, in a filing on Thursday, Google revealed one of the few emails that they have been able to get access to so far, and it's stunning. It's an email between the MPAA and two of [the Mississippi Attorney General's] top lawyers ... discussing the big plan to "hurt" Google. Beyond influencing other Attorneys General (using misleading fake "setups" of searches for "bad" material) and paying for fake anti-Google research, the lawyers from Hood's office flat out admit that they're expecting the MPAA and the major studios to have its media arms run a coordinated propaganda campaign of bogus anti-Google stories

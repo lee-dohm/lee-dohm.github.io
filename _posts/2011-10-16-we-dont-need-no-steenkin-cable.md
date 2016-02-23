@@ -2,7 +2,8 @@
 layout: post
 title: We Don't Need No Steenkin' Cable!
 tags: Geeky
-date: 2011-10-16 13:00:00 -0700
+date: 2011-10-16 13:00:00.000000000 -07:00
+alias: 2011/10/16/we-dont-need-no-steenkin-cable.html
 ---
 
 Back in March, I wrote a post about [The Ultimate Set-Top Box](/2011/03/27/the-ultimate-set-top-box.html).  I've been thinking a lot about it lately and the fact that I just don't watch much cable TV anymore.  Sure, when I'm bored I occasionally flip through the things on my TiVo, but it wouldn't be any huge hardship to choose something else like reading a book, playing a video game or working on a programming hobby project.  So the question is ... how much extra am I spending on a cable subscription that I don't need?

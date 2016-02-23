@@ -2,7 +2,8 @@
 layout: post
 title: Greedy Fat Cats
 tags: Gamer
-date: 2012-01-30 20:15:00 -0700
+date: 2012-01-30 19:15:00.000000000 -08:00
+alias: 2012/01/30/greedy-fat-cats.html
 ---
 
 I've been a long-time reader of [Penny Arcade](http://www.penny-arcade.com) and even been an [Enforcer](http://en.wikipedia.org/wiki/Enforcer) at [PAX](http://paxsite.com) for the first six years of its existence.  I have a ton of respect for the folks behind Penny Arcade including Mike Krahulik, Jerry Holkins and Robert Khoo among others.  Today, [Mike tweeted](https://twitter.com/cwgabriel/status/164146574606340096), "... Gamestop is a greedy fat cat that didn't do shit."  I have very specifically taken this quote out of context because I find the comment itself interesting as an indication just how much the Internet has changed things in our world.

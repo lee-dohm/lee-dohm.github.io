@@ -3,6 +3,7 @@ layout: post
 title: Alderson Loop
 tags: Coder Geeky
 date: 2013-05-24 13:46:47.923019000 -07:00
+alias: 2013/05/24/alderson-loop.html
 ---
 
 Long, long ago at a [microprocessor manufacturing][intel] company far, far away, there were three newbie programmers. One of these was working on a bug tracking system for the team, writing it in [Microsoft Access][access]. He made a mistake and created a dialog box so powerful that not only could it not be dismissed, but one had to force quit the application in order to get rid of it. The other two took to joking about it and called it an Alderson Loop after the last name of the programmer who had made the mistake.

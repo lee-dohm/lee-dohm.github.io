@@ -2,7 +2,8 @@
 layout: post
 title: Trials and Tribulations with My New iMac
 tags: Geeky Mac
-date: 2012-01-20 09:29:00 -0700
+date: 2012-01-20 08:29:00.000000000 -08:00
+alias: 2012/01/20/trials-and-tribulations-with-my-new-imac.html
 ---
 
 I recently bought a new [iMac](http://www.apple.com/imac), making my conversion to The Dark Side complete. I got it almost completely tricked out. I was especially glad to get the SSD/HD combination. It's a 240GB SSD for the system drive and then a 1TB HD for whatever. The problem is that the way the system comes configured from the factory you would end up just using the SSD for everything unless you do some wizardry first. So I had to go and teach myself the wizardry through a couple failed attempts before I landed on what I believe, now, to be the proper solution.

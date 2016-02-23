@@ -3,6 +3,7 @@ layout: post
 title: Code Smells as a Code Review Language
 tags: Coder
 date: 2013-08-11 22:02:52.819699000 -07:00
+alias: 2013/08/11/code-smells-as-a-code-review-language.html
 ---
 
 I've been thinking a lot about code reviews lately. I've been thinking about how to make code reviews less tedious by automating as much as possible. By automating code style checks and performing simple [lint][lint]-like static analysis, for example. But once that job is done, what then? Once the code reviewers are freed from checking for the simple mistakes and non-conformance to standards, what is left to check for? Well, this is where code reviews can become really valuable but only when we have a quick, compact method for expressing *how* or *why* the code needs to be changed.

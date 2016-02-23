@@ -3,6 +3,7 @@ layout: post
 title: Line Length Guidelines
 tags: Coder Geeky
 date: 2013-09-14 16:10:09.236039000 -07:00
+alias: 2013/09/14/line-length-guidelines.html
 ---
 
 I contribute as I can to the [Ruby Style Guide][guide] maintained by [Bozhidar Batsov][batsov]. One of the most hotly debated topics is the guideline of keeping lines of code to eighty characters or fewer. Bozhidar even discussed maximum line length in [his first blog post][reasoning] explaining the reasoning behind some of the guidelines. He, and the commenters on that post, bring up some points in support of the eighty-character limit but I wanted to take a look at "representative" code and see what line length people naturally kept themselves within. I believe most good coders naturally keep themselves to shorter lines except when they need to have a longer line to properly express an idea.

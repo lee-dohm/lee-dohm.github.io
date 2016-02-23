@@ -3,6 +3,7 @@ layout: post
 title: Taking the "P" out of PvP
 tags: Gamer
 date: 2014-09-05 07:24:39.542800000 -07:00
+alias: 2014/09/05/taking-the-p-out-of-pvp.html
 ---
 
 One of the things that people often request in multiplayer games is more ways to interact. They want more ways to make an impression on the environment or more ways to create a lasting impact. The problem is that a broad category of these requests are ways to create a lasting impact on other players.

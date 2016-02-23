@@ -3,6 +3,7 @@ layout: post
 title: Writing Good Bug Reports
 tags: Coder
 date: 2015-01-04 14:37:46.601612000 -08:00
+alias: 2015/01/04/writing-good-bug-reports.html
 ---
 
 If there is only one thing that is true about all computer science, it is that every program beyond "Hello World" has bugs. And when a bug happens, you want it to get fixed. You know what the best way to get a bug fixed is, whether it is someone else's or your own? Writing a good bug report.

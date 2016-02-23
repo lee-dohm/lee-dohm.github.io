@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "das Keyboard: One Year Later"
+title: 'das Keyboard: One Year Later'
 tags: Geeky
-date: 2013-05-18 13:47:50 -0700
+date: 2013-05-18 13:47:50.000000000 -07:00
+alias: 2013/05/18/das-keyboard-one-year-later.html
 ---
 
 So it's been a little over a year since I got my [das Keyboard for Mac][das_keyboard]. I liked it so much, I got myself a second one for work. Let's take a look and see how things are now that I've spent some serious time with it, both at work and at home.

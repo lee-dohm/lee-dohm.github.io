@@ -2,7 +2,8 @@
 layout: post
 title: The March of Progress
 tags: Geeky
-date: 2010-09-27 13:17:00 -0700
+date: 2010-09-27 13:17:00.000000000 -07:00
+alias: 2010/09/27/the-march-of-progress.html
 ---
 
 I'm on my way home from a programming conference in Baltimore right now, typing this out on my new laptop.  At the same time, I'm downloading videos from Amazon Video on Demand to watch on the flight through the airport Internet access.  In my backpack, I have my Amazon Kindle with ninety-two books on it and hundreds of thousands more available with a couple of mouse clicks.  In my pocket, I have my smartphone that can access virtually any website in the world, run a plethora of helpful applications as well as the more mundane placing and receiving of calls or text messages.  The battery in the phone lasts all day almost no matter what I do with it.  The battery in my laptop, if I'm careful, will last about five hours of active use.

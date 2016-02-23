@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Tribes: Ascend"
+title: 'Tribes: Ascend'
 tags: Gamer
-date: 2012-04-13 14:58:00 -0700
+date: 2012-04-13 14:58:00.000000000 -07:00
+alias: 2012/04/13/tribes-ascend.html
 ---
 
 A new entry in the [Tribes saga](http://en.wikipedia.org/wiki/Tribes_%28series%29) came out yesterday, [Tribes: Ascend](https://account.hirezstudios.com/tribesascend/default.aspx?ok=) ...

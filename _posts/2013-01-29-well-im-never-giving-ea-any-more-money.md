@@ -2,7 +2,8 @@
 layout: post
 title: Well, I'm Never Giving EA Any More Money
 tags: Gamer
-date: 2013-01-29 12:59:00 -0700
+date: 2013-01-29 11:59:00.000000000 -08:00
+alias: 2013/01/29/well-im-never-giving-ea-any-more-money.html
 ---
 
 There is only one word for [this behavior](http://www.techdirt.com/articles/20130127/19023721799/redditor-points-out-flaws-simcitys-online-only-drm-gets-banned-ea-his-troubles.shtml), reprehensible.

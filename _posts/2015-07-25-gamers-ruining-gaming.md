@@ -3,6 +3,7 @@ layout: link
 title: Gamers Ruining Gaming? Half-Life 3 May Never Be Released
 address: https://www.youtube.com/watch?v=50lSIaSR3zc
 date: 2015-07-25 14:33:41.326820000 -07:00
+alias: 2015/07/25/gamers-ruining-gaming.html
 ---
 
 According to this new rumor, the long-awaited next installment in the hugely popular [Half-Life series](http://valvesoftware.com/games/hl2.html) from [Valve](http://valvesoftware.com/) *may never be released*. The two reasons are, essentially:

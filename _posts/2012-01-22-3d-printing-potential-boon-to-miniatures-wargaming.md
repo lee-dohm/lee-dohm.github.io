@@ -2,7 +2,8 @@
 layout: post
 title: 3D Printing Potential Boon to Miniatures Wargaming
 tags: Geeky 3D_Printing
-date: 2012-01-22 10:53:00 -0700
+date: 2012-01-22 09:53:00.000000000 -08:00
+alias: 2012/01/22/3d-printing-potential-boon-to-miniatures-wargaming.html
 ---
 
 I've been following the [3D printing scene](http://www.youtube.com/watch?v=oyZxzkd-Jsk&feature=youtu.be) for a little while, thinking that I'd really like to get my hands on one of those and do something really cool with it.  3D printers like the [MakerBot Thing-O-Matic](http://store.makerbot.com/3d-printers.html) have the potential to be the beginning of something really special, I believe.  It's one of those ideas that I can't yet conceive of how it will revolutionize things, but I believe it will.  Perhaps this is how my parents felt when my dad was working with computers in the 1970s and thought that we should have a computer at home because they knew that it was going to be the future.  But I digress ...

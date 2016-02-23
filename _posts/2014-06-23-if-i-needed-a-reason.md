@@ -3,6 +3,7 @@ layout: post
 title: If I Needed a Reason ...
 tags: Coder
 date: 2014-06-23 07:14:52.652099000 -07:00
+alias: 2014/06/23/if-i-needed-a-reason.html
 ---
 
 ... why Atom is the right editor to be putting my effort into, the [Ask Stack package for Atom](https://atom.io/packages/ask-stack) (and others like it) would convince me.
