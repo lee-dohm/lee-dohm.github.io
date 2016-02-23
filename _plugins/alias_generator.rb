@@ -28,9 +28,7 @@
 # Plugin License: MIT
 
 module Jekyll
-
   class AliasGenerator < Generator
-
     def generate(site)
       @site = site
 
@@ -39,7 +37,7 @@ module Jekyll
     end
 
     def process_posts
-      @site.posts.each do |post|
+      @site.documents.each do |post|
         generate_aliases(post.url, post.data['alias'])
       end
     end
