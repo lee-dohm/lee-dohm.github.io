@@ -34,7 +34,7 @@ Other scripts that are available but not intended to be used directly by develop
 
 ## License
 
-The following directories and their contents are Copyright &copy; 2010-2015 by [Lee Dohm][lee-dohm]. You may not reuse anything therein without my permission:
+The following directories and their contents are Copyright &copy; 2010-2016 by [Lee Dohm][lee-dohm]. You may not reuse anything therein without my permission:
 
 * `_drafts/`
 * `_images/`
