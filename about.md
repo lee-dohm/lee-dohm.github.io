@@ -40,7 +40,7 @@ My other passions are video games, scuba diving and whatever shiny thing has cau
 
 I can be found in the following ways:
 
-* <a href="mailto:lee@lee-dohm.com">Email <span class="octicon octicon-mail"></span></a>
+* [Email <span class="octicon octicon-mail"></span>][email]
 * [GitHub <span class="octicon octicon-mark-github"></span>][github]
 * [Stack Exchange <i class="fa fa-stack-exchange"></i>][stack-overflow]
 * [Twitter <i class="fa fa-twitter"></i>][twitter]
@@ -55,6 +55,7 @@ You can see the packages I've written and maintain for [Atom][atom] here: [Atom 
 [^2]: More for data analysis than actual programming, but it replaced the need to write a bunch of tools.
 
 [atom]: https://atom.io
+[email]: mailto:lee@lee-dohm.com
 [github]: https://github.com/lee-dohm
 [line-numbers]: http://en.wikipedia.org/wiki/Line_number
 [package-author]: https://atom.io/users/lee-dohm
