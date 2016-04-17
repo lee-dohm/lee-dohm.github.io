@@ -11,7 +11,7 @@ Why yes, it does seem rather hipster of me to include a colophon on my blog. On 
 
 I use [Jekyll][jekyll], the blog-aware static site generator, to generate the content of the site from a bunch of text files.[^text-files]
 
-I write all of the articles in [Atom][atom] and publish them via [Git][git] to [GitHub Pages][pages]. I write everything on my [27" late-2014 Retina iMac][imac] running [OS X Yosemite][osx]. I use a [WASD v2 87-key keyboard][wasd-keyboard] with [Cherry MX Blue key switches][mx-blue] for all my typing.
+I write all of the articles in [Atom][atom] and publish them via [Git][git] to [GitHub Pages][pages]. I write everything on my [27" late-2014 Retina iMac][imac] running [OS X][osx]. I use a [WASD v2 87-key keyboard][wasd-keyboard] with [Cherry MX Blue key switches][mx-blue] for all my typing.
 
 I'm using [Twitter Bootstrap][bootstrap] for the theme of the site. The top navigation bar style was generated from the [Twitter Bootstrap 3 Navbar Generator][generator]. I chose [TARDIS Blue][tardis-blue] and white as my colors for it.
 
