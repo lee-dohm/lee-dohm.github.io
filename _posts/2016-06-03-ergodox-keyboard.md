@@ -13,3 +13,9 @@ ErgoDox is an "open-source" design. This means that anyone is free to take the i
 The best part about the ErgoDox, and the other designs available at Input:Club, is that it is fully programmable. I can create my own custom layouts and organize the keyboard however I wish. It is also a "layered" system, so I can use special modifier keys in my custom layouts to shift between Dvorak and QWERTY, or use part of the keyboard as a numeric keypad, or whatever else I can come up with!
 
 My latest firmware for my ErgoDox can be [found on GitHub](https://github.com/lee-dohm/kiibohd-controller).
+
+My specific choices for the keyboard:
+
+* **Switches:** Gateron Blue
+* **Keycaps:** [Granite](http://keypuller.com/granite/)
+* **LEDs:** No LEDs installed currently
