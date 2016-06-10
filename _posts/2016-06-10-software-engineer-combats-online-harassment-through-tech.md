@@ -2,7 +2,7 @@
 layout: link
 title: Software engineer combats online harassment, champions LGBT equality through
   tech
-url: http://www.bizjournals.com/sanfrancisco/print-edition/2016/06/10/february-keeney-github-tech-lgbt-pride-diversity.html
+address: http://www.bizjournals.com/sanfrancisco/print-edition/2016/06/10/february-keeney-github-tech-lgbt-pride-diversity.html
 date: 2016-06-10 09:33:57.823960000 -07:00
 ---
 
