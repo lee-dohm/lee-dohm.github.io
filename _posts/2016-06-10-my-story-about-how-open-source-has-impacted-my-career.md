@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Story About How Open Source Has Impacted My Career
+title: How Open Source Has Impacted My Career
 date: 2016-06-10 09:00:51.859554000 -07:00
 ---
 
