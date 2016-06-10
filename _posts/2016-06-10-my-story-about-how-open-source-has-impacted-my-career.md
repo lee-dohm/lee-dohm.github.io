@@ -20,11 +20,15 @@ I didn't become involved with open source software as a contributor until a few 
 
 **Q: Do you code? If so, were you a coder when you got started with open source, and how did you learn to code?**
 
-Yes, I code. [As I state on my About page](/about/), I've been learning about computers and how to code since the late 1970s. It was a mixture of reading books and magazines, taking general classes, experimenting, and some college sprinkled in the middle there. To be honest, I'm still learning to code :laughing: But yes, I feel that I was already a coder when I got started with open source.
+Yes, I code. [As I state on my About page](/about/), I've been learning about computers and how to code since the late 1970s. It was a mixture of reading books and magazines, taking general classes, experimenting, and some college sprinkled in the middle there. To be honest, I'm always learning and improving my coding skills. But yes, I was already a coder when I got started with open source.
 
 **Q: How have you participated in open source communities beyond code? Do you moderate forums, blog, tweet, give talks, push pixels, or support open source projects in some other way?**
 
-As I stated above, I'm the Community Manager for Atom and Electron. This includes moderating [Discuss, the official Atom and Electron message board](https://discuss.atom.io), writing on the [Atom blog](https://blog.atom.io), tweeting from my [personal account](https://twitter.com/leedohm) and the [Atom](https://twitter.com/AtomEditor) and [Electron](https://twitter.com/electronjs) accounts. I've also given exactly [one talk](https://speakerdeck.com/leedohm/conversational-aikido-1) at this time. I'm also a member of the Open Source virtual team within GitHub, working on improving open source on GitHub and in general.
+As I stated above, I'm the Community Manager for Atom and Electron. This includes moderating [Discuss, the official Atom and Electron message board](https://discuss.atom.io), writing on the [Atom blog](https://blog.atom.io), tweeting from my [personal account](https://twitter.com/leedohm) and the [Atom](https://twitter.com/AtomEditor) and [Electron](https://twitter.com/electronjs) accounts. Along with all of that, I lead the effort to triage all incoming Atom Issues.
+
+I've given exactly [one talk](https://speakerdeck.com/leedohm/conversational-aikido-1) at this time.
+
+I'm also a member of the Open Source virtual team within GitHub, working on improving open source on GitHub and in general.
 
 **Q: How did you make the leap from casual bystander to participant? Did you have any mentors along the way? What were the challenges and barriers to entry?**
 
