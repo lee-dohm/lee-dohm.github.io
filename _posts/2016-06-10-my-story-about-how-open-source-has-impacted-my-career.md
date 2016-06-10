@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Story About How Open Source Has Impacted My Career
-date: 2016-06-10 12:49:51.859554000 -07:00
+date: 2016-06-10 09:00:51.859554000 -07:00
 ---
 
 Another person I work with at [GitHub](https://github.com), [Brandon Keepers](https://github.com/bkeepers), is working on a talk about the relationship between community participation and careers. He's [asked a few questions](https://gist.github.com/bkeepers/b3bffa5b5d66f61a58f66c7cfddbca0a) of people who feel that open source has impacted their career. Since I feel I fall into that camp, I wanted to answer his questions and felt that others might be interested in my answers ... so here they are!
