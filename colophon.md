@@ -7,7 +7,7 @@ title: Colophon
 
 > **noun.** a statement at the end of a book, typically with a printer's emblem, giving information about its authorship and printing.
 
-Why yes, it does seem rather hipster of me to include a colophon on my blog. On the other hand, the colophon at the end of [O'Reilly][oreilly] books was always something that interested me and seemed cool.[^bbatsov] So, here's mine ...
+Why yes, it does seem rather hipster of me to include a colophon on my blog. On the other hand, the colophon at the end of [O'Reilly][oreilly] books was always something that interested me and seemed cool. So, here's mine ...
 
 I use [Jekyll][jekyll], the blog-aware static site generator, to generate the content of the site from a bunch of text files.[^text-files]
 
@@ -17,7 +17,6 @@ I'm using [Twitter Bootstrap][bootstrap] for the theme of the site. The top navi
 
 All of the source code for the site is available on [GitHub][source].
 
-[^bbatsov]: And the one on [Bozhidar Batsov's blog][bbatsov] looks pretty cool too.
 [^text-files]: Although, the content of the site, with the exception of a very few images, is just a bunch of text files anyway. So really, it just converts a bunch of text files of one type into a bunch of text files of another type. I'm going to stop talking now before I suck all the magic out of it.
 
 [atom]: /2014/05/29/the-perfect-editor-redux.html
