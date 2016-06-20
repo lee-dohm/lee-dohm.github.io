@@ -11,7 +11,7 @@ I haven't made many public appearances yet. I hope to have more in the future.
 
 ## Speaker Bio
 
-Lee Dohm has been a computer hobbyist and enthusiast since the early 1980s and a professional developer since 1995. During that time, he has gravitated towards online communication of all forms from BBSs, to newsgroups, to chat rooms, to message boards, often being an administrator, operator or moderator. Most recently, Lee is the Community Manager for [Atom](https://atom.io) and [Electron](https://electron.atom.io) working at [GitHub](https://github.com).
+Lee Dohm has been a computer hobbyist and enthusiast since the early 1980s and a professional software developer since 1995. During that time, he has gravitated towards online communication of all forms from BBSs, to newsgroups, to chat rooms, to message boards, often being an administrator, operator or moderator. Most recently, Lee is the Community Manager for the [Atom editor](https://atom.io) and [Electron framework](https://electron.atom.io) working at [GitHub](https://github.com).
 
 ## Want Lee to Speak at Your Engagement?
 
