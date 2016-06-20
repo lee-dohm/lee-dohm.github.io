@@ -44,6 +44,7 @@ I can be found in the following ways:
 * [GitHub <span class="octicon octicon-mark-github"></span>][github]
 * [Stack Exchange <i class="fa fa-stack-exchange"></i>][stack-overflow]
 * [Twitter <i class="fa fa-twitter"></i>][twitter]
+* [Ask Me Anything][ama]
 
 You can see the packages I've written and maintain for [Atom][atom] here: [Atom Author Page][package-author]
 
@@ -54,6 +55,7 @@ You can see the packages I've written and maintain for [Atom][atom] here: [Atom 
 [^1]: Like with [line numbers][line-numbers] and everything!
 [^2]: More for data analysis than actual programming, but it replaced the need to write a bunch of tools.
 
+[ama]: https://github.com/lee-dohm/ama
 [atom]: https://atom.io
 [email]: mailto:lee@lee-dohm.com
 [github]: https://github.com/lee-dohm
