@@ -16,7 +16,7 @@ module Jekyll
 
       years = posts.map { |post| post.date.year }.uniq.sort { |x, y| y <=> x }
       years.each do |year|
-        lines << "<h1><p class=\"text-center\">#{year}</p></h1>"
+        lines << "<h1 class=\"text-center\">#{year}</h1>"
         lines << render_year(year, posts)
       end
 
