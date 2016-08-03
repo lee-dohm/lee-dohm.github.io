@@ -24,3 +24,7 @@ What keyboard enthusiasts like about the smaller keyboards vary from person to p
 I wasn't interested in the Infinity 60% for the challenge or even necessarily the small size. I liked the idea of it because it, like the ErgoDox, is fully programmable. I can completely rework the way the keyboard operates and even create special functions or macros. For example, when I hold down the Caps Lock key, the blue, green, orange, and red buttons in the upper right become media keys: Mute, Play/Pause, Volume Down, and Volume Up respectively. This way, I can make the keyboard work best for me ... not conform myself to the keyboard.
 
 And yeah, I may try out the keyboard on the road the next time I go traveling ...
+
+* **Switches:** Cherry MX Blue
+* **Keycaps:** [Pulse SA](http://keypuller.com/pulse/)
+* **LEDs:** No LEDs installed currently
