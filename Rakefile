@@ -1,5 +1,6 @@
 require 'jekyll'
 require 'rake/clean'
+require 'shellwords'
 require 'tmpdir'
 require 'yaml'
 
