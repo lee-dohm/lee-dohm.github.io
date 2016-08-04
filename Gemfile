@@ -8,5 +8,5 @@ gem 'rake'
 gem 'redcarpet'
 
 group :jekyll_plugins do
-  
+  gem 'jemoji'
 end
