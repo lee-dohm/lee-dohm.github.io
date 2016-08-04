@@ -32,6 +32,9 @@ feed_url: feed.xml
 tagline: Games and Technology Should Include EVERYone
 title: lee-dohm.com
 
+# Used by Jekyll SEO Tag
+description: Games and Technology Should Include EVERYone
+
 author:
   name: Lee Dohm
   email: lee@lee-dohm.com
