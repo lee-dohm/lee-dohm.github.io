@@ -6,3 +6,7 @@ gem 'nokogiri'
 gem 'pygments.rb', '~> 0.6.3'
 gem 'rake'
 gem 'redcarpet'
+
+group :jekyll_plugins do
+  
+end
