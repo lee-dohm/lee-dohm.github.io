@@ -1,6 +1,5 @@
 ---
 layout: index
-title: Home
 ---
 
 {% for post in site.posts limit:10 %}
