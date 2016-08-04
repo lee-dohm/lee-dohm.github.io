@@ -10,7 +10,7 @@ excerpt: I decided that I wanted to have a little more control over, well, every
   the stuff I do now I will still have access to ten or twenty years from now. If
   there is one thing I have learned in the last ten years, it is that storage is cheap
   and I never have to throw data away.
-alias: 2013/05/02/this-blog-has-moved.html
+redirect_from: /2013/05/02/this-blog-has-moved.html
 ---
 
 I decided that I wanted to have a little more control over, well, everything to do with this blog. I've been on this kick lately as things have moved to [The Cloud](http://en.wikipedia.org/wiki/Cloud_computing), as everything has become more networked, and perhaps even having gotten a bit older where I want to know that the stuff I do now I will still have access to ten or twenty years from now. If there is one thing I have learned in the last ten years, it is that storage is cheap and I never have to throw data away.

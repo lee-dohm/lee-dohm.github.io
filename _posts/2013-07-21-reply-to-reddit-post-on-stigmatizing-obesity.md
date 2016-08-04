@@ -3,7 +3,7 @@ layout: post
 title: Reply to Reddit Post on Stigmatizing Obesity
 tags: Guy
 date: 2013-07-21 11:27:03.137172000 -07:00
-alias: 2013/07/21/reply-to-reddit-post-on-stigmatizing-obesity.html
+redirect_from: /2013/07/21/reply-to-reddit-post-on-stigmatizing-obesity.html
 ---
 
 This is the original text of a comment I made to a post on [Reddit][reddit] titled [I believe obesity (as a result of overeating and lack of exercise) should be stigmatized in the same way smoking is][post]. It is posted in the "Change My View" subreddit, which is described as: For people who have an opinion on something but accept that they may be wrong or want help changing their view. I understand that the text below might not change other people's viewpoints, but that's not why I wrote it really. I wrote it because I was angry. I wrote it because I didn't want to and didn't feel I should have to just swallow that anger and pain for the sake of "winning" an argument with those I, admittedly and possibly unfairly, imagined as a bunch of young punks that have never had to deal with adversity in their lives ... who have never had to struggle with or for anything.

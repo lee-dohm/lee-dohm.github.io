@@ -3,7 +3,7 @@ layout: post
 title: das Keyboard for Mac
 tags: Geeky
 date: 2012-04-06 09:00:00.000000000 -07:00
-alias: 2012/04/06/das-keyboard-for-mac.html
+redirect_from: /2012/04/06/das-keyboard-for-mac.html
 ---
 
 I've been touch-typing for a long, long time.  I originally taught myself to touch-type on my dad's old manual typewriter from college.  I remember a time when pretty much all keyboards were metal and seemingly constructed to withstand a nuclear blast.  I've always been pretty picky about the keyboards that I use, even going to the extent of learning the [Dvorak keyboard layout](http://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard).  But it wasn't until recently that I really started pining for the old [mechanical-switch-style keyboards](http://en.wikipedia.org/wiki/Keyboard_technology#Mechanical-switch_keyboard) that have come into vogue.  I like the clicky-clack of the old keyboards ... and it wasn't until people started pointing out that old keyboards truly were different that I took a look around and decided to do something about it.

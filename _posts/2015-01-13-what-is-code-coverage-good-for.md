@@ -3,7 +3,7 @@ layout: post
 title: What is Code Coverage Good For?
 tags: Coder Tester
 date: 2015-01-13 02:15:08.596121000 -08:00
-alias: 2015/01/13/what-is-code-coverage-good-for.html
+redirect_from: /2015/01/13/what-is-code-coverage-good-for.html
 ---
 
 Code coverage is a software development metric that measures how much of your code is covered by your tests. There are a few different ways to calculate it, but the most basic just instruments your code so that when a line is executed, it is logged. Then you run your tests, parse the log and any line that wasn't executed is not covered by your tests. Simple right? Well, yes and no ...

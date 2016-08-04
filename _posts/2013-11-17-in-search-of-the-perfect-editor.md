@@ -3,7 +3,7 @@ layout: post
 title: 'In Search Of: The Perfect Editor'
 tags: Coder
 date: 2013-11-17 11:41:16.213497000 -08:00
-alias: 2013/11/17/in-search-of-the-perfect-editor.html
+redirect_from: /2013/11/17/in-search-of-the-perfect-editor.html
 ---
 
 I've been using [Sublime Text][st3] as my all-around text editor for a couple of years now. It has been really great and probably the best editor I've ever used up to this point. Despite this, I started checking out other editors. I started with [TextMate][textmate] because I got an email urging me to check it out. TextMate was one of the most popular editors on the Mac platform until it was [mostly abandoned and then finally open-sourced][textmate-history]. I liked some things about it, but I still had a vague feeling of unease. So I sat down and thought about what I was really looking for in an editor:

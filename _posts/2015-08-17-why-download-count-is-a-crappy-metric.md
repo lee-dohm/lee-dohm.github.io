@@ -2,7 +2,7 @@
 layout: post
 title: Why Download Count is a Crappy Metric
 date: 2015-08-17 13:22:12.041364000 -07:00
-alias: 2015/08/17/why-download-count-is-a-crappy-metric.html
+redirect_from: /2015/08/17/why-download-count-is-a-crappy-metric.html
 ---
 
 I see people trying to make all kinds of false inferences based on download counts[^1] of things. Which of the following statements are true?

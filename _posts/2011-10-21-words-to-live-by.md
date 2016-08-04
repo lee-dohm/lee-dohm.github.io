@@ -3,7 +3,7 @@ layout: post
 title: Words to Live By
 tags: Guy
 date: 2011-10-21 07:48:00.000000000 -07:00
-alias: 2011/10/21/words-to-live-by.html
+redirect_from: /2011/10/21/words-to-live-by.html
 ---
 
 A story I heard somewhere ...

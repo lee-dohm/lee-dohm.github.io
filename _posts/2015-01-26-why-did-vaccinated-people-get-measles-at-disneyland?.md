@@ -3,7 +3,7 @@ layout: link
 title: Why Did Vaccinated People Get Measles at Disneyland?
 address: http://www.wired.com/2015/01/vaccinated-people-get-measles-disneyland-blame-unvaccinated/
 date: 2015-01-26 11:16:14.404227000 -08:00
-alias: 2015/01/26/why-did-vaccinated-people-get-measles-at-disneyland?.html
+redirect_from: /2015/01/26/why-did-vaccinated-people-get-measles-at-disneyland?.html
 ---
 
 I'll give you three guesses, but you'll only need one ...

@@ -2,7 +2,7 @@
 layout: post
 title: 'Common Testing Mistakes: Testing Code That Isn''t Yours'
 date: 2015-10-16 22:42:31.824694000 -07:00
-alias: 2015/10/16/common-testing-mistakes-testing-code-that-isnt-yours.html
+redirect_from: /2015/10/16/common-testing-mistakes-testing-code-that-isnt-yours.html
 ---
 
 A phase that it seems all people learning to write tests for their code go through, myself included at one point, is "falling down the test rabbit hole". During this phase the new tester believes that the only truly valid test is a test that validates that absolutely everything happens the way that it is expected. There are a couple problems with this approach, one is that you're doing work with no reward and the other is that it can make your tests more brittle, in other words less resilient in the face of change. So the rabbit-hole tester creates tests that have no benefit and yet can have a significant cost in maintenance.

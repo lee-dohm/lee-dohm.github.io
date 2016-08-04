@@ -3,7 +3,7 @@ layout: post
 title: The Perfect Editor, Redux
 tags: Coder
 date: 2014-05-29 11:53:05.951559000 -07:00
-alias: 2014/05/29/the-perfect-editor-redux.html
+redirect_from: /2014/05/29/the-perfect-editor-redux.html
 ---
 
 About six months ago I wrote [In Search Of: The Perfect Editor][perfect-editor] talking about Emacs and how it was my latest favorite editor and why. Well, for the last month or so, I've been working with and on a new editor, [Atom][atom].

@@ -3,7 +3,7 @@ layout: post
 title: 'Linguist for Atom: Evaluating Accuracy'
 tags: Coder Linguist
 date: 2015-01-11 14:03:23.572789000 -08:00
-alias: 2015/01/11/linguist-for-atom-evaluating-accuracy.html
+redirect_from: /2015/01/11/linguist-for-atom-evaluating-accuracy.html
 ---
 
 In writing a version of Linguist for Atom, it is important to be able to evaluate whether we are making things better or worse. To do that, we need to have a system for creating a numeric representation of how accurate a language classification system is.

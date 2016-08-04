@@ -2,7 +2,7 @@
 layout: post
 title: GitHub's New Code of Conduct and the Inevitable Backlash
 date: 2015-08-03 23:18:23.897083000 -07:00
-alias: 2015/08/03/githubs-new-code-of-conduct-and-the-inevitable-backlash.html
+redirect_from: /2015/08/03/githubs-new-code-of-conduct-and-the-inevitable-backlash.html
 ---
 
 A couple weeks ago, [GitHub][github] announced that it was adopting [the TODO Group's][todo] [Open Code of Conduct][code-of-conduct] for its open source projects, most specifically the Atom editor. It took a while for the segment of the tech community that feels threatened by attempts to be more inclusive to find out about it and for the backlash to begin. But it has now.

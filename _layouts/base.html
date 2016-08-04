@@ -3,10 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Raleway' rel='stylesheet' type='text/css'>
-    <title>{{ page.title }} - Lee Dohm's Blog</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="alternate" type="application/atom+xml" href="/{{ site.feed_url }}"/>
+    {% feed_meta %}
     <link rel="icon" type="image/png" href="/favicon-icon.png"/>
 
     <!-- Bootstrap -->
@@ -24,7 +23,7 @@
     </script>
 
     {% include analytics.html %}
-    {% include open-graph.html %}
+    {% seo %}
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -67,7 +66,7 @@
       <div class="row">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
-            {{ content | lightboxify | emojify }}
+            {{ content | lightboxify }}
           </div>
         </div>
 

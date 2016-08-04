@@ -3,7 +3,7 @@ layout: post
 title: Dynamic Typing Affords Testability
 tags: Coder Tester
 date: 2013-05-26 19:48:38.397978000 -07:00
-alias: 2013/05/26/dynamic-typing-affords-testability.html
+redirect_from: /2013/05/26/dynamic-typing-affords-testability.html
 ---
 
 I read [this article on language design "deal breakers"][article]. It is a thought-provoking read despite the fact that the author and I do not agree on a couple key points. Where we do agree is with regards to memory safety, both in allocation and with respect to null references, and efficient storage reclamation. I'm much less concerned than the author about Windows support though I can understand why someone would include it in their "deal breaker" list. Where I definitely don't agree is on the benefits of static typing and this reminded me that I had been meaning to write about dynamic typing and how it affords testability.

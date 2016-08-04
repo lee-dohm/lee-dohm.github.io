@@ -14,7 +14,7 @@ excerpt: I've been thinking a lot about various programming languages because wh
   to explain some of the reasons why I've been choosing Ruby as the language I'm using
   to implement things instead of these arguably more powerful and definitely more
   exotic languages.
-alias: 2013/05/02/thoughts-on-why-ruby-is-awesome.html
+redirect_from: /2013/05/02/thoughts-on-why-ruby-is-awesome.html
 ---
 
 I've been thinking a lot about various programming languages because where I work now is a fairly [polyglot][polyglot] kind of place. We have significant code bases in Java, Ruby and Python, and you can probably find at least some project or another in probably any modern programming language. I've been getting the itch to learn a new language and that has made me start looking at things like [Haskell][haskell], [Erlang][erlang] and [Google's Go][golang]. But each time I start learning a new language, when I just want to implement something, I always come back to Ruby. So I'm going to explain some of the reasons why I've been choosing Ruby as the language I'm using to implement things instead of these arguably more powerful and definitely more exotic languages.

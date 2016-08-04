@@ -3,7 +3,7 @@ layout: link
 title: Police Ask Waze to Remove Cop Tracking Feature
 address: http://www.npr.org/blogs/thetwo-way/2015/01/28/382013185/officers-ask-map-app-to-remove-police-tracking
 date: 2015-01-28 06:30:49.946236000 -08:00
-alias: 2015/01/28/police-ask-waze-to-remove-cop-tracking-feature.html
+redirect_from: /2015/01/28/police-ask-waze-to-remove-cop-tracking-feature.html
 ---
 
 > Over the past few weeks, law enforcement officials have been urging the app and its owner, Google, to disable a feature that allows users to report when they've spotted a police officer, in real time, for all other Waze users to see.

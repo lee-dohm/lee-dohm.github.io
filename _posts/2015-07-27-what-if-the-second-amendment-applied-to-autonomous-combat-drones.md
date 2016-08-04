@@ -3,7 +3,7 @@ layout: link
 title: What If the Second Amendment Applied to Autonomous Combat Drones?
 address: http://futureoflife.org/AI/open_letter_autonomous_weapons
 date: 2015-07-27 23:52:02.583562000 -07:00
-alias: 2015/07/27/what-if-the-second-amendment-applied-to-autonomous-combat-drones.html
+redirect_from: /2015/07/27/what-if-the-second-amendment-applied-to-autonomous-combat-drones.html
 ---
 
 I saw [this tweet from Elon Musk][musk-tweet] earlier tonight. It is in reference to an open letter by AI and robotics researchers stating that there should be a ban on artificial intelligence research for the purpose of creating offensive autonomous weapons. And the open letter got me to thinking ...
