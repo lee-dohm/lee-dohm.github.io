@@ -4,7 +4,7 @@ title: 'Crossy Road: An Allegory for the Futility of the Working Class in a Capi
   Economy'
 tags: Gamer Geeky
 date: 2014-12-14 13:56:54.824068000 -08:00
-alias: 2014/12/14/crossy-road-as-an-allegory-for-the-working-class.html
+redirect_from: /2014/12/14/crossy-road-as-an-allegory-for-the-working-class.html
 ---
 
 [Crossy Road][crossy-road] is the latest iPhone game craze. It has been described, aptly in my opinion, as "endless [Frogger][frogger]". I've been playing it more and more over the past few days since it is simple and fun and, being an iPhone game, is always in my pocket. Just this morning as I was playing, I had an epiphany and thought I would share it.

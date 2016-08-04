@@ -10,7 +10,7 @@ excerpt: I'm playing around with writing a [Rails](http://rubyonrails.org) appli
   backend when you use Rails, I have to now set up a PostgreSQL environment on my
   Mac for development. This turned out to be harder than I first expected. This is
   how I got it to work.
-alias: 2013/09/01/installing-postgresql-for-rails-development-on-osx.html
+redirect_from: /2013/09/01/installing-postgresql-for-rails-development-on-osx.html
 ---
 
 *Edit: Some of the commands below have changed from their initial versions to reflect things I've learned since getting it all up and running. It has also been broken out into sections.*

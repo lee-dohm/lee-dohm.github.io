@@ -5,7 +5,7 @@ tags: Gamer
 date: 2012-11-20 21:06:00.000000000 -08:00
 excerpt: Once again, I am reminded why I do not play Sony games.  Planetside 2 is
   full of bugs.  How do I loath thee?  Let me count the ways ...
-alias: 2012/11/20/planetside-2.html
+redirect_from: /2012/11/20/planetside-2.html
 ---
 
 Once again, I am reminded why I do not play Sony games.  Planetside 2 is full of bugs.  How do I loath thee?  Let me count the ways ...

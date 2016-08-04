@@ -3,7 +3,7 @@ layout: post
 title: Bioshock Infinite
 tags: Gamer
 date: 2013-09-02 15:01:34.082898000 -07:00
-alias: 2013/09/02/bioshock-infinite.html
+redirect_from: /2013/09/02/bioshock-infinite.html
 ---
 
 It's funny. The previous iterations of the Bioshock franchise were often cited as the impetus behind me swearing off FPS games. Not because they were bad games, but because I had been growing tired of the genre for quite a while. I just felt like that whole style of gaming had been completely tapped out. I thought I wanted something deeper, something with more strategy, more options ... rather than just running around like a goofball shooting at anything that moved. It turns out that isn't really what I wanted at all. What I really wanted was a great story.

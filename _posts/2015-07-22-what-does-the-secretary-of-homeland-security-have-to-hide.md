@@ -3,7 +3,7 @@ layout: link
 title: What Does the Secretary of Homeland Security Have to Hide?
 address: http://www.bloombergview.com/articles/2015-07-20/homeland-security-leaders-bent-rules-on-private-e-mail
 date: 2015-07-22 10:07:46.369878000 -07:00
-alias: 2015/07/22/what-does-the-secretary-of-homeland-security-have-to-hide.html
+redirect_from: /2015/07/22/what-does-the-secretary-of-homeland-security-have-to-hide.html
 ---
 
 > "I suppose it is remotely conceivable that in seeking a waiver, 20 or more government officials could all be wishing to talk to each other through a Web-based e-mail service about such matters as baseball games or retirement luncheons they might be attending," [Jason R. Baron, a former director of litigation at the National Archives and Records Administration] said. "But it is simply not reasonable to assume that in seeking a waiver that the officials involved were only contemplating using a commercial network for personal (that is, non-official) communications."

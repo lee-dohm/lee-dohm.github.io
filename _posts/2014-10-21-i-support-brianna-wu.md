@@ -3,7 +3,7 @@ layout: post
 title: I Support Brianna Wu
 tags: Coder Gamer
 date: 2014-10-21 20:48:42.073329000 -07:00
-alias: 2014/10/21/i-support-brianna-wu.html
+redirect_from: /2014/10/21/i-support-brianna-wu.html
 ---
 
 If you haven't been following the story, a group of people have banded behind the Twitter hashtag [Gamergate][gamergate] and perpetrated a number of terrorist and criminal activities. But Gamergate is just the public face of an undercurrent in today's culture. Women developers and journalists in the electronic games community have received death threats, rape threats, their personal information has been hacked and revealed to the Internet at large ... the list goes on and on and on.

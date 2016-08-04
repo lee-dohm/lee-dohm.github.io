@@ -3,7 +3,7 @@ layout: post
 title: Lessons in Open Source
 tags: Coder
 date: 2014-11-26 14:28:40.505816000 -08:00
-alias: 2014/11/26/lessons-in-open-source.html
+redirect_from: /2014/11/26/lessons-in-open-source.html
 ---
 
 As the day shortens, especially here in the Pacific Northwest, and the year draws to a close, it is natural to start thinking about the lessons learned, the highlights and the lowlights of the past twelve months. One of the things that I've devoted a major chunk of my time to in 2014 is [Atom][atom], the new programmer's editor from [GitHub][github]. I got involved in late February and have been a moderator on [Discuss][discuss], the official forum, since early March. I've learned a lot about participating in Open Source over the past nine months and I wanted to share those lessons, in case it would help others.

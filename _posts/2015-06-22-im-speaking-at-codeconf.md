@@ -2,7 +2,7 @@
 layout: post
 title: I'm Speaking at CodeConf
 date: 2015-06-22 16:46:54.169180000 -07:00
-alias: 2015/06/22/im-speaking-at-codeconf.html
+redirect_from: /2015/06/22/im-speaking-at-codeconf.html
 ---
 
 I'm going to be speaking at [CodeConf 2015](http://codeconf.com/) in Nashville, Tennessee later this week! I'm excited to present a talk on the lessons I've learned in a year of being the moderator for [Discuss](https://discuss.atom.io), the official forum for the [Atom editor](https://atom.io) by [GitHub](https://github.com).

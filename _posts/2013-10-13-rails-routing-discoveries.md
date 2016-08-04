@@ -3,7 +3,7 @@ layout: post
 title: Rails Routing Discoveries
 tags: Coder
 date: 2013-10-13 09:33:09.504334000 -07:00
-alias: 2013/10/13/rails-routing-discoveries.html
+redirect_from: /2013/10/13/rails-routing-discoveries.html
 ---
 
 I've been working on a project using [Rails v4][rails] and ran into an interesting question about which there seems to be a lot of confusion. Rails has convenient helper functions for generating REST-style links: `*_path` and `*_url`. It seems everyone is clear on the fact that the `_path` version gives a relative path, whereas the `_url` version gives an absolute URL. The confusion lies in when is it appropriate to use which one? The general guidance is to use paths in views and urls in controllers ... but there isn't really an explanation for why. I found a [StackOverflow question][question] and [answer][answer] that seems to answer the question, but it didn't sound like a very confident answer and seemed to be based a bit on hearsay. So I decided to dig in and look at the various specifications and documentation and see if I couldn't figure it out for myself ...

@@ -3,7 +3,7 @@ layout: post
 title: Taxes Kill Developer Passion
 tags: Coder
 date: 2011-05-10 23:22:00.000000000 -07:00
-alias: 2011/05/10/taxes-kill-developer-passion.html
+redirect_from: /2011/05/10/taxes-kill-developer-passion.html
 ---
 
 I read [Process Kills Developer Passion](http://radar.oreilly.com/2011/05/process-kills-developer-passion.html) earlier today and could not wait to get home and write up my thoughts.  The essay posits that "Over the past few years, the software industry has become increasingly focused on process and metrics as a way to ensure 'quality' code."  On the contrary, the software industry as a whole has been tilting at that particular windmill for almost as long as there has been code.  The shift in focus is that now it is developers themselves that are trying to build systems to ensure quality code, not just managers.

@@ -8,7 +8,7 @@ excerpt: I just got done reading [I Fought the Cord and the Cord Won](http://www
   examines one man's attempt to divest his family of cable television and to use Internet-based
   alternatives, an option that is becoming increasingly more attractive for many and
   one that I have been using happily for several months now.
-alias: 2013/02/02/the-abusive-relationship-that-is-the-american-cable-industry.html
+redirect_from: /2013/02/02/the-abusive-relationship-that-is-the-american-cable-industry.html
 ---
 
 I just got done reading [I Fought the Cord and the Cord Won](http://www.macworld.com/article/2026550/i-fought-the-cord-and-the-cord-won.html) over at [MacWorld](http://www.macworld.com/).  It is a well-written article that examines one man's attempt to divest his family of cable television and to use Internet-based alternatives, an option that is becoming increasingly more attractive for many and one that I have been using happily for several months now.

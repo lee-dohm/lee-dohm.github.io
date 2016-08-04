@@ -3,7 +3,7 @@ layout: post
 title: What Does ZBB Actually Mean?
 tags: Coder Tester
 date: 2013-08-14 13:33:25.516382000 -07:00
-alias: 2013/08/14/what-does-zbb-mean.html
+redirect_from: /2013/08/14/what-does-zbb-mean.html
 ---
 
 I had a discussion around the deeper meaning of the commonly used but just as commonly misunderstood software development term "ZBB" today. ZBB is a TLA[^1] that describes a milestone in the development of a software project. Most often, ZBB is a term used in development houses that have both a dev team and a test team. The reason why will become apparent in a bit. The process generally follows the progression: Development, Code/Feature Complete, ZBB, Deployment/Ship. So now we know that ZBB is a necessary step on the way to shipping something, but how do we know we've gotten there?

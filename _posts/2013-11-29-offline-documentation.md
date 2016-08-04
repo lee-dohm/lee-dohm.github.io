@@ -3,7 +3,7 @@ layout: post
 title: Offline Documentation
 tags: Coder
 date: 2013-11-29 20:35:04.458873000 -08:00
-alias: 2013/11/29/offline-documentation.html
+redirect_from: /2013/11/29/offline-documentation.html
 ---
 
 There's a new tool that I've heard about from a couple programming podcasts I listen to. It is called [Dash][dash] and it already has [an open-source competitor][zeal] for Linux and Windows. I think it is pretty cool and I was happy to give the developer some cash to support further development of it. I've been happily using it for a while now, but something was always nagging at me in the back of my brain ... especially when I started looking into creating my own docsets for it.

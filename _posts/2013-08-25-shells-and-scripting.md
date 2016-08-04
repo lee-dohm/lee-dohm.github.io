@@ -3,7 +3,7 @@ layout: post
 title: Shells and Scripting
 tags: Coder
 date: 2013-08-25 20:00:59.750978000 -07:00
-alias: 2013/08/25/shells-and-scripting.html
+redirect_from: /2013/08/25/shells-and-scripting.html
 ---
 
 I've spent a significant chunk of my weekend playing around with a new command-line shell, [fish][fish], the **F**riendly **I**nteractive **SH**ell. I'd seen people using it on a couple of screencasts and thought about checking it out for quite a while. I finally got around to it ...

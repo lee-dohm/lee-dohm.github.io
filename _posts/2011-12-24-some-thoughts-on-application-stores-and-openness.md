@@ -3,7 +3,7 @@ layout: post
 title: Some Thoughts on Application Stores and Openness
 tags: Geeky
 date: 2011-12-24 13:15:00.000000000 -08:00
-alias: 2011/12/24/some-thoughts-on-application-stores-and-openness.html
+redirect_from: /2011/12/24/some-thoughts-on-application-stores-and-openness.html
 ---
 
 In writing down my thoughts on why I switched to Mac from PC, I ended up composing a big rant on the difference between the iOS App Store and the Android App Store from what I hope is a rational cost/benefit perspective.  I wanted to post these thoughts separately to protect the flow of that other article and also because I think it is deserving of its own post.
