@@ -155,7 +155,7 @@ end
 
 desc 'Generate blog files'
 task :generate do
-  Jekyll::Site.new(Jekyll.configuration({})).process
+  sh 'jekyll build'
 end
 
 desc 'Prints the entire processed configuration'
