@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Colophon
+redirect_from: /colophon.html
 ---
 
 # Colophon

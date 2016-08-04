@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Disclaimers
+redirect_from: /disclaimer.html
 ---
 
 # Disclaimers

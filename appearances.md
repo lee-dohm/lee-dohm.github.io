@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Appearances
+redirect_from: /appearances.html
 ---
 
 # Appearances

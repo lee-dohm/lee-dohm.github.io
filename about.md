@@ -1,6 +1,7 @@
 ---
 layout: base
 title: About That Lee Guy
+redirect_from: /about.html
 ---
 
 # About That Lee Guy
