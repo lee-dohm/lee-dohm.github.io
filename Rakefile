@@ -44,7 +44,7 @@ end
 # @return [String] Title of the post formatted for use in a filename.
 def file_title(title)
   title.downcase
-       .strip!
+       .strip
        .gsub(/[^a-z0-9]/, '-')
        .gsub(/-{2,}/, '-')
 end
