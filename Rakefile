@@ -43,7 +43,10 @@ end
 # @param [String] title Title of the post.
 # @return [String] Title of the post formatted for use in a filename.
 def file_title(title)
-  title.downcase.gsub(/\s+/, '-').gsub(/-{2,}/, '-').gsub(':', '')
+  title.downcase
+       .strip!
+       .gsub(/[^a-z0-9]/, '-')
+       .gsub(/-{2,}/, '-')
 end
 
 # Gets the title passed on the command line.
