@@ -34,16 +34,17 @@ Other scripts that are available but not intended to be used directly by develop
 
 ## License
 
-The following directories and their contents are Copyright &copy; 2010-2016 by [Lee Dohm][lee-dohm]. You may not reuse anything therein without my permission:
+The content of this repository is Copyright &copy; 2010-2016 by [Lee Dohm][lee-dohm]. Different parts of this repository are available under differing license terms:
 
-* `_drafts/`
-* `_images/`
-* `_posts/`
+* Content: [Creative Commons BY 4.0][cc-by-4.0]
+* Code: [MIT][mit]
 
 The theme used is [Twitter Bootstrap][bootstrap].
 
 [bootstrap]: http://getbootstrap.com
 [bundler]: http://bundler.io
+[cc-by-4.0]: https://creativecommons.org/licenses/by/4.0/
 [jekyll]: http://jekyllrb.com
 [lee-dohm]: https://github.com/lee-dohm
+[mit]: http://opensource.org/licenses/mit-license.php
 [ruby]: http://ruby-lang.org
