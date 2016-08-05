@@ -1,6 +1,5 @@
 
 # jekyll configuration
-markdown: CustomConverter
 permalink: pretty
 safe: false
 exclude:
@@ -11,19 +10,6 @@ exclude:
 
 kramdown:
   input: GFM
-
-redcarpet:
-  extensions:
-    - hard_wrap
-    - no_intra_emphasis
-    - autolink
-    - strikethrough
-    - fenced_code_blocks
-    - footnotes
-    - superscript
-    - with_toc_data
-
-emoji_dir: images/emoji
 
 # Site variables
 full_url: http://www.lee-dohm.com
