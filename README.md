@@ -34,9 +34,9 @@ Other scripts that are available but not intended to be used directly by develop
 
 ## License
 
-The content of this repository is Copyright &copy; 2010-2016 by [Lee Dohm][lee-dohm]. Different parts of this repository are available under differing license terms:
+The contents of this repository is Copyright &copy; 2010-2016 by [Lee Dohm][lee-dohm]. Different parts of this repository are available under differing license terms:
 
-* Content: [Creative Commons BY 4.0][cc-by-4.0]
+* Blog Posts: [Creative Commons BY 4.0][cc-by-4.0]
 * Code: [MIT][mit]
 
 The theme used is [Twitter Bootstrap][bootstrap].
