@@ -1,6 +1,6 @@
 ---
 layout: link
-title: Trolls A Reason Salesforce Walked Away From Deal
+title: Trolls A Reason Salesforce Walked Away From Twitter Deal
 address: http://www.businessinsider.com/twitter-trolls-caused-salesforce-to-walk-away-from-deal-2016-10
 date: 2016-10-17 20:04:05.336225000 -07:00
 ---
