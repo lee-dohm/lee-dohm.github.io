@@ -6,7 +6,6 @@ gem 'rake'
 
 group :jekyll_plugins do
   gem 'jemoji'
-  gem 'jekyll-admin'
   gem 'jekyll-redirect-from'
   gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
