@@ -18,7 +18,7 @@ This doesn't actually describe the issue though. There are multiple ways to exec
 
 The goal of reporting a bug is *to get the bug fixed*, otherwise why report the bug at all? So your goal in writing a bug report should be to make it as easy as possible for the developer to fix the bug. You can point fingers and argue over whether it should be the developer that is responsible for doing the legwork, not the user. But when it comes right down to it ... if you're the first person reporting this bug, it may well be that there is something peculiar about your setup, how you perform the task, your machine or something really crazy that the developer *cannot* replicate without help.
 
-In development circles one of the jokes about the lazy programmer is, "It works fine on my machine!" Great ... whoopee for you! Are we going to send your machine to all five hundred of our customers so they can each get their turn? No, didn't think so ... so get off your ass and fix it. Well, I'm also here to say that a bug report consisting only of "X is broken on my machine" is just as lazy and unhelpful and deserves to be deprioritized into oblivion. We'll get back to it when all the other bugs are fixed, thankyouverymuch ...
+In development circles one of the jokes about the lazy programmer is, "It works fine on my machine!" It's also true that a bug report consisting only of "X is broken on my machine" is, unfortunately, just as lazy and unhelpful. We'll get back to it when all the other bugs are fixed, thankyouverymuch ...
 
 ## The Solution
 
