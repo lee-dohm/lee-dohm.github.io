@@ -12,7 +12,7 @@ kramdown:
   input: GFM
 
 # Site variables
-full_url: http://www.lee-dohm.com
+full_url: https://www.lee-dohm.com
 feed_url: feed.xml
 
 tagline: Games and Technology Should Include EVERYone
@@ -20,7 +20,7 @@ title: lee-dohm.com
 
 # Used by Jekyll SEO Tag
 description: Games and Technology Should Include EVERYone
-url: http://www.lee-dohm.com
+url: https://www.lee-dohm.com
 
 author:
   name: Lee Dohm
