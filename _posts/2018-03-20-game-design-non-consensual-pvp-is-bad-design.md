@@ -9,7 +9,6 @@ I've been looking forward to the release of [Rare's][rare] [Sea of Thieves][sea-
 Before we go too far, let's define some terms:
 
 * **consent** &mdash; permission for something to happen or agreement to do something - so something non-consensual is for something to happen without one's explicit permission or agreement
-* **Gambling** &mdash; to play games of chance for money
 * **PvE** &mdash; Player versus Environment - a game type where players face off against the game environment
 * **PvP** &mdash; Player versus Player - a game type where players face off against each other
 
