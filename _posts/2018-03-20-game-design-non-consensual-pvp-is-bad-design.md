@@ -44,20 +44,20 @@ And all players are generally a mix of two or more of these to varying degrees. 
 
 This is great! There is a good mix of activities and most of them multiple player types can enjoy. But there's one problem. While the Achiever and Explorer motivations can be satisfied as long as the game is running, Socializer and Competitor motivations _require_ other players. If there are no other players to cooperate with, Socializers will find another game to play. If there are no other players to fight, Competitors will find another game to play. Sea of Thieves "solved" this problem by dumping everyone in a single open world where there will always be other players. Great, right? Not exactly.
 
-In a game that allows non-consensual PvP, the game allows players to be forced into a game activity that they may not enjoy or want to play.[^2] As an example, let's say we have someone that is solely motivated as an Achiever, A, and another that is solely motivated as a Competitor, K:
+In a game that allows non-consensual PvP, the game allows players to be forced into a game activity that they may not enjoy or want to play.[^2] As an example, let's say we have someone that is solely motivated as an Achiever, A, and another that is solely motivated as a Competitor, C:
 
 1. A is doing a Gold Hoarder voyage, sailing to find some treasure
-1. K sees A and attacks
+1. C sees A and attacks
 1. A can decide to:
-    1. Continue on their voyage hoping to outrun K
-    1. Turn and fight, hoping to defeat K
+    1. Continue on their voyage hoping to outrun C
+    1. Turn and fight, hoping to defeat C
 
 There are four possible outcomes:
 
-1. A outruns K - K has no fun because they didn't get to fight, A has no fun because they have to spend time avoiding K which doesn't help them further their goal
-1. K sinks A as they're running away - A has no fun because they got sunk and have to start their voyage over, perhaps even losing the gold they invested in purchasing the voyage (negative progress by losing gold is a pretty unenjoyable experience for an Achiever like A)
-1. A turns to fight and defeats K - A _may_ have fun if K has chests A can steal (but since K is purely motivated as a Competitor, they don't care about chests and probably won't have any)
-1. K defeats A - Same problem as #2
+1. A outruns C - C has no fun because they didn't get to fight, A has no fun because they have to spend time avoiding C which doesn't help them further their goal
+1. C sinks A as they're running away - A has no fun because they got sunk and have to start their voyage over, perhaps even losing the gold they invested in purchasing the voyage (negative progress by losing gold is a pretty unenjoyable experience for an Achiever like A)
+1. A turns to fight and defeats C - A _may_ have fun if C has chests A can steal (but since C is purely motivated as a Competitor, they don't care about chests and probably won't have any)
+1. C defeats A - Same problem as #2
 
 In three (and sometimes all four) out of four of these outcomes, at least one player is not enjoying themselves. Players who consistently don't enjoy themselves in your game will leave and find another game where they will enjoy themselves.
 
