@@ -56,7 +56,7 @@ Some common questions I get asked:
 **A:** Most definitely.
 
 **Q:** Do you recommend the Dvorak layout to others?<br/>
-**A:** Yes, though only as an option for reducing fatigue or repetitive strain injuries, though in the latter case they should consult their doctor first before relying on my anecdotal evidence.
+**A:** Yes, though only as an option for reducing fatigue or repetitive strain injuries. In the latter case, they should consult their doctor first before relying on my anecdotal evidence.
 
 **Q:** Have you tried the [Colemak layout][colemak]? Why or why not?<br/>
 **A:** No, I haven't. I don't believe that, given that I've already converted away from QWERTY, Colemak offers any significant benefit over Dvorak to justify the 1-2 months it would take for me to convert over.
