@@ -37,28 +37,28 @@ It was in 2000 that I got my hands on a pair of keyboards that were switchable b
 
 Some common questions I get asked:
 
-**Q:** Why did you convert?
+**Q:** Why did you convert?<br/>
 **A:** I had been hearing a lot about the benefits of the Dvorak layout for years. I wanted to try it out for myself to see if they were correct.
 
-**Q:** How long did it take to convert?
+**Q:** How long did it take to convert?<br/>
 **A:** It took about a month to get to the point where I could reliably touch type again, about 30-45wpm. It took an additional month to get to the point where I could touch type at comparable speeds to before the conversion, about 80wpm.
 
-**Q:** What benefits have you experienced?
+**Q:** What benefits have you experienced?<br/>
 **A:** After a period of adjustment of a few months where my right arm was noticeably sore after a day of heavy typing, I felt less strain in my hands at the end of the day than before. My right arm was sore because the Dvorak layout is designed to put more of the typing activity on the right hand, which my hands were not used to after a couple decades of typing on QWERTY. When I was still typing on QWERTY, my hands would pop and click occasionally after a lot of typing. This completely went away with the conversion and has never come back.
 
-**Q:** What about the supposed speed benefit?
+**Q:** What about the supposed speed benefit?<br/>
 **A:** I have not experienced the speed benefit often quoted. Though, most of the studies that have shown a speed benefit were for people that were typing from already written documents or transcribing spoken words. Since I always compose as I type, I suppose I just don't think faster than 80wpm 😀
 
-**Q:** What drawbacks have you seen?
+**Q:** What drawbacks have you seen?<br/>
 **A:** There have only been two. First, was that my right arm was sore for a period of a few months on heavy typing days. Second, that I can't share my keyboard easily with others. Even when I have a switchable keyboard where I can switch it back to QWERTY, I often purchase a keyboard with the Dvorak layout printed on it which prevents some people from using it.
 
-**Q:** Have the benefits outweighed the drawbacks?
+**Q:** Have the benefits outweighed the drawbacks?<br/>
 **A:** Most definitely.
 
-**Q:** Do you recommend the Dvorak layout to others?
+**Q:** Do you recommend the Dvorak layout to others?<br/>
 **A:** Yes, though only as an option for reducing fatigue or repetitive strain injuries, though in the latter case they should consult their doctor first before relying on my anecdotal evidence.
 
-**Q:** Have you tried the [Colemak layout][colemak]? Why or why not?
+**Q:** Have you tried the [Colemak layout][colemak]? Why or why not?<br/>
 **A:** No, I haven't. I don't believe that, given that I've already converted away from QWERTY, Colemak offers any significant benefit over Dvorak to justify the 1-2 months it would take for me to convert over.
 
 ## Conclusion
