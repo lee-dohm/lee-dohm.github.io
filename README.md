@@ -34,7 +34,7 @@ Other scripts that are available but not intended to be used directly by develop
 
 ## License
 
-The contents of this repository is Copyright &copy; 2010-2016 by [Lee Dohm][lee-dohm]. Different parts of this repository are available under differing license terms:
+The contents of this repository is Copyright &copy; 2010-2018 by [Lee Dohm][lee-dohm]. Different parts of this repository are available under differing license terms:
 
 * Blog Posts: [Creative Commons BY 4.0][cc-by-4.0]
 * Code: [MIT][mit]
