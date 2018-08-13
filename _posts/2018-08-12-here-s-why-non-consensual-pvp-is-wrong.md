@@ -21,3 +21,5 @@ Option one, obviously, does absolutely nothing for the people that just want to 
 Option two creates a system where the person who bothers people and hurts people is _rewarded_ by encouraging people to play dodgeball with them. This does nothing to solve the problem for the people who want to enjoy your park without being forced to dodge balls. Eventually, the only people who can enjoy your park are the people who want to play dodgeball.
 
 Option three makes it so that everyone can reliably enjoy your park, no matter what they want to do there. Well, except for the people that just want to go around hitting random passersby in the head with dodgeballs.
+
+But, please, let's stop claiming that options one and two are valid choices for park designers to create parks that everyone can enjoy, even the ones that don't want to play dodgeball. Just put up a sign that says, "Dodgeball Park" and be done with it.
