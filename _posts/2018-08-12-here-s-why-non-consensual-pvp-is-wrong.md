@@ -18,7 +18,7 @@ So the people who don't want to play dodgeball but still want to enjoy your park
 
 Option one, obviously, does absolutely nothing for the people that just want to enjoy your park without the risk of being hit in the head with a ball. Eventually, the only people who can enjoy your park are the people who want to play dodgeball.
 
-Option two creates a system where the person who bothers people and hurts people is _rewarded_ by encouraging people to play dodgeball with them. This does nothing to solve the problem for the people who want to enjoy your park without being forced to dodge balls. Eventually, the only people who can enjoy your park are the people who want to play dodgeball.
+Option two creates a system where the person who bothers people and hurts people is _rewarded_ by helping them to achieve their goal, in other words it helps the harasser to find people to play dodgeball with them. This does nothing to solve the problem for the people who want to enjoy your park without being forced to dodge balls. Eventually, the only people who can enjoy your park are the people who want to play dodgeball.
 
 Option three makes it so that everyone can reliably enjoy your park, no matter what they want to do there. Well, except for the people that just want to go around hitting random passersby in the head with dodgeballs.
 
