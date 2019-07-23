@@ -29,6 +29,7 @@ Other scripts that are available but not intended to be used directly by develop
 1. Change the `layout` field to `link`
 1. Add an `address` field with the URL
 1. Edit the body text
+1. Execute `rake publish title="Sample Title"` to convert the draft into a post
 1. Commit and push to the `source` branch
 1. Execute `rake push` to generate the site content and push the updated content to the website
 
