@@ -1,7 +1,7 @@
 ---
 layout: link
 title: Reliable Mirroring of a Git Repository
-url: http://www.edwardthomson.com/blog/mirroring_git_repositories.html
+address: http://www.edwardthomson.com/blog/mirroring_git_repositories.html
 date: 2019-07-23 07:37:57.678039000 -07:00
 ---
 
