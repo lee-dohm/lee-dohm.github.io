@@ -50,7 +50,7 @@ becomes this:
 
 Let's _emphasize_ an idea. Or should we make a **bold** statement? Or we could quote someone smart:
 
-> May the forces of evil become confused on the way to your door.
+> May the forces of evil become confused on the way to your house.
 >
 > -- _George Carlin_
 
