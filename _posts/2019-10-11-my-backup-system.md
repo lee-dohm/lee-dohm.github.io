@@ -4,7 +4,7 @@ title: My Backup System
 date: 2019-10-11 14:20:50.869992000 -07:00
 ---
 
-When [macOS Catalina][catalina] was released the other day, I set about backing up my main machine in preparation. Talking about it with coworkers, I mentioned my the various layers of backups I have for my computers. They mentioned to me that they were impressed and confessed that they didn't have a similar system. The thing is, having the recommended system of backups isn't nearly as hard as it used to be and it can be, for the most part, completely automated.
+When [macOS Catalina][catalina] was released the other day, I set about backing up my main machine in preparation. Talking about it with coworkers, I mentioned the various layers of backups I have for my computers. They mentioned to me that they were impressed and confessed that they didn't have a similar system. The thing is, having the recommended system of backups isn't nearly as hard as it used to be and it can be, for the most part, completely automated.
 
 Let's start with what the recommended set of backups is:
 
