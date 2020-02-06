@@ -16,12 +16,12 @@ if [ -f "Brewfile" ] && [ "$(uname -s)" = "Darwin" ]; then
   }
 fi
 
-if [ -f ".ruby-version" ] && [ -z "$(rbenv version-name 2>/dev/null)" ]; then
+if [ -f ".ruby-version" ] && [ -z "$(asdf where ruby 2>/dev/null)" ]; then
   echo "==> Installing Ruby…"
-  rbenv install --skip-existing
+  asdf install ruby
   which bundle >/dev/null 2>&1  || {
     gem install bundler
-    rbenv rehash
+    asdf reshim ruby
   }
 fi
 
