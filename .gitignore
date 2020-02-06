@@ -4,3 +4,6 @@ _drafts/*.md
 
 _site/
 .sass-cache/
+.jekyll-cache/
+
+vendor/
