@@ -1,0 +1,43 @@
+#!/usr/bin/env ruby
+
+require 'yaml'
+
+# Reads a post and returns its metadata and content.
+#
+# @param [String] path Path to the post.
+# @return [Array(Hash, String)] The metadata and the content of the post.
+def read_post(path)
+  chunks = IO.read(path).split(/^---\s*$/)
+
+  metadata = YAML.load("---\n" + chunks[1])
+
+  [metadata, chunks[2]]
+end
+
+# Writes the post to the given path.
+#
+# @param [String] path Path to which to write the post.
+# @param [Hash] metadata Metadata for the post.
+# @param [String] content Content for the post.
+def write_post(path, metadata, content = nil)
+  File.open(path, 'w') do |f|
+    f.puts metadata.to_yaml
+    f.puts '---'
+    f.puts content
+  end
+end
+
+post_paths = Dir.glob('_posts/*.md')
+post_paths.each do |path|
+  unless path =~ /(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2})-(?<title>.*)\.md$/
+    puts "WARNING: Invalid post filename format: #{path}"
+    next
+  end
+
+  match = Regexp.last_match
+
+  puts "Processing #{path}"
+  metadata, content = read_post(path)
+  metadata['alias'] = "#{match[:year]}/#{match[:month]}/#{match[:day]}/#{match[:title]}.html"
+  write_post(path, metadata, content)
+end
