@@ -176,7 +176,7 @@ task push: [:generate] do
     message = "Site updated at #{Time.now.utc}"
     sh "git commit -m #{message.shellescape}"
     sh "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
-    sh 'git push origin master --force'
+    sh 'git push origin main:master --force'
   end
 end
 
