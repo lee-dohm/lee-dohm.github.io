@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Raleway' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="application/atom+xml" rel="alternate" href="https://www.lee-dohm.com/feed.xml" title="lee-dohm.com" />
+    <link rel="icon" type="image/png" href="/favicon-icon.png"/>
+
+    <!-- Bootstrap -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+
+    <!-- Site -->
+    <link href="/stylesheets/styles.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+    <!-- Battle for the Net widget https://github.com/fightforthefuture/battleforthenet-widget -->
+    <!-- <script src="https://widget.battleforthenet.com/widget.js" async></script> -->
+
+    <!-- analytics.html -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17382346-2', 'lee-dohm.com');
+  ga('send', 'pageview');
+</script>
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Game Design: Non-consensual PvP is Simply Bad Design | lee-dohm.com</title>
+<meta name="generator" content="Jekyll v4.1.0" />
+<meta property="og:title" content="Game Design: Non-consensual PvP is Simply Bad Design" />
+<meta name="author" content="Lee Dohm" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I’ve been looking forward to the release of Rare’s Sea of Thieves for a couple months now. I think it is a really well-designed and -implemented game. The UI of the game is easy and intuitive. The water simulation is amazing. The sailing physics are both reasonably accurate while being inaccurate in just the right ways to make it still fun. And it has great mechanics that make it possible for people just starting out to play side-by-side with long-time veterans without either one of them feeling like they’re wasting their time. But I probably won’t play the game at all unless I’m playing with friends because a key piece of the design is non-consensual PvP." />
+<meta property="og:description" content="I’ve been looking forward to the release of Rare’s Sea of Thieves for a couple months now. I think it is a really well-designed and -implemented game. The UI of the game is easy and intuitive. The water simulation is amazing. The sailing physics are both reasonably accurate while being inaccurate in just the right ways to make it still fun. And it has great mechanics that make it possible for people just starting out to play side-by-side with long-time veterans without either one of them feeling like they’re wasting their time. But I probably won’t play the game at all unless I’m playing with friends because a key piece of the design is non-consensual PvP." />
+<link rel="canonical" href="https://www.lee-dohm.com/2018/03/20/game-design-non-consensual-pvp-is-bad-design/" />
+<meta property="og:url" content="https://www.lee-dohm.com/2018/03/20/game-design-non-consensual-pvp-is-bad-design/" />
+<meta property="og:site_name" content="lee-dohm.com" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-03-20T20:17:12-07:00" />
+<script type="application/ld+json">
+{"datePublished":"2018-03-20T20:17:12-07:00","url":"https://www.lee-dohm.com/2018/03/20/game-design-non-consensual-pvp-is-bad-design/","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.lee-dohm.com/2018/03/20/game-design-non-consensual-pvp-is-bad-design/"},"author":{"@type":"Person","name":"Lee Dohm"},"description":"I’ve been looking forward to the release of Rare’s Sea of Thieves for a couple months now. I think it is a really well-designed and -implemented game. The UI of the game is easy and intuitive. The water simulation is amazing. The sailing physics are both reasonably accurate while being inaccurate in just the right ways to make it still fun. And it has great mechanics that make it possible for people just starting out to play side-by-side with long-time veterans without either one of them feeling like they’re wasting their time. But I probably won’t play the game at all unless I’m playing with friends because a key piece of the design is non-consensual PvP.","headline":"Game Design: Non-consensual PvP is Simply Bad Design","dateModified":"2018-03-20T20:17:12-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-custom" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Lee Dohm</a>
+        <p class="navbar-text">Games and Technology Should Include EVERYone</p>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/feed.xml">Feed</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="/about">About Lee</a></li>
+              <li><a href="/this-blog">About This Blog</a></li>
+              <li><a href="/appearances">Appearances</a></li>
+              <li><a href="/colophon">Colophon</a></li>
+              <li><a href="/disclaimer">Disclaimers</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<div class="content">
+  <h1><a class="title" href="/2018/03/20/game-design-non-consensual-pvp-is-bad-design/">Game Design: Non-consensual PvP is Simply Bad Design</a></h1>
+  <!-- dateline.html -->
+<h4 class="dateline">
+  March 20, 2018
+  •
+  <a href="/2018/03/20/game-design-non-consensual-pvp-is-bad-design/"><span class="octicon octicon-link"></span></a>
+</h4>
+
+
+  <p>I’ve been looking forward to the release of <a href="https://en.wikipedia.org/wiki/Rare_(company)">Rare’s</a> <a href="https://en.wikipedia.org/wiki/Sea_of_Thieves">Sea of Thieves</a> for a couple months now. I think it is a really well-designed and -implemented game. The UI of the game is easy and intuitive. The water simulation is amazing. The sailing physics are both reasonably accurate while being inaccurate in just the right ways to make it still fun. And it has great mechanics that make it possible for people just starting out to play side-by-side with long-time veterans without either one of them feeling like they’re wasting their time. But I probably won’t play the game at all unless I’m playing with friends because a key piece of the design is non-consensual PvP.</p>
+
+<p>Before we go too far, let’s define some terms:</p>
+
+<ul>
+  <li>
+<strong>consent</strong> — permission for something to happen or agreement to do something - so something non-consensual is for something to happen without one’s explicit permission or agreement</li>
+  <li>
+<strong>PvE</strong> — Player versus Environment - a game type where players face off against the game environment</li>
+  <li>
+<strong>PvP</strong> — Player versus Player - a game type where players face off against each other</li>
+</ul>
+
+<p>So, given the above definitions, “non-consensual PvP” is when one can find oneself in a PvP encounter with another player or players without explicit consent to that specific encounter. This differs from many shoot-em-up PvP games such as <a href="http://destiny.wikia.com/wiki/Crucible">Destiny’s and Destiny 2’s Crucible</a> or the <a href="https://www.halopedia.org/Halo_2#Multiplayer">Halo series Multiplayer</a> which are consensual because one has to explicitly choose the PvP mode every time.</p>
+
+<p>There are a couple things I want to examine here. The first is <a href="https://en.wikipedia.org/wiki/Bartle_taxonomy_of_player_types">Bartle’s taxonomy of player types.</a> It describes in broad strokes the types of activities different players find fun within a game. The second is how certain game experiences are predicated on how players interact with each other. And then I’ll wrap it up in a nice little bow.</p>
+
+<p>In Bartle’s taxonomy there are four player types or motivations:</p>
+
+<ul>
+  <li>
+<strong>Achiever:</strong> Enjoys playing <em>with</em> the <em>game systems</em> to become the “best”, however the game measures that (points, gold, experience, etc)</li>
+  <li>
+<strong>Explorer:</strong> Enjoys playing <em>against</em> the <em>game systems</em> to know the most about it or about how it works</li>
+  <li>
+<strong>Competitor:</strong><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup> Enjoys playing <em>against</em> other <em>players</em> to defeat them or become better than them</li>
+  <li>
+<strong>Socializer:</strong> Enjoys playing <em>with</em> other <em>players</em> to share experiences</li>
+</ul>
+
+<p>All of these are valid play styles and none are better or worse than the others. As a matter of fact, many are complementary. For example, the Explorer motivation may help someone be a better Achiever or Competitor because they understand things about the game that other Achievers or Competitors might not. Being an Explorer can be lonely so it’s nice to have a Socializer along to talk to. And so on.</p>
+
+<p>And all players are generally a mix of two or more of these to varying degrees. There’s even a <a href="http://matthewbarr.co.uk/bartle/">Bartle test</a> to help you determine the approximate mix of motivations you have. I, myself, am generally strongly motivated by Socializer and Explorer, somewhat by Achiever, and not at all by Competitor. This shows in the games I choose to play. I enjoy PvE games, especially ones with cooperative multiplayer. And I almost never play games that are primarily or exclusively PvP. Now that we understand what motivates players, let’s look at some game activities in Sea of Thieves.</p>
+
+<ul>
+  <li>Sailing
+    <ul>
+      <li>Explorer likes learning how the sailing system works and discovering new unmapped locations</li>
+      <li>Socializer likes sailing with others, perhaps playing music or dancing</li>
+    </ul>
+  </li>
+  <li>Gold Hoarders Voyages
+    <ul>
+      <li>Achiever likes gold!</li>
+      <li>Explorer likes figuring out ways to satisfy voyages the fastest or finding exploits</li>
+      <li>Socializer likes helping others complete voyages</li>
+    </ul>
+  </li>
+  <li>Merchant Guild Voyages
+    <ul>
+      <li>Achiever likes gold!</li>
+      <li>Explorer likes keeping track of where to find all the various commodities so they can complete these fast</li>
+      <li>Socializer likes helping others complete voyages</li>
+    </ul>
+  </li>
+  <li>Combat with other players
+    <ul>
+      <li>Achiever likes gold!</li>
+      <li>Competitor likes defeating other players</li>
+    </ul>
+  </li>
+</ul>
+
+<p>This is great! There is a good mix of activities and most of them multiple player types can enjoy. But there’s one problem. While the Achiever and Explorer motivations can be satisfied as long as the game is running, Socializer and Competitor motivations <em>require</em> other players. If there are no other players to cooperate with, Socializers will find another game to play. If there are no other players to fight, Competitors will find another game to play. Sea of Thieves “solved” this problem by dumping everyone in a single open world where there will always be other players. Great, right? Not exactly.</p>
+
+<p>In a game that allows non-consensual PvP, the game allows players to be forced into a game activity that they may not enjoy or want to play.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup> As an example, let’s say we have someone that is solely motivated as an Achiever, A, and another that is solely motivated as a Competitor, C:</p>
+
+<ol>
+  <li>A is doing a Gold Hoarder voyage, sailing to find some treasure</li>
+  <li>C sees A and attacks</li>
+  <li>A can decide to:
+    <ol>
+      <li>Continue on their voyage hoping to outrun C</li>
+      <li>Turn and fight, hoping to defeat C</li>
+    </ol>
+  </li>
+</ol>
+
+<p>There are four possible outcomes:</p>
+
+<ol>
+  <li>A outruns C - C has no fun because they didn’t get to fight, A has no fun because they have to spend time avoiding C which doesn’t help them further their goal</li>
+  <li>C sinks A as they’re running away - A has no fun because they got sunk and have to start their voyage over, perhaps even losing the gold they invested in purchasing the voyage (negative progress by losing gold is a pretty unenjoyable experience for an Achiever like A)</li>
+  <li>A turns to fight and defeats C - A <em>may</em> have fun if C has chests A can steal (but since C is purely motivated as a Competitor, they don’t care about chests and probably won’t have any)</li>
+  <li>C defeats A - Same problem as #2</li>
+</ol>
+
+<p>In three (and sometimes all four) out of four of these outcomes, at least one player is not enjoying themselves. Players who consistently don’t enjoy themselves in your game will leave and find another game where they will enjoy themselves.</p>
+
+<p>So how do we solve this problem? It’s really, really simple. <a href="https://en.wikipedia.org/wiki/EverQuest">EverQuest</a> discovered the solution about twenty years ago: have players tell you what kind of player they are by selecting whether they want to play on a PvE or PvP server. This way all of the people that have the Competitor motivation end up on PvP servers and can have fun the way they want to. And the people without the Competitor motivation can play the game and have fun the way they want to. Everyone wins.</p>
+
+<p>Or simply don’t have non-consensual PvP in your game.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>This motivation was originally called “Killer” but I prefer the term “Competitor” because it is less judgmental <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Some blame the Competitor for forcing others to play the game “their way” but it isn’t the Competitor’s fault. They enjoy what they enjoy. It isn’t the Competitor’s fault the game is designed this way any more than it is the Socializer’s fault for not enjoying being target practice for the Competitor. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+</div>
+</body></html>
+
+          </div>
+        </div>
+
+        <div class="col-md-8 col-md-offset-2">
+          <hr/>
+          <div class="text-center">
+            <p>
+              <a href="mailto:lee@lee-dohm.com"><span class="octicon octicon-mail"></span></a>&nbsp;&nbsp;
+              <a href="https://github.com/lee-dohm"><span class="octicon octicon-mark-github"></span></a>&nbsp;&nbsp;
+              <a href="//stackoverflow.com/users/1954/lee"><i class="fa fa-stack-exchange"></i></a>&nbsp;&nbsp;
+              <a href="https://twitter.com/leedohm"><i class="fa fa-twitter"></i></a>
+            </p>
+            <p>
+              Copyright &copy; 2010-2022 by Lee Dohm
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/javascripts/lightbox.min.js"></script>
+  </body>
+</html>

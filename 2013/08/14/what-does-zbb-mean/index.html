@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Raleway' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="application/atom+xml" rel="alternate" href="https://www.lee-dohm.com/feed.xml" title="lee-dohm.com" />
+    <link rel="icon" type="image/png" href="/favicon-icon.png"/>
+
+    <!-- Bootstrap -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+
+    <!-- Site -->
+    <link href="/stylesheets/styles.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+    <!-- Battle for the Net widget https://github.com/fightforthefuture/battleforthenet-widget -->
+    <!-- <script src="https://widget.battleforthenet.com/widget.js" async></script> -->
+
+    <!-- analytics.html -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17382346-2', 'lee-dohm.com');
+  ga('send', 'pageview');
+</script>
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>What Does ZBB Actually Mean? | lee-dohm.com</title>
+<meta name="generator" content="Jekyll v4.1.0" />
+<meta property="og:title" content="What Does ZBB Actually Mean?" />
+<meta name="author" content="Lee Dohm" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I had a discussion around the deeper meaning of the commonly used but just as commonly misunderstood software development term “ZBB” today. ZBB is a TLA1 that describes a milestone in the development of a software project. Most often, ZBB is a term used in development houses that have both a dev team and a test team. The reason why will become apparent in a bit. The process generally follows the progression: Development, Code/Feature Complete, ZBB, Deployment/Ship. So now we know that ZBB is a necessary step on the way to shipping something, but how do we know we’ve gotten there? Three Letter Acronym &#8617;" />
+<meta property="og:description" content="I had a discussion around the deeper meaning of the commonly used but just as commonly misunderstood software development term “ZBB” today. ZBB is a TLA1 that describes a milestone in the development of a software project. Most often, ZBB is a term used in development houses that have both a dev team and a test team. The reason why will become apparent in a bit. The process generally follows the progression: Development, Code/Feature Complete, ZBB, Deployment/Ship. So now we know that ZBB is a necessary step on the way to shipping something, but how do we know we’ve gotten there? Three Letter Acronym &#8617;" />
+<link rel="canonical" href="https://www.lee-dohm.com/2013/08/14/what-does-zbb-mean/" />
+<meta property="og:url" content="https://www.lee-dohm.com/2013/08/14/what-does-zbb-mean/" />
+<meta property="og:site_name" content="lee-dohm.com" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-08-14T13:33:25-07:00" />
+<script type="application/ld+json">
+{"datePublished":"2013-08-14T13:33:25-07:00","url":"https://www.lee-dohm.com/2013/08/14/what-does-zbb-mean/","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.lee-dohm.com/2013/08/14/what-does-zbb-mean/"},"author":{"@type":"Person","name":"Lee Dohm"},"description":"I had a discussion around the deeper meaning of the commonly used but just as commonly misunderstood software development term “ZBB” today. ZBB is a TLA1 that describes a milestone in the development of a software project. Most often, ZBB is a term used in development houses that have both a dev team and a test team. The reason why will become apparent in a bit. The process generally follows the progression: Development, Code/Feature Complete, ZBB, Deployment/Ship. So now we know that ZBB is a necessary step on the way to shipping something, but how do we know we’ve gotten there? Three Letter Acronym &#8617;","headline":"What Does ZBB Actually Mean?","dateModified":"2013-08-14T13:33:25-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-custom" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Lee Dohm</a>
+        <p class="navbar-text">Games and Technology Should Include EVERYone</p>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/feed.xml">Feed</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="/about">About Lee</a></li>
+              <li><a href="/this-blog">About This Blog</a></li>
+              <li><a href="/appearances">Appearances</a></li>
+              <li><a href="/colophon">Colophon</a></li>
+              <li><a href="/disclaimer">Disclaimers</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<div class="content">
+  <h1><a class="title" href="/2013/08/14/what-does-zbb-mean/">What Does ZBB Actually Mean?</a></h1>
+  <!-- dateline.html -->
+<h4 class="dateline">
+  August 14, 2013
+  •
+  <a href="/2013/08/14/what-does-zbb-mean/"><span class="octicon octicon-link"></span></a>
+</h4>
+
+
+  <p>I had a discussion around the deeper meaning of the commonly used but just as commonly misunderstood software development term “ZBB” today. ZBB is a TLA<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup> that describes a milestone in the development of a software project. Most often, ZBB is a term used in development houses that have both a dev team and a test team. The reason why will become apparent in a bit. The process generally follows the progression: Development, Code/Feature Complete, ZBB, Deployment/Ship. So now we know that ZBB is a necessary step on the way to shipping something, but how do we know we’ve gotten there?</p>
+
+<p>If you’re reading this blog and you’ve heard the term ZBB before, you were probably told that it was something like “Zero Bug Build” or “Zero Bug Barrier”. What it stood for originally is “Zero Bug Bounce”. Yes, bounce. The reason why is a bit complicated … and memorable.</p>
+
+<p><a href="/images/BugBurndown.png" data-lightbox="Bug Burndown Chart" data-title="Bug Burndown Chart"><img src="/images/BugBurndown.png" alt="Bug Burndown Chart" width="100%"></a></p>
+
+<p>This is a chart of the number of bugs being tracked in a product over time. See the part where the bug count starts bouncing on the zero line at about the 25^(th)? This is where the development team has caught up with the test team and is fixing bugs as fast as the test team is finding them. This doesn’t mean that all the bugs have been found or fixed because <em>all</em> the bugs will never be found in any significant software project, let alone fixed. It just means that there are few enough bugs that the test team has caught all the easy ones and isn’t filing bugs faster than the dev team can fix them anymore.</p>
+
+<p>It is important to note that ZBB does <em>not</em> equal “ready to ship”. That is a separate decision that has to be made based on the severity of the new bugs being found. If the test team is still finding ship-blocker level bugs during the ZBB phase, then the product is most definitely not ready to ship. But if the trickle of new bugs are little things, then perhaps it is.</p>
+
+<p>You might think that the first time the bug count hits zero is the ZBB, in the example here on the 16^(th). But ZBB is a maintainable state when one isn’t adding more features. Often in organizations with a separate test team that is very date driven, you’ll see the development team “push for ZBB” in an effort to make the actual ZBB date match up with the planned one. Sometimes coming in on the weekend and such. But ZBB is something that one can only declare in retrospect because it is the bounce that key, not reaching zero bugs.</p>
+
+<p>Ideally, you know you’ve hit ZBB when the test team agrees that they aren’t finding a lot of bugs anymore and the dev team agrees that they can keep up easily with what the test team is still finding.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Three Letter Acronym <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+</div>
+</body></html>
+
+          </div>
+        </div>
+
+        <div class="col-md-8 col-md-offset-2">
+          <hr/>
+          <div class="text-center">
+            <p>
+              <a href="mailto:lee@lee-dohm.com"><span class="octicon octicon-mail"></span></a>&nbsp;&nbsp;
+              <a href="https://github.com/lee-dohm"><span class="octicon octicon-mark-github"></span></a>&nbsp;&nbsp;
+              <a href="//stackoverflow.com/users/1954/lee"><i class="fa fa-stack-exchange"></i></a>&nbsp;&nbsp;
+              <a href="https://twitter.com/leedohm"><i class="fa fa-twitter"></i></a>
+            </p>
+            <p>
+              Copyright &copy; 2010-2022 by Lee Dohm
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/javascripts/lightbox.min.js"></script>
+  </body>
+</html>

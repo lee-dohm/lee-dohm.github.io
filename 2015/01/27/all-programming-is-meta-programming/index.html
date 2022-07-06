@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Raleway' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="application/atom+xml" rel="alternate" href="https://www.lee-dohm.com/feed.xml" title="lee-dohm.com" />
+    <link rel="icon" type="image/png" href="/favicon-icon.png"/>
+
+    <!-- Bootstrap -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+
+    <!-- Site -->
+    <link href="/stylesheets/styles.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+    <!-- Battle for the Net widget https://github.com/fightforthefuture/battleforthenet-widget -->
+    <!-- <script src="https://widget.battleforthenet.com/widget.js" async></script> -->
+
+    <!-- analytics.html -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17382346-2', 'lee-dohm.com');
+  ga('send', 'pageview');
+</script>
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>All Programming is Meta-Programming | lee-dohm.com</title>
+<meta name="generator" content="Jekyll v4.1.0" />
+<meta property="og:title" content="All Programming is Meta-Programming" />
+<meta name="author" content="Lee Dohm" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="At my day job, I’m currently working on a project that I’m building in Ruby. I’m building it in Ruby because I feel that it is the best tool for the job. Unfortunately, my coworkers don’t have the same wealth of experience with Ruby that I do, so a few of them are showing signs of trepidation. They’re worried about Ruby’s syntax quirks (essentially, that it isn’t a C-style language). They’ve got concerns about all of the “unnecessary syntactic sugar” or “crazy magic” that Ruby has. But when we write code, we’re always working with abstractions and layering them one on top of the other until we can do our job with a single statement." />
+<meta property="og:description" content="At my day job, I’m currently working on a project that I’m building in Ruby. I’m building it in Ruby because I feel that it is the best tool for the job. Unfortunately, my coworkers don’t have the same wealth of experience with Ruby that I do, so a few of them are showing signs of trepidation. They’re worried about Ruby’s syntax quirks (essentially, that it isn’t a C-style language). They’ve got concerns about all of the “unnecessary syntactic sugar” or “crazy magic” that Ruby has. But when we write code, we’re always working with abstractions and layering them one on top of the other until we can do our job with a single statement." />
+<link rel="canonical" href="https://www.lee-dohm.com/2015/01/27/all-programming-is-meta-programming/" />
+<meta property="og:url" content="https://www.lee-dohm.com/2015/01/27/all-programming-is-meta-programming/" />
+<meta property="og:site_name" content="lee-dohm.com" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2015-01-27T00:02:26-08:00" />
+<script type="application/ld+json">
+{"datePublished":"2015-01-27T00:02:26-08:00","url":"https://www.lee-dohm.com/2015/01/27/all-programming-is-meta-programming/","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.lee-dohm.com/2015/01/27/all-programming-is-meta-programming/"},"author":{"@type":"Person","name":"Lee Dohm"},"description":"At my day job, I’m currently working on a project that I’m building in Ruby. I’m building it in Ruby because I feel that it is the best tool for the job. Unfortunately, my coworkers don’t have the same wealth of experience with Ruby that I do, so a few of them are showing signs of trepidation. They’re worried about Ruby’s syntax quirks (essentially, that it isn’t a C-style language). They’ve got concerns about all of the “unnecessary syntactic sugar” or “crazy magic” that Ruby has. But when we write code, we’re always working with abstractions and layering them one on top of the other until we can do our job with a single statement.","headline":"All Programming is Meta-Programming","dateModified":"2015-01-27T00:02:26-08:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-custom" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Lee Dohm</a>
+        <p class="navbar-text">Games and Technology Should Include EVERYone</p>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/feed.xml">Feed</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="/about">About Lee</a></li>
+              <li><a href="/this-blog">About This Blog</a></li>
+              <li><a href="/appearances">Appearances</a></li>
+              <li><a href="/colophon">Colophon</a></li>
+              <li><a href="/disclaimer">Disclaimers</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<div class="content">
+  <h1><a class="title" href="/2015/01/27/all-programming-is-meta-programming/">All Programming is Meta-Programming</a></h1>
+  <!-- dateline.html -->
+<h4 class="dateline">
+  January 27, 2015
+  •
+  <a href="/2015/01/27/all-programming-is-meta-programming/"><span class="octicon octicon-link"></span></a>
+</h4>
+
+
+  <p>At my day job, I’m currently working on a project that I’m building in Ruby. I’m building it in Ruby because I feel that it is the best tool for the job. Unfortunately, my coworkers don’t have the same wealth of experience with Ruby that I do, so a few of them are showing signs of trepidation. They’re worried about Ruby’s syntax quirks (essentially, that it isn’t a C-style language). They’ve got concerns about all of the “unnecessary syntactic sugar” or “crazy magic” that Ruby has. But when we write code, we’re always working with abstractions and layering them one on top of the other until we can do our job with a single statement.</p>
+
+<p>Don’t believe me? Well let’s take a look at some very simple code:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">File</span><span class="p">.</span><span class="nf">open</span><span class="p">(</span><span class="s1">'test-file.txt'</span><span class="p">,</span> <span class="s1">'w'</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">file</span><span class="o">|</span>
+  <span class="n">file</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s1">'Some test text'</span><span class="p">)</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>What does this code do? Well, at the most basic level it:</p>
+
+<ol>
+  <li>Opens the file <code class="language-plaintext highlighter-rouge">test-file.txt</code> for writing</li>
+  <li>Writes the text <code class="language-plaintext highlighter-rouge">Some test text</code> into it</li>
+  <li>Closes the file</li>
+</ol>
+
+<p>But even that is an abstraction. Opening the file abstracts away the OS-level file descriptor that is the handle to the file. Writing the text elides the fact that there is a buffer behind it that gets flushed to disk when you close the file. And sure, you might have known about all of that. But do you know the intimate details of all of the other layers of abstraction like:</p>
+
+<ol>
+  <li>The OS-level system calls</li>
+  <li>The hardware driver for the bus type (IDE whether PATA or SATA, SCSI, USB)</li>
+  <li>The hardware driver for the specific drive type (HD, SSD, flash drive)</li>
+  <li>The caching on the drive controller</li>
+  <li>The caching on the drive</li>
+  <li>The laying down of the bits on the drive</li>
+  <li>And <em>et cetera</em>
+</li>
+</ol>
+
+<p>And that’s just the writing of the text into the file. That leaves out all the stuff about managing file descriptors, the file system, the memory management and garbage collection of the <code class="language-plaintext highlighter-rouge">File</code> object and so, so many other things that we just take for granted when we write code.</p>
+
+<p>This is the way the human brain works, by building abstractions that allow us to understand more complex ideas by building up from simpler ones. Some of the most well-known research that shows this is in analyzing <a href="http://theinvisiblegorilla.com/blog/2012/02/15/how-experts-recall-chess-positions/">how the thought process of chess masters differs from novices</a>:</p>
+
+<blockquote>
+  <p>Years later, Chase and Simon replicated de Groot’s finding with another expert (a master-level player) as well as an amateur and a novice.  They also added a critical control: The players viewed both real chess positions and scrambled chess positions (that included pieces in implausible and even impossible locations). The expert excelled with the real positions, but performed no better than the amateur and novice for the scrambled positions … The expert advantage apparently comes from familiarity with real chess positions, something that allows more efficient encoding or retrieval of the positions.</p>
+</blockquote>
+
+<p>And the research shows that programmers use the same memory patterns to recognize common code constructs from uncommon ones.</p>
+
+<p>So everything in programming is an abstraction. And not only that, but an abstraction on top of an abstraction on top of an abstraction. <a href="https://en.wikipedia.org/wiki/Turtles_all_the_way_down#History">It’s turtles all the way down …</a> but what does this have to do with Ruby?</p>
+
+<p>Ruby has some syntactic features that allow you to create new abstractions that <em>look</em> like language constructs. Take, for example, the three lines of Ruby code near the beginning of this article. If we rewrote it in Java it might look like this:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">try</span> <span class="o">{</span>
+    <span class="nc">BufferedWriter</span> <span class="n">file</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">BufferedWriter</span><span class="o">(</span><span class="k">new</span> <span class="nc">FileWriter</span><span class="o">(</span><span class="s">"test-file.txt"</span><span class="o">));</span>
+    <span class="n">file</span><span class="o">.</span><span class="na">write</span><span class="o">(</span><span class="s">"Some test text"</span><span class="o">);</span>
+<span class="o">}</span> <span class="k">finally</span> <span class="o">{</span>
+    <span class="n">file</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>This code does exactly the same thing as the Ruby code. But it does it at a lower level of abstraction. This Java code makes it clear that whether or not an error occurs, we’re going to close the file. But this is a really, really, really common code pattern. So common that C# created an official language construct just for ensuring that things get cleaned up called the <a href="https://msdn.microsoft.com/en-us/library/fs2xkftw(VS.80).aspx">Dispose Pattern</a>. It looks like this:</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">using</span> <span class="p">(</span><span class="n">StreamWriter</span> <span class="n">file</span> <span class="p">=</span> <span class="k">new</span> <span class="nf">StreamWriter</span><span class="p">(</span><span class="s">"test-file.txt"</span><span class="p">))</span> <span class="p">{</span>
+    <span class="n">file</span><span class="p">.</span><span class="nf">WriteLine</span><span class="p">(</span><span class="s">"Some test text"</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Funny, that looks a lot like the Ruby code.<sup id="fnref:java-too" role="doc-noteref"><a href="#fn:java-too" class="footnote">1</a></sup> The difference is that <code class="language-plaintext highlighter-rouge">using</code> is a special keyword in C# that is baked into the language. Could you duplicate the Dispose Pattern without needing a special keyword? Sure, but it wouldn’t be as simple to write syntactically as <code class="language-plaintext highlighter-rouge">using</code>, which is itself slightly more complicated than Ruby’s syntax above.</p>
+
+<p>The best part about the Ruby <code class="language-plaintext highlighter-rouge">File.open</code> syntax is that the part between the <code class="language-plaintext highlighter-rouge">do</code> and the <code class="language-plaintext highlighter-rouge">end</code> keywords is called a “block”.<sup id="fnref:javascript" role="doc-noteref"><a href="#fn:javascript" class="footnote">2</a></sup> Every function in Ruby can accept one and only one block. So you’ll find this kind of pattern everywhere in Ruby:</p>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">File.open</code> passes the <code class="language-plaintext highlighter-rouge">File</code> object to the block and closes the file when the block exits</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">Dir.chdir</code> passes the path of the directory changed to into the block and changes back to the original directory when the block exits</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">Array.sort</code> allows you to create a comparator function in place by passing a block describing the comparator</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">String.gsub</code> allows you to customize exactly how matched text is replaced by specifying a replacement function as a block</li>
+</ul>
+
+<p>And this is just one of the ways that Ruby’s meta-programming features makes writing <em>and</em> reading code simpler. There’s nothing magic here. There’s just a new syntax for writing the same code.<sup id="fnref:syntactic-sugar" role="doc-noteref"><a href="#fn:syntactic-sugar" class="footnote">3</a></sup> Could you do the same stuff in other languages? Absolutely! Here’s how to sort a list of strings using a custom comparator in <a href="http://rosettacode.org/wiki/Sort_using_a_custom_comparator">pretty much every language ever</a>.</p>
+
+<p>Let me be perfectly clear. What makes Ruby special is <em>not</em> what it makes possible, because it is possible to do anything Ruby can do in <em>any</em> Turing-complete language. What is special about Ruby is <strong>how much</strong> it makes things simpler. And any tool that can make writing the next several layers of abstraction faster, simpler, more testable and readable? That’s the tool that I’m going to use.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:java-too" role="doc-endnote">
+      <p>Yes, I am aware that Java now has the <code class="language-plaintext highlighter-rouge">try</code> syntax that is almost identical to C#’s Dispose Pattern. I’m not picking on Java, it was just an easy code pattern for me to remember. <a href="#fnref:java-too" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:javascript" role="doc-endnote">
+      <p>There are obvious parallels between Ruby blocks and JavaScript callback functions or Objective-C blocks, but neither of them are as simple to write or read as the Ruby version. <a href="#fnref:javascript" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:syntactic-sugar" role="doc-endnote">
+      <p>It is most definitely syntactic sugar. And if you object to syntactic sugar, then I have to ask you why you aren’t writing in Assembler? And none of that mamby-pamby Macro Assembler either … but down and dirty, nothing but the actual opcodes for your processor, have to declare your own <code class="language-plaintext highlighter-rouge">DATA</code> and <code class="language-plaintext highlighter-rouge">CODE</code> segments Assembler. And then I’ll ask you if your name is <a href="http://www.catb.org/jargon/html/story-of-mel.html">Mel Kaye</a>. <a href="#fnref:syntactic-sugar" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+</div>
+</body></html>
+
+          </div>
+        </div>
+
+        <div class="col-md-8 col-md-offset-2">
+          <hr/>
+          <div class="text-center">
+            <p>
+              <a href="mailto:lee@lee-dohm.com"><span class="octicon octicon-mail"></span></a>&nbsp;&nbsp;
+              <a href="https://github.com/lee-dohm"><span class="octicon octicon-mark-github"></span></a>&nbsp;&nbsp;
+              <a href="//stackoverflow.com/users/1954/lee"><i class="fa fa-stack-exchange"></i></a>&nbsp;&nbsp;
+              <a href="https://twitter.com/leedohm"><i class="fa fa-twitter"></i></a>
+            </p>
+            <p>
+              Copyright &copy; 2010-2022 by Lee Dohm
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/javascripts/lightbox.min.js"></script>
+  </body>
+</html>

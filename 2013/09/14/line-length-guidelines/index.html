@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Raleway' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="application/atom+xml" rel="alternate" href="https://www.lee-dohm.com/feed.xml" title="lee-dohm.com" />
+    <link rel="icon" type="image/png" href="/favicon-icon.png"/>
+
+    <!-- Bootstrap -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+
+    <!-- Site -->
+    <link href="/stylesheets/styles.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+    <!-- Battle for the Net widget https://github.com/fightforthefuture/battleforthenet-widget -->
+    <!-- <script src="https://widget.battleforthenet.com/widget.js" async></script> -->
+
+    <!-- analytics.html -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17382346-2', 'lee-dohm.com');
+  ga('send', 'pageview');
+</script>
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Line Length Guidelines | lee-dohm.com</title>
+<meta name="generator" content="Jekyll v4.1.0" />
+<meta property="og:title" content="Line Length Guidelines" />
+<meta name="author" content="Lee Dohm" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I contribute as I can to the Ruby Style Guide maintained by Bozhidar Batsov. One of the most hotly debated topics is the guideline of keeping lines of code to eighty characters or fewer. Bozhidar even discussed maximum line length in his first blog post explaining the reasoning behind some of the guidelines. He, and the commenters on that post, bring up some points in support of the eighty-character limit but I wanted to take a look at “representative” code and see what line length people naturally kept themselves within. I believe most good coders naturally keep themselves to shorter lines except when they need to have a longer line to properly express an idea." />
+<meta property="og:description" content="I contribute as I can to the Ruby Style Guide maintained by Bozhidar Batsov. One of the most hotly debated topics is the guideline of keeping lines of code to eighty characters or fewer. Bozhidar even discussed maximum line length in his first blog post explaining the reasoning behind some of the guidelines. He, and the commenters on that post, bring up some points in support of the eighty-character limit but I wanted to take a look at “representative” code and see what line length people naturally kept themselves within. I believe most good coders naturally keep themselves to shorter lines except when they need to have a longer line to properly express an idea." />
+<link rel="canonical" href="https://www.lee-dohm.com/2013/09/14/line-length-guidelines/" />
+<meta property="og:url" content="https://www.lee-dohm.com/2013/09/14/line-length-guidelines/" />
+<meta property="og:site_name" content="lee-dohm.com" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-09-14T16:10:09-07:00" />
+<script type="application/ld+json">
+{"datePublished":"2013-09-14T16:10:09-07:00","url":"https://www.lee-dohm.com/2013/09/14/line-length-guidelines/","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.lee-dohm.com/2013/09/14/line-length-guidelines/"},"author":{"@type":"Person","name":"Lee Dohm"},"description":"I contribute as I can to the Ruby Style Guide maintained by Bozhidar Batsov. One of the most hotly debated topics is the guideline of keeping lines of code to eighty characters or fewer. Bozhidar even discussed maximum line length in his first blog post explaining the reasoning behind some of the guidelines. He, and the commenters on that post, bring up some points in support of the eighty-character limit but I wanted to take a look at “representative” code and see what line length people naturally kept themselves within. I believe most good coders naturally keep themselves to shorter lines except when they need to have a longer line to properly express an idea.","headline":"Line Length Guidelines","dateModified":"2013-09-14T16:10:09-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-custom" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Lee Dohm</a>
+        <p class="navbar-text">Games and Technology Should Include EVERYone</p>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/feed.xml">Feed</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="/about">About Lee</a></li>
+              <li><a href="/this-blog">About This Blog</a></li>
+              <li><a href="/appearances">Appearances</a></li>
+              <li><a href="/colophon">Colophon</a></li>
+              <li><a href="/disclaimer">Disclaimers</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            
+
+<div class="content">
+  <h1><a class="title" href="/2013/09/14/line-length-guidelines/">Line Length Guidelines</a></h1>
+  <!-- dateline.html -->
+<h4 class="dateline">
+  September 14, 2013
+  •
+  <a href="/2013/09/14/line-length-guidelines/"><span class="octicon octicon-link"></span></a>
+</h4>
+
+
+  <p>I contribute as I can to the <a href="https://github.com/bbatsov/ruby-style-guide">Ruby Style Guide</a> maintained by <a href="http://batsov.com">Bozhidar Batsov</a>. One of the most hotly debated topics is the guideline of keeping lines of code to eighty characters or fewer. Bozhidar even discussed maximum line length in <a href="http://batsov.com/articles/2013/06/26/the-elements-of-style-in-ruby-number-1-maximum-line-length/">his first blog post</a> explaining the reasoning behind some of the guidelines. He, and the commenters on that post, bring up some points in support of the eighty-character limit but I wanted to take a look at “representative” code and see what line length people naturally kept themselves within. I believe most good coders naturally keep themselves to shorter lines except when they need to have a longer line to properly express an idea.</p>
+
+<p>The first problem was how to find representative code. I naturally turned to <a href="https://github.com">GitHub</a> to use their new API for search to get the list of the ten most popular Ruby projects. Most popular is defined as having the most “stars”, a mechanism on GitHub whereby people mark a project as a favorite of theirs. The more favorites, the more popular.</p>
+
+<p>Now that I had a corpus of code to look at, I wanted to ensure reasonably easily that I was looking at <em>code</em>. So I excluded all lines that:</p>
+
+<ul>
+  <li>Consist solely of whitespace</li>
+  <li>Consist solely of comments</li>
+  <li>Contain only the keyword <code class="language-plaintext highlighter-rouge">end</code>
+</li>
+  <li>Exceed 200 characters in length<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>
+</li>
+</ul>
+
+<p>After some messing around I built a program to query GitHub, download the latest version of the code and parse all the files. You can find my project on GitHub: <a href="https://github.com/lee-dohm/line-length-miner">Line Length Miner</a>. When I ran the script, these are the results I found:</p>
+
+<ul>
+  <li>Count: 257,344 lines examined</li>
+  <li>Mean: 44.73162 characters</li>
+  <li>Standard Deviation: 42.37547</li>
+  <li>95<sup>th</sup> percentile: ~90 characters</li>
+  <li>99<sup>th</sup> percentile: ~123 characters</li>
+  <li>99.9<sup>th</sup> percentile: ~176 characters</li>
+  <li>Percentile of 80 characters: 91.82262</li>
+  <li>Percentile of 100 characters: 96.88238</li>
+  <li>Percentile of 120 characters: 98.81598</li>
+  <li>Percentile of 132 characters: 99.31609</li>
+</ul>
+
+<p>And here is the histogram of the data:</p>
+
+<p><a href="/images/line-length.svg" data-lightbox="Histogram of the lengths of lines of code from the top 10 Ruby projects on GitHub" data-title="Histogram of the lengths of lines of code from the top 10 Ruby projects on GitHub"><img src="/images/line-length.svg" alt="Histogram of the lengths of lines of code from the top 10 Ruby projects on GitHub" width="100%"></a></p>
+
+<p>It would appear that the length of lines of code do not follow specifically a <a href="http://en.wikipedia.org/wiki/Normal_distribution">normal distribution</a>, though we could still use a normal distribution to approximate it. Because I wanted to have things be as accurate as possible, for all my percentile calculations I worked directly from the dataset and did not approximate based on the mean and standard deviation.</p>
+
+<p>The most interesting thing to note is that representative Ruby code has a hard time staying under eighty characters. If we were to force all ten projects to stay within eighty characters, no exceptions, over eight percent of their code would need to be touched … over twenty thousand lines! <img class="emoji" title=":fearful:" alt=":fearful:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f628.png" height="20" width="20"></p>
+
+<p>So if the line length limit shouldn’t be eighty characters, what should it be? The vast majority of code can stay within 132 characters, so I don’t think it should be any higher than that. And only the tiniest fraction less code can stay within 120 characters. So it is really a choice between 100 and 120 characters for Ruby code. 100 to allow those with small monitors to be able to work more easily or 120 to err on the side of permissiveness. I’ve reconfigured my editor for 100 characters.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>The assumption here is that lines that are beyond 200 characters in length aren’t actually lines of code, but strings or other encoded data. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div></body></html>
+
+          </div>
+        </div>
+
+        <div class="col-md-8 col-md-offset-2">
+          <hr/>
+          <div class="text-center">
+            <p>
+              <a href="mailto:lee@lee-dohm.com"><span class="octicon octicon-mail"></span></a>&nbsp;&nbsp;
+              <a href="https://github.com/lee-dohm"><span class="octicon octicon-mark-github"></span></a>&nbsp;&nbsp;
+              <a href="//stackoverflow.com/users/1954/lee"><i class="fa fa-stack-exchange"></i></a>&nbsp;&nbsp;
+              <a href="https://twitter.com/leedohm"><i class="fa fa-twitter"></i></a>
+            </p>
+            <p>
+              Copyright &copy; 2010-2022 by Lee Dohm
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/javascripts/lightbox.min.js"></script>
+  </body>
+</html>

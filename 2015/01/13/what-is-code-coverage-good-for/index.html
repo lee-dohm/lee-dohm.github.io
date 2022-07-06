@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Raleway' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="application/atom+xml" rel="alternate" href="https://www.lee-dohm.com/feed.xml" title="lee-dohm.com" />
+    <link rel="icon" type="image/png" href="/favicon-icon.png"/>
+
+    <!-- Bootstrap -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+
+    <!-- Site -->
+    <link href="/stylesheets/styles.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+    <!-- Battle for the Net widget https://github.com/fightforthefuture/battleforthenet-widget -->
+    <!-- <script src="https://widget.battleforthenet.com/widget.js" async></script> -->
+
+    <!-- analytics.html -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17382346-2', 'lee-dohm.com');
+  ga('send', 'pageview');
+</script>
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>What is Code Coverage Good For? | lee-dohm.com</title>
+<meta name="generator" content="Jekyll v4.1.0" />
+<meta property="og:title" content="What is Code Coverage Good For?" />
+<meta name="author" content="Lee Dohm" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Code coverage is a software development metric that measures how much of your code is covered by your tests. There are a few different ways to calculate it, but the most basic just instruments your code so that when a line is executed, it is logged. Then you run your tests, parse the log and any line that wasn’t executed is not covered by your tests. Simple right? Well, yes and no …" />
+<meta property="og:description" content="Code coverage is a software development metric that measures how much of your code is covered by your tests. There are a few different ways to calculate it, but the most basic just instruments your code so that when a line is executed, it is logged. Then you run your tests, parse the log and any line that wasn’t executed is not covered by your tests. Simple right? Well, yes and no …" />
+<link rel="canonical" href="https://www.lee-dohm.com/2015/01/13/what-is-code-coverage-good-for/" />
+<meta property="og:url" content="https://www.lee-dohm.com/2015/01/13/what-is-code-coverage-good-for/" />
+<meta property="og:site_name" content="lee-dohm.com" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2015-01-13T02:15:08-08:00" />
+<script type="application/ld+json">
+{"datePublished":"2015-01-13T02:15:08-08:00","url":"https://www.lee-dohm.com/2015/01/13/what-is-code-coverage-good-for/","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.lee-dohm.com/2015/01/13/what-is-code-coverage-good-for/"},"author":{"@type":"Person","name":"Lee Dohm"},"description":"Code coverage is a software development metric that measures how much of your code is covered by your tests. There are a few different ways to calculate it, but the most basic just instruments your code so that when a line is executed, it is logged. Then you run your tests, parse the log and any line that wasn’t executed is not covered by your tests. Simple right? Well, yes and no …","headline":"What is Code Coverage Good For?","dateModified":"2015-01-13T02:15:08-08:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-custom" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Lee Dohm</a>
+        <p class="navbar-text">Games and Technology Should Include EVERYone</p>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/feed.xml">Feed</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="/about">About Lee</a></li>
+              <li><a href="/this-blog">About This Blog</a></li>
+              <li><a href="/appearances">Appearances</a></li>
+              <li><a href="/colophon">Colophon</a></li>
+              <li><a href="/disclaimer">Disclaimers</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            
+
+<div class="content">
+  <h1><a class="title" href="/2015/01/13/what-is-code-coverage-good-for/">What is Code Coverage Good For?</a></h1>
+  <!-- dateline.html -->
+<h4 class="dateline">
+  January 13, 2015
+  •
+  <a href="/2015/01/13/what-is-code-coverage-good-for/"><span class="octicon octicon-link"></span></a>
+</h4>
+
+
+  <p>Code coverage is a software development metric that measures how much of your code is covered by your tests. There are a few different ways to calculate it, but the most basic just instruments your code so that when a line is executed, it is logged. Then you run your tests, parse the log and any line that wasn’t executed is not covered by your tests. Simple right? Well, yes and no …</p>
+
+<p>The above style of code coverage is called “line” or “block” coverage because it covers code line-by-line or in blocks. It works great for straight-line code like this:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">foo</span>
+  <span class="n">a</span> <span class="o">=</span> <span class="mi">42</span>
+  <span class="n">b</span> <span class="o">=</span> <span class="mi">17</span>
+  <span class="n">c</span> <span class="o">=</span> <span class="mi">23</span>
+  <span class="n">a</span> <span class="o">*</span> <span class="n">b</span> <span class="o">*</span> <span class="n">c</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>because it tracks which lines were executed. But if you run into code like this:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">foo</span>
+  <span class="k">if</span> <span class="n">x</span> <span class="o">||</span> <span class="n">y</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+    <span class="n">bar</span> <span class="o">&amp;&amp;</span> <span class="n">baz</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>you can get 100% code coverage and still not test the entire function. How, you ask? Well, every modern programming language has some type of short-circuit Boolean evaluation, flow control mechanism or even strange parameter passing artifact that means sometimes an entire line isn’t executed. For example, in the code block above if <code class="language-plaintext highlighter-rouge">x</code> is true then the function <code class="language-plaintext highlighter-rouge">y(x)</code> never gets called. The opposite is true of <code class="language-plaintext highlighter-rouge">bar</code> and <code class="language-plaintext highlighter-rouge">baz</code>. If <code class="language-plaintext highlighter-rouge">bar</code> is false, then <code class="language-plaintext highlighter-rouge">baz</code> is never evaluated. But in both cases, line coverage will count this block as 100% covered.</p>
+
+<p>Now, we could solve this problem with “branch” or “arc” coverage. Branch coverage instruments code at a deeper level, ensuring that each and every path (or arc) through the code is covered. So in the block of code above there are 5 arcs:</p>
+
+<ol>
+  <li>
+<code class="language-plaintext highlighter-rouge">x</code> is true, <code class="language-plaintext highlighter-rouge">bar</code> is false</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">x</code> is true, <code class="language-plaintext highlighter-rouge">bar</code> is true, <code class="language-plaintext highlighter-rouge">baz</code> is evaluated</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">x</code> is false, <code class="language-plaintext highlighter-rouge">y(x)</code> is true, <code class="language-plaintext highlighter-rouge">bar</code> is false</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">x</code> is false, <code class="language-plaintext highlighter-rouge">y(x)</code> is true, <code class="language-plaintext highlighter-rouge">bar</code> is true, <code class="language-plaintext highlighter-rouge">baz</code> is evaluated</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">x</code> is false, <code class="language-plaintext highlighter-rouge">y(x)</code> is false</li>
+</ol>
+
+<p>Now, if we only cover arc #1, line coverage would say that we have achieved 100% coverage. But as we can see, we’ve only achieved 20% coverage of the code paths.</p>
+
+<p>Well, great! I’ll just use arc coverage then! Except … the vast majority of code coverage tools only provide line coverage. As a matter of fact, the only tool that I’ve ever used that provided branch or arc coverage is <a href="http://research.microsoft.com/en-us/news/features/magellan.aspx">a tool from Microsoft Research called “Magellan”</a>, specifically for C/C++ code on Windows. Another problem with this level of code coverage is that it is harder to visualize, highlighting only the few characters on a line that haven’t been covered.</p>
+
+<p>And then, there’s the Achilles heel of code coverage. It’s right there in the opening paragraph. All code coverage tracks is that you’ve <em>executed</em> a line of code. It has no way of telling if you actually <em>tested</em> that line of code. For example:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">mult</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+  <span class="n">a</span> <span class="o">/</span> <span class="n">b</span>
+<span class="k">end</span>
+
+<span class="n">describe</span> <span class="s1">'mult'</span> <span class="k">do</span>
+  <span class="n">it</span> <span class="s1">'multiplies two numbers'</span> <span class="k">do</span>
+    <span class="n">product</span> <span class="o">=</span> <span class="n">mult</span><span class="p">(</span><span class="mi">42</span><span class="p">,</span> <span class="mi">69</span><span class="p">)</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p><img class="emoji" title=":tada:" alt=":tada:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png" height="20" width="20"> 100% code coverage is achieved!<sup id="fnref:rspec" role="doc-noteref"><a href="#fn:rspec" class="footnote">1</a></sup></p>
+
+<p>Yes, the above examples are of obviously degenerate cases. But each and every one of these examples are simplifications of errors I saw in tests of production code. Production code that our code coverage tool insisted we had covered.</p>
+
+<p>So what <strong>is</strong> code coverage good for? Code coverage is good for identifying areas of your code that are definitively <strong>untested</strong>. Is there a high-risk area of your application that isn’t covered? Well, get on that! But code coverage can’t tell you if any area of your code is <strong>sufficiently</strong> tested. For that, you’ll still need to use your brain.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:rspec" role="doc-endnote">
+      <p>If you’re not familiar with Ruby’s <a href="http://rspec.info/">RSpec</a>, the test block there doesn’t have a verification step. It executes the code, but does not validate that it returns the correct answer. And if the names of the function and test are to be believed, it <em>is</em> returning an incorrect answer. <a href="#fnref:rspec" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div></body></html>
+
+          </div>
+        </div>
+
+        <div class="col-md-8 col-md-offset-2">
+          <hr/>
+          <div class="text-center">
+            <p>
+              <a href="mailto:lee@lee-dohm.com"><span class="octicon octicon-mail"></span></a>&nbsp;&nbsp;
+              <a href="https://github.com/lee-dohm"><span class="octicon octicon-mark-github"></span></a>&nbsp;&nbsp;
+              <a href="//stackoverflow.com/users/1954/lee"><i class="fa fa-stack-exchange"></i></a>&nbsp;&nbsp;
+              <a href="https://twitter.com/leedohm"><i class="fa fa-twitter"></i></a>
+            </p>
+            <p>
+              Copyright &copy; 2010-2022 by Lee Dohm
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/javascripts/lightbox.min.js"></script>
+  </body>
+</html>

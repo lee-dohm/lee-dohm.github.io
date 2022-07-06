@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Raleway' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="application/atom+xml" rel="alternate" href="https://www.lee-dohm.com/feed.xml" title="lee-dohm.com" />
+    <link rel="icon" type="image/png" href="/favicon-icon.png"/>
+
+    <!-- Bootstrap -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+
+    <!-- Site -->
+    <link href="/stylesheets/styles.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+    <!-- Battle for the Net widget https://github.com/fightforthefuture/battleforthenet-widget -->
+    <!-- <script src="https://widget.battleforthenet.com/widget.js" async></script> -->
+
+    <!-- analytics.html -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17382346-2', 'lee-dohm.com');
+  ga('send', 'pageview');
+</script>
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Simpler Elixir Travis Configuration | lee-dohm.com</title>
+<meta name="generator" content="Jekyll v4.1.0" />
+<meta property="og:title" content="Simpler Elixir Travis Configuration" />
+<meta name="author" content="Lee Dohm" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I’ve been playing around with building simple Phoenix framework sites using Elixir lately. It’s been a lot of fun really digging in and figuring out my own best practices as I go along. One of the obvious ones is setting things up so that all my tests can be run on Travis. I found an article that described how to configure one’s Phoenix project for Travis. But there was a part that always bugged me about it." />
+<meta property="og:description" content="I’ve been playing around with building simple Phoenix framework sites using Elixir lately. It’s been a lot of fun really digging in and figuring out my own best practices as I go along. One of the obvious ones is setting things up so that all my tests can be run on Travis. I found an article that described how to configure one’s Phoenix project for Travis. But there was a part that always bugged me about it." />
+<link rel="canonical" href="https://www.lee-dohm.com/2017/12/24/simpler-elixir-travis-configuration/" />
+<meta property="og:url" content="https://www.lee-dohm.com/2017/12/24/simpler-elixir-travis-configuration/" />
+<meta property="og:site_name" content="lee-dohm.com" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-12-24T08:23:32-08:00" />
+<script type="application/ld+json">
+{"datePublished":"2017-12-24T08:23:32-08:00","url":"https://www.lee-dohm.com/2017/12/24/simpler-elixir-travis-configuration/","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.lee-dohm.com/2017/12/24/simpler-elixir-travis-configuration/"},"author":{"@type":"Person","name":"Lee Dohm"},"description":"I’ve been playing around with building simple Phoenix framework sites using Elixir lately. It’s been a lot of fun really digging in and figuring out my own best practices as I go along. One of the obvious ones is setting things up so that all my tests can be run on Travis. I found an article that described how to configure one’s Phoenix project for Travis. But there was a part that always bugged me about it.","headline":"Simpler Elixir Travis Configuration","dateModified":"2017-12-24T08:23:32-08:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-custom" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Lee Dohm</a>
+        <p class="navbar-text">Games and Technology Should Include EVERYone</p>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/feed.xml">Feed</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="/about">About Lee</a></li>
+              <li><a href="/this-blog">About This Blog</a></li>
+              <li><a href="/appearances">Appearances</a></li>
+              <li><a href="/colophon">Colophon</a></li>
+              <li><a href="/disclaimer">Disclaimers</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<div class="content">
+  <h1><a class="title" href="/2017/12/24/simpler-elixir-travis-configuration/">Simpler Elixir Travis Configuration</a></h1>
+  <!-- dateline.html -->
+<h4 class="dateline">
+  December 24, 2017
+  •
+  <a href="/2017/12/24/simpler-elixir-travis-configuration/"><span class="octicon octicon-link"></span></a>
+</h4>
+
+
+  <p>I’ve been playing around with building simple <a href="http://phoenixframework.org/">Phoenix framework</a> sites using <a href="https://elixir-lang.org/">Elixir</a> lately. It’s been a lot of fun really digging in and figuring out my own best practices as I go along. One of the obvious ones is setting things up so that all my tests can be run on <a href="https://travis-ci.org/">Travis</a>. I found <a href="https://medium.com/@devenney/phoenix-framework-travis-ci-a46a0dbfecd7">an article</a> that described how to configure one’s Phoenix project for Travis. But there was a part that always bugged me about it.</p>
+
+<p>First, a bit about how Elixir applications work. It is common for Elixir applications to have a series of one or more configuration files. <code class="language-plaintext highlighter-rouge">config.exs</code> contains the default or global configuration. Optionally, there are three other configuration override files each for dev, test, and prod environments named <code class="language-plaintext highlighter-rouge">dev.exs</code>, <code class="language-plaintext highlighter-rouge">test.exs</code>, and <code class="language-plaintext highlighter-rouge">prod.exs</code> respectively. They override any defaults from <code class="language-plaintext highlighter-rouge">config.exs</code> in their respective environments. They do this by importing the environment-specific configuration into the global one (see the <code class="language-plaintext highlighter-rouge">import_config</code> line):</p>
+
+<noscript><pre>use Mix.config
+
+# Other configuration goes here
+
+import_config "#{Mix.env}.exs"
+</pre></noscript>
+<script src="https://gist.github.com/lee-dohm/90ce34920acfc378793a55185a5834b5.js?file=config.exs"> </script>
+
+<p>which I think is a pretty cool system.</p>
+
+<p>The part that bugged me about the article I linked above is that the standard Phoenix <code class="language-plaintext highlighter-rouge">test.exs</code> configuration is:</p>
+
+<noscript><pre>use Mix.Config
+
+# We don't run a server during test. If one is required,
+# you can enable the server option below.
+config :hello_phoenix, HelloPhoenix.Endpoint,
+  http: [port: 4001],
+  server: false
+
+# Print only warnings and errors during test
+config :logger, level: :warn
+
+# Configure your database
+config :hello_phoenix, HelloPhoenix.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  username: "postgres",
+  password: "postgres",
+  database: "hello_phoenix_test",
+  hostname: "localhost",
+  pool: Ecto.Adapters.SQL.Sandbox
+</pre></noscript>
+<script src="https://gist.github.com/lee-dohm/90ce34920acfc378793a55185a5834b5.js?file=article-test.exs"> </script>
+
+<p>We need to modify only one line of this configuration in order to make it work on Travis, line 16. If we set the database password to empty, it’s all good. What the article suggests is to create <a href="https://gist.github.com/lee-dohm/90ce34920acfc378793a55185a5834b5#file-article-travis-exs">a separate <code class="language-plaintext highlighter-rouge">travis.exs</code> configuration</a> that has all of the same information in it as <code class="language-plaintext highlighter-rouge">test.exs</code> with that one line changed. As someone who spent a number of years working in QA, this kind of duplication is a big red flag! Now if any line other than line 16 changes in <code class="language-plaintext highlighter-rouge">test.exs</code>, we have to remember to change it in <code class="language-plaintext highlighter-rouge">travis.exs</code> also. And we have to remember that line 16 is the “special” line that <em>should</em> be different 😱</p>
+
+<p>We already have a mechanism for overriding configuration values though, the same one we use in <code class="language-plaintext highlighter-rouge">config.exs</code> in every Phoenix application. So in my latest project, I rewrote my <code class="language-plaintext highlighter-rouge">test.exs</code> with line 22 added:</p>
+
+<noscript><pre>use Mix.Config
+
+# We don't run a server during test. If one is required,
+# you can enable the server option below.
+config :hello_phoenix, HelloPhoenix.Endpoint,
+  http: [port: 4001],
+  server: false
+
+# Print only warnings and errors during test
+config :logger, level: :warn
+
+# Configure your database
+config :hello_phoenix, HelloPhoenix.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  username: "postgres",
+  password: "postgres",
+  database: "hello_phoenix_test",
+  hostname: "localhost",
+  pool: Ecto.Adapters.SQL.Sandbox
+
+# Customize the test environment for CI systems
+if System.get_env("CI") == "true", do: import_config "ci.exs"
+</pre></noscript>
+<script src="https://gist.github.com/lee-dohm/90ce34920acfc378793a55185a5834b5.js?file=test.exs"> </script>
+
+<p>This added line checks to see if it is being run in a CI environment, like Travis, and imports the <code class="language-plaintext highlighter-rouge">ci.exs</code> configuration file:</p>
+
+<noscript><pre>use Mix.Config
+
+config :hello_phoenix, HelloPhoenix.Repo,
+  password: ""
+</pre></noscript>
+<script src="https://gist.github.com/lee-dohm/90ce34920acfc378793a55185a5834b5.js?file=ci.exs"> </script>
+
+<p>which overrides the one setting that we want changed. Additionally, if I later choose to have multiple CI environments for any reason, I can further extend this pattern to customize for Travis versus CircleCI or AppVeyor.</p>
+
+<p>Elixir’s ability to create domain-specific languages like the configuration language we see here is similar to Ruby’s and it is <a href="/2013/05/05/thoughts-on-why-ruby-is-awesome/#one-language-to-rule-them-all">one of the main reasons I really enjoy both languages.</a> Being able to easily call standard Elixir code in the middle of what would typically be a simple data file is what separates a DSL like <a href="https://hexdocs.pm/mix/Mix.Config.html#content">Mix.Config</a> from <a href="https://www.json.org/">JSON</a> or <a href="http://yaml.org/">YAML</a>. Leveraging that ability can save us a lot of heartache and manual labor in the long run.</p>
+
+
+</div>
+</body></html>
+
+          </div>
+        </div>
+
+        <div class="col-md-8 col-md-offset-2">
+          <hr/>
+          <div class="text-center">
+            <p>
+              <a href="mailto:lee@lee-dohm.com"><span class="octicon octicon-mail"></span></a>&nbsp;&nbsp;
+              <a href="https://github.com/lee-dohm"><span class="octicon octicon-mark-github"></span></a>&nbsp;&nbsp;
+              <a href="//stackoverflow.com/users/1954/lee"><i class="fa fa-stack-exchange"></i></a>&nbsp;&nbsp;
+              <a href="https://twitter.com/leedohm"><i class="fa fa-twitter"></i></a>
+            </p>
+            <p>
+              Copyright &copy; 2010-2022 by Lee Dohm
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/javascripts/lightbox.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="https://www.lee-dohm.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.lee-dohm.com/" rel="alternate" type="text/html" /><updated>2022-07-06T15:33:20-07:00</updated><id>https://www.lee-dohm.com/feed.xml</id><title type="html">lee-dohm.com</title><subtitle>Games and Technology Should Include EVERYone</subtitle><author><name>Lee Dohm</name><email>lee@lee-dohm.com</email></author><entry><title type="html">I’ve retired, and here’s why</title><link href="https://www.lee-dohm.com/2022/07/05/i-ve-retired-and-here-s-why/" rel="alternate" type="text/html" title="I've retired, and here's why" /><published>2022-07-05T12:04:39-07:00</published><updated>2022-07-05T12:04:39-07:00</updated><id>https://www.lee-dohm.com/2022/07/05/i-ve-retired-and-here-s-why</id><content type="html" xml:base="https://www.lee-dohm.com/2022/07/05/i-ve-retired-and-here-s-why/">&lt;p&gt;Back in late January, just a couple days before my 51&lt;sup&gt;st&lt;/sup&gt; birthday, I worked what I hope will be my last ever day and began my retirement. I’m tremendously grateful and incredibly privileged to be able to do this so early in my life (or even at all), but I also feel that it had become a necessary thing to do for my overall health, both physical and mental. Still, I’m incredibly lucky to even have this as an option. There are some complicated factors that brought me to the decision to do this now instead of continuing to work for the sake of working or to build up even more of a nest egg, so I wanted to write it all down. I wanted to do this both for myself and for the people that said they wanted to understand better as I was saying my goodbyes at my last employer, GitHub.&lt;/p&gt;
+
+&lt;p&gt;The main reason is that, over the past few years, I’ve become completely burned out. Between the constant and slowly escalating racism, fascism, and jingoism of the Trump administration and his conspiracy-minded fanatics, the Microsoft acquisition of GitHub with the requisite dramatic internal culture shift, and the years-long pandemic, it all ground me down to the point where every day was a struggle to be motivated to do anything beyond simply show up. I could get some simple tasks done, but anything that required any kind of dedication or task management was pretty much impossible for me to complete. Even now, it’s been about five-and-a-half months since I stopped working and my day-to-day activities are figuring out what I want to eat and whether I’m going to watch some movie or TV show, or play a video game. The simple fact that it’s taken me almost half a year to get this uncomplicated blog post written is quite telling.&lt;/p&gt;
+
+&lt;p&gt;Secondly, but no less important, is that as I’m getting older some health challenges that have been minor nuisances most of my life are becoming more and more debilitating. A combination of being overweight along with catastrophically bad knees, due both to being ill-formed from birth and later injury from sports and activities, has led to me being disabled and having serious issues taking care of myself completely independently. And I’m trapped in a Catch-22 of being unable to get my weight under control without being able to care for myself in a very specific and maintainable way … but I can’t do that without getting surgery for my knees … except doctors won’t perform the surgery for my knees without me getting my weight under control.&lt;/p&gt;
+
+&lt;p&gt;What I’ve needed is more time. Time to focus on myself. Time to formulate a plan. Time to reorganize my living arrangements so that I &lt;em&gt;can&lt;/em&gt; take care of myself. And time to take care of myself better so that I can get my weight under control and, hopefully, materially improve my living conditions and thereby my life. And time was the one thing that I simply didn’t have any of with virtually all of my most productive hours and all of my vitality being drained and consumed by the capitalist machine.&lt;/p&gt;
+
+&lt;p&gt;So, I worked with a financial planner. I talked with my family and closest friends. I evaluated my options. When I had done all that, I quit my job.&lt;/p&gt;
+
+&lt;p&gt;At this point, I don’t know if I’ll ever return to traditional work again even if I manage to reach my ideal health and well-being goals. I know that I can’t stand just doing nothing. So eventually when I get past the burnout, when I get my environment designed to accomodate my new normal, when I get my health challenges managed, then I’ll decide how I want to contribute to the world again.&lt;/p&gt;
+
+&lt;p&gt;I’m already looking forward to it.&lt;/p&gt;</content><author><name>Lee Dohm</name><email>lee@lee-dohm.com</email></author><summary type="html">Back in late January, just a couple days before my 51st birthday, I worked what I hope will be my last ever day and began my retirement. I’m tremendously grateful and incredibly privileged to be able to do this so early in my life (or even at all), but I also feel that it had become a necessary thing to do for my overall health, both physical and mental. Still, I’m incredibly lucky to even have this as an option. There are some complicated factors that brought me to the decision to do this now instead of continuing to work for the sake of working or to build up even more of a nest egg, so I wanted to write it all down. I wanted to do this both for myself and for the people that said they wanted to understand better as I was saying my goodbyes at my last employer, GitHub.</summary></entry><entry><title type="html">The Cost of Blurring the Work/Social Line</title><link href="https://www.lee-dohm.com/2021/04/27/the-cost-of-blurring-the-work-social-line/" rel="alternate" type="text/html" title="The Cost of Blurring the Work/Social Line" /><published>2021-04-27T17:56:12-07:00</published><updated>2021-04-27T17:56:12-07:00</updated><id>https://www.lee-dohm.com/2021/04/27/the-cost-of-blurring-the-work-social-line</id><content type="html" xml:base="https://www.lee-dohm.com/2021/04/27/the-cost-of-blurring-the-work-social-line/">&lt;p&gt;A recent &lt;a href=&quot;https://world.hey.com/jason/changes-at-basecamp-7f32afc5&quot;&gt;blog post&lt;/a&gt; by &lt;a href=&quot;https://basecamp.com/about&quot;&gt;Basecamp&lt;/a&gt; chief executive, Jason Fried, has been causing quite the stir on both social and traditional media the past couple days. In it, Fried describes some recent policy changes enacted at the company, the most notable or at least controversial being that “societal and political discussions” are no longer welcome at work, at least in the corporate chat spaces:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;we’re done with it on our company Basecamp account where the work happens. People can take the conversations with willing co-workers to Signal, Whatsapp, or even a personal Basecamp account, but it can’t happen where the work happens anymore.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And Fried isn’t the first to express this kind of view, the CEO of Coinbase recently posted a &lt;a href=&quot;https://blog.coinbase.com/coinbase-is-a-mission-focused-company-af882df8804&quot;&gt;similar blog post about staying “mission focused” while at work&lt;/a&gt;. It seems that a lot of people are echoing these sentiments that politics and social issues, and especially people discussing them, simply don’t have any place in the workplace.&lt;/p&gt;
+
+&lt;p&gt;Personally, I find this more than slightly hypocritical.&lt;/p&gt;
+
+&lt;p&gt;American workplaces, especially in the tech sector, have for decades been progressively blurring the line between an employee’s work life and their social life. By providing at-work benefits like cafeterias, showers, gym facilities, dedicated social spaces like basketball courts, encouraging social activities like “beer Fridays” and wine or scotch tasting, and even &lt;a href=&quot;https://www.businessinsider.com/microsoft-mall-2013-7&quot;&gt;building entire shopping malls on company grounds&lt;/a&gt;; companies have been encouraging employees to spend more of their social time &lt;em&gt;at the workplace.&lt;/em&gt; I documented in my post &lt;a href=&quot;/2020/02/28/office-perks-are-there-to-keep-you-at-work/&quot;&gt;Office Perks are There to Keep You at Work&lt;/a&gt;, that this is a trend that has been going on in Silicon Valley since at least the late 1980s. And it isn’t a secret, at least to the heads of these titanic corporations, that the motivation for this isn’t employees “living their best lives at work,” it’s simple profitability. If an employee spends more time in work spaces or with coworkers, they’re going to get more work done than if they only put in their eight hours and go home to their families and social circles completely divorced from the workplace.&lt;/p&gt;
+
+&lt;p&gt;Companies that are “remote work friendly” or &lt;a href=&quot;https://basecamp.com/remote-resources&quot;&gt;entirely remote companies like Basecamp&lt;/a&gt; have their own ways to encourage this same kind of pattern. Most companies have special interest groups, also called “affinity groups”, that form around activities like sports, motorcycles, cars, chess, video games, knitting, dad jokes, or parenting. Where brick-and-mortar-oriented companies give physical space to those groups, remote work companies do things like encourage people to set up chat channels or email lists for these groups using company resources.&lt;/p&gt;
+
+&lt;p&gt;A lot of companies in the tech sector talk about and have slogans around “being a family” or “bringing your authentic self to work.” These slogans are specifically designed to encourage employees to, at best, see their work at the company being an extension of their social life or their personal identity and, at worst, buy into a modern-day reimagining of &lt;a href=&quot;https://en.wikipedia.org/wiki/Company_town&quot;&gt;the company town&lt;/a&gt; where one can spend all day and all night on company property and guided by company policy.&lt;/p&gt;
+
+&lt;p&gt;Yet now it appears that some of the corporate elite are starting to get tired of people’s “authentic selves.” They feel that:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s become too much. It’s a major distraction. It saps our energy, and redirects our dialog towards dark places. It’s not healthy, it hasn’t served us well.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In short, all this social stuff is getting in the way of getting “real work” done, so you should all stop that non-work stuff at work … because this is a &lt;em&gt;workplace,&lt;/em&gt; understand?&lt;/p&gt;
+
+&lt;p&gt;You made your bed tech CEOs, lie in it.&lt;/p&gt;</content><author><name>Lee Dohm</name><email>lee@lee-dohm.com</email></author><summary type="html">A recent blog post by Basecamp chief executive, Jason Fried, has been causing quite the stir on both social and traditional media the past couple days. In it, Fried describes some recent policy changes enacted at the company, the most notable or at least controversial being that “societal and political discussions” are no longer welcome at work, at least in the corporate chat spaces:</summary></entry><entry><title type="html">Chesterton’s Fence and Open Source</title><link href="https://www.lee-dohm.com/2020/11/14/chestertons-fence-and-open-source/" rel="alternate" type="text/html" title="Chesterton's Fence and Open Source" /><published>2020-11-14T11:00:00-08:00</published><updated>2020-11-14T11:00:00-08:00</updated><id>https://www.lee-dohm.com/2020/11/14/chestertons-fence-and-open-source</id><content type="html" xml:base="https://www.lee-dohm.com/2020/11/14/chestertons-fence-and-open-source/">&lt;p&gt;Through the help of @robrix, I recently learned there’s a term for a concept that I’d run up against time and time again in maintaining open source projects: &lt;a href=&quot;https://fs.blog/2020/03/chestertons-fence/&quot;&gt;Chesterton’s Fence&lt;/a&gt;. The short definition is that you should always completely understand why something is the way it is before you make a change. This is because, too often, when we don’t understand the reasons why something exists, we assume that the reasons were worthless, unreasonable, nonexistent, or are now outdated.&lt;/p&gt;
+
+&lt;p&gt;We see this in open source over and over and over again. Someone comes along and proposes a change because a particular feature doesn’t work the way they expect it to. On small open source projects, the maintainers may have plenty of time to explain the reasoning behind the current implementation of the feature, the tradeoffs that were considered, and other requirements that factored into the decision. On medium or large sized open source projects, having that available time is less and less often the case, leading to conflicts where now not only does the person advocating for change assume that the feature was implemented poorly but that additionally the maintainer is giving them the runaround because they are incompetent morons that simply can’t grasp the flawless wisdom of the proposed change.&lt;/p&gt;
+
+&lt;p&gt;I’ve seen various open source projects attempt to combat this tendency through the use of pull request templates with sections that ask the change author to explain things like the tradeoffs or pros and cons between the current and the proposed implementation. Unfortunately, these often go unfilled or insufficiently filled in because the change author still hasn’t taken the time to understand the reasoning behind the original design. So of course every change is 100% benefit and 0% drawback, how could it be otherwise?&lt;/p&gt;
+
+&lt;p&gt;I’m going to start introducing the concept of Chesterton’s Fence into the open source projects that I work with, even going so far as to reference it in pull request templates or responses to insufficiently researched pull requests to see how it might improve understanding and cooperation between maintainers and potential contributors. If I’m able to gather data on how it works, I’ll report back!&lt;/p&gt;</content><author><name>Lee Dohm</name><email>lee@lee-dohm.com</email></author><summary type="html">Through the help of @robrix, I recently learned there’s a term for a concept that I’d run up against time and time again in maintaining open source projects: Chesterton’s Fence. The short definition is that you should always completely understand why something is the way it is before you make a change. This is because, too often, when we don’t understand the reasons why something exists, we assume that the reasons were worthless, unreasonable, nonexistent, or are now outdated.</summary></entry><entry><title type="html">Deadnames and how I came to be called Lee</title><link href="https://www.lee-dohm.com/2020/07/23/deadnames-and-how-i-came-to-be-called-lee/" rel="alternate" type="text/html" title="Deadnames and how I came to be called Lee" /><published>2020-07-23T10:28:31-07:00</published><updated>2020-07-23T10:28:31-07:00</updated><id>https://www.lee-dohm.com/2020/07/23/deadnames-and-how-i-came-to-be-called-lee</id><content type="html" xml:base="https://www.lee-dohm.com/2020/07/23/deadnames-and-how-i-came-to-be-called-lee/">&lt;p&gt;For the first twelve years of my life, I was not named “Lee”. Technically, I was. But for the first twelve years of my life I was called “Chuck” by family, friends, and really anyone who knew me. The full name on my birth certificate is “Chuck Lee Charles Dohm III”. Yes, my legal “nickname” is Chuck and my legal first name is Lee. My father was Lee Charles Dohm Jr. and his father was Lee Charles Dohm Sr. When it came time to name me, my parents skipped over all the cool names they could have given me with a last name like Dohm (pronounced just like “dome”), such as &lt;a href=&quot;https://en.wikipedia.org/wiki/Kingdome&quot;&gt;King Dohm&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Astrodome&quot;&gt;Astro Dohm&lt;/a&gt;, or even &lt;a href=&quot;https://en.wikipedia.org/wiki/Half_Dome&quot;&gt;Half Dohm&lt;/a&gt;. They went with tradition and wanted to name me Lee Dohm III. But my mom had a couple problems with that …&lt;/p&gt;
+
+&lt;p&gt;The first of which was that she didn’t want me to be called “Lee Three”. But more importantly to my mom, my dad was the love of my mom’s life (her words), and she wanted him to be the only “Lee” in her life. And if she had &lt;em&gt;ever&lt;/em&gt; worded that slightly differently, like that she wanted each of us to have a special place in her heart and a special name all their own, I might have understood. But that’s not how she described it. She didn’t want me sharing my dad’s special name. So they gave me the nickname of “Chuck”, a traditional shortening of my middle name “Charles”. And that’s the name that I went by for the first several years of my life.&lt;/p&gt;
+
+&lt;p&gt;But of course, children are little monsters until they grow up a bit and learn some empathy. And where lots of kids were teased for wearing glasses, being too skinny, too fat, too smart, too dumb, or what-have-you … I was teased for the name Chuck. Over the years the name simply became less associated with me and my identity and more associated with discomfort and ostracization.&lt;/p&gt;
+
+&lt;p&gt;So I decided I was going to pick another name for myself, one that &lt;strong&gt;I&lt;/strong&gt; liked and one that &lt;strong&gt;I&lt;/strong&gt; thought made sense for me. I experimented with “Charlie” and “Charles”, but those never felt like they were really &lt;em&gt;me&lt;/em&gt; either. And then I settled on simply going by “Lee”. I really looked up to my dad then (and now) and the name traditionally has connotations of strength and peace. It didn’t hurt that &lt;a href=&quot;https://en.wikipedia.org/wiki/Lee_Majors&quot;&gt;Lee Majors&lt;/a&gt; was a big name actor at the time. And it also helped that it was already my legal first name, on my birth certificate and everything.&lt;/p&gt;
+
+&lt;p&gt;But when I announced to the family that I was going to change my name and this wasn’t just a phase like the other ones was when my mom told me about how she wanted to keep “Lee” special for my dad and she wouldn’t call me by that name. So my family and many of the people who had known me before called me “Chuck” but everyone else called me “Lee”. So for a couple years I was in this weird transition phase where I felt like my real name was “Lee” but lots of people called me “Chuck” anyway and I just didn’t think it was possible to fight that.&lt;/p&gt;
+
+&lt;p&gt;But one of the most profound and lasting gifts that’s ever been given to me was a by a young couple involved with the summer swim team I was on.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; They had heard different people calling me by the different names but when I introduced myself to them I had said my name was Lee. So they asked me what I wanted to be called. I told them whatever was easiest for them to remember, that I didn’t care, they could call me either one. We went back and forth like that a couple times until the man put his hand on my shoulder, stopped me, made me look him in the eye and said, “No really, what do you &lt;strong&gt;want&lt;/strong&gt; us to call you?”&lt;/p&gt;
+
+&lt;p&gt;Nobody had ever done that before. Nobody had ever asked me how I felt about it. Before that moment, even though I had been fighting it for years, deep down I felt that a name was something that &lt;em&gt;someone else&lt;/em&gt; gave you and your opinion didn’t matter. I was simply using a loophole that my parents had put Lee on my birth certificate that nobody could really argue with. So, I seriously thought about it for a bit and told them that I wanted them to call me Lee. And that has been my name from that moment onward. Most people that know me now or even have known me for many, many years don’t even know that I &lt;em&gt;ever had&lt;/em&gt; any other name.&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;But this brings me around to the concept of &lt;a href=&quot;https://www.urbandictionary.com/define.php?term=deadname&quot;&gt;deadnames&lt;/a&gt;, most commonly associated with trans people who very often change their name along with their gender identity, and names in general. A “deadname” is the name someone was born with or was given to them before the name they chose for themselves. There’s a reason why the phrase “calling someone names” is always an insult. When someone engages in name-calling, they are attempting to apply a label to someone that they didn’t choose for themselves and they almost certainly don’t want to be associated with. At the very least, it is disrespectful. At worst, it’s malicious and intended to be humiliating and dehumanizing. And using someone’s deadname in reference to them when you know they don’t want to be called that is the same as calling them any other name they don’t want to be called like “doody head”, “butt munch”, or “stupid face”, except far more insulting, but still just as childish.&lt;/p&gt;
+
+&lt;p&gt;I do my very best to always call someone by the name they want to be called. And if I’m not sure, I ask them to teach me how to pronounce it the way they do and endeavor to do so to the best of my ability. It is a small thing, but it’s the least one can do to show someone they matter and that you respect them. Since it is such a small thing, there is no excuse to not do it.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;And, I’m ashamed to admit that I no longer remember their names … &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Well, I guess they do now :grinning: &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Lee Dohm</name><email>lee@lee-dohm.com</email></author><summary type="html">For the first twelve years of my life, I was not named “Lee”. Technically, I was. But for the first twelve years of my life I was called “Chuck” by family, friends, and really anyone who knew me. The full name on my birth certificate is “Chuck Lee Charles Dohm III”. Yes, my legal “nickname” is Chuck and my legal first name is Lee. My father was Lee Charles Dohm Jr. and his father was Lee Charles Dohm Sr. When it came time to name me, my parents skipped over all the cool names they could have given me with a last name like Dohm (pronounced just like “dome”), such as King Dohm, Astro Dohm, or even Half Dohm. They went with tradition and wanted to name me Lee Dohm III. But my mom had a couple problems with that …</summary></entry><entry><title type="html">Office Perks are There to Keep You at Work</title><link href="https://www.lee-dohm.com/2020/02/28/office-perks-are-there-to-keep-you-at-work/" rel="alternate" type="text/html" title="Office Perks are There to Keep You at Work" /><published>2020-02-28T08:43:30-08:00</published><updated>2020-02-28T08:43:30-08:00</updated><id>https://www.lee-dohm.com/2020/02/28/office-perks-are-there-to-keep-you-at-work</id><content type="html" xml:base="https://www.lee-dohm.com/2020/02/28/office-perks-are-there-to-keep-you-at-work/">&lt;p&gt;On Reddit, &lt;a href=&quot;https://www.reddit.com/r/Seattle/comments/fauour/how_common_is_burnout_in_the_seattle_tech_scene/&quot;&gt;/u/fruitynutter asks about burnout in the Seattle tech industry&lt;/a&gt;. And /u/non-member &lt;a href=&quot;https://www.reddit.com/r/Seattle/comments/fauour/how_common_is_burnout_in_the_seattle_tech_scene/fj0eave?utm_source=share&amp;amp;utm_medium=web2x&quot;&gt;responds&lt;/a&gt; claiming:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Microsoft takes pretty good care of their folks… cafeterias with excellent food that’s super cheap, free coffee/soda/juice/etc, and carts with free beer at the end of the week.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;None of these things are things that a company does to “take care of” their employees. These are all things that companies do to keep you at work longer. The more that the company’s facilities can be the center of your social life as well as your work life, the more work you will incidentally do while you’re “not working”.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;INT. CAFETERIA - EVENING
+
+Employee 1 is having dinner at the company cafeteria after work before
+going home for the evening because they haven't had time to do any
+grocery shopping.
+
+Employee 1 notices Employee 2 entering the cafeteria seating area with
+their own tray of food for dinner. Employee 1 waves to Employee 2,
+inviting them to join.
+
+Employee 2 smiles and walks over, sitting across the table from
+Employee 1.
+
+**Employee 1:** Hey, how was your day? I didn't see you because I was
+in back-to-back meetings most of the day.
+
+**Employee 2:** It was LONG. I was in a marathon pair debugging session
+with a teammate. We JUST finished and pushed the code to CI. I was just
+going to grab something quick to eat, but I'm glad you're here to chat
+with.
+
+**Employee 1:** I know exactly what you mean ...
+
+The two employees exchange weary, understanding glances while eating
+quickly like starved hyenas because they didn't have a chance to have
+a real lunch due to their respective obligations.
+
+**Employee 1:** Hey, while I've got you here ... I've been meaning to
+ask you about what you think about the latest feature proposal ...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Startups are also a huge source of burnout, to be certain. But even though places like Microsoft, Amazon, Google, and Facebook do it slower, burnout is still happening.&lt;/p&gt;
+
+&lt;p&gt;I worked at Intel in the late 90s in the Information Technology group. The Vice President of IT was a woman named Carlene Ellis. This is a picture of her and Andy Grove celebrating the opening of the first showers for employees at Intel in 1988:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/intel-shower-celebration.jpg&quot; alt=&quot;Celebration of first showers for employees at Intel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;She worked in Human Resources at that time and eventually became VP of HR in 1990 at least partially because she sold the idea of exercise facilities, showers, and eventually cafeterias at Intel offices and facilities as a way to keep people at work longer and thereby get them to do more work. How do I know this? Because she told me that’s why they did it when I was working for her in the late 90s.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; Before there was a cafeteria at the office, people would take 15 minutes to go someplace to eat off site, take their one hour lunch break, then take another 15 minutes to get back to their desk. With a cafeteria, they’d take five minutes to go to the cafeteria, take 30 minutes eating, probably with coworkers talking about work, then five minutes getting back to their desk. Even with the extra expense of the cafeteria space, the people they had to hire to staff the cafeteria, and so on, &lt;em&gt;they made more profit with the cafeterias than without.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Companies don’t offer you these perks to make you happier &lt;em&gt;as a person.&lt;/em&gt; They offer these perks to make you happier to keep working because it is easier to stay at work than to take real breaks, go home to spend time with family or friends, or pursue non-work hobbies.&lt;/p&gt;
+
+&lt;p&gt;Companies that actually take care of their employees do things like pay their employees a truly living wage, have generous sick, vacation, and leave policies, have truly flexible work schedules by facilitating asynchronous and remote work, have generous mental and physical health benefits, and more. Notice that these are all benefits that affect or improve your non-work life, not your time &lt;em&gt;at&lt;/em&gt; work.&lt;/p&gt;
+
+&lt;p&gt;Please keep these things in mind when looking for work in any industry but especially the tech industry.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Don’t get me wrong. I have immense respect for Carlene Ellis as a person and as someone I worked for. Even though I only worked for her for a short time and indirectly, our few interactions taught me a lot about empathetic leadership. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Lee Dohm</name><email>lee@lee-dohm.com</email></author><summary type="html">On Reddit, /u/fruitynutter asks about burnout in the Seattle tech industry. And /u/non-member responds claiming:</summary></entry><entry><title type="html">My Backup System</title><link href="https://www.lee-dohm.com/2019/10/11/my-backup-system/" rel="alternate" type="text/html" title="My Backup System" /><published>2019-10-11T14:20:50-07:00</published><updated>2019-10-11T14:20:50-07:00</updated><id>https://www.lee-dohm.com/2019/10/11/my-backup-system</id><content type="html" xml:base="https://www.lee-dohm.com/2019/10/11/my-backup-system/">&lt;p&gt;When &lt;a href=&quot;https://www.apple.com/macos/catalina/&quot;&gt;macOS Catalina&lt;/a&gt; was released the other day, I set about backing up my main machine in preparation. Talking about it with coworkers, I mentioned the various layers of backups I have for my computers. They mentioned to me that they were impressed and confessed that they didn’t have a similar system. The thing is, having the recommended system of backups isn’t nearly as hard as it used to be and it can be, for the most part, completely automated.&lt;/p&gt;
+
+&lt;p&gt;Let’s start with what the recommended set of backups is:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Three&lt;/strong&gt; copies of any piece of data&lt;/li&gt;
+  &lt;li&gt;On &lt;strong&gt;two&lt;/strong&gt; different devices or media locally&lt;/li&gt;
+  &lt;li&gt;And &lt;strong&gt;one&lt;/strong&gt; copy off-site&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For example, if you have a file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;test.txt&lt;/code&gt; on your computer then you could:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Back it up with macOS &lt;a href=&quot;https://www.youtube.com/watch?v=geJiTXOb37w&quot;&gt;Time Machine&lt;/a&gt; to an external drive&lt;/li&gt;
+  &lt;li&gt;Back it up to the cloud with a service like &lt;a href=&quot;https://www.backblaze.com&quot;&gt;Backblaze&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This would give you three copies: the primary one, the Time Machine backup, and the Backblaze backup. The primary copy and the Time Machine copy would be on two separate devices, so if your computer dies, the external drive should still be good. But if your house burns down, you still have a copy on Backblaze.&lt;/p&gt;
+
+&lt;p&gt;I go one extra step further because I not only want to protect my data, but also get back up-and-running as quickly as possible if my computer dies. So my setup is:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Time Machine to an external drive&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html&quot;&gt;SuperDuper!&lt;/a&gt; to create a clone of the entire drive to a different external drive&lt;/li&gt;
+  &lt;li&gt;Backblaze to back everything up offsite (including the SuperDuper clone)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Backblaze and Time Machine are automated by default. And SuperDuper has &lt;a href=&quot;https://s3.amazonaws.com/com.shirtpocket/SuperDuper/graphics/SuperDuper-Scheduling.png&quot;&gt;a scheduling system&lt;/a&gt; that I use to schedule a complete backup starting at 3am on Saturday mornings.&lt;/p&gt;
+
+&lt;p&gt;In this way, I have everything backed up automatically so that I don’t have to worry about it. The only time I have to do anything is when one of my backup systems notifies me of a problem, which is quite rare.&lt;/p&gt;
+
+&lt;p&gt;I hope this helps you keep your data safe!&lt;/p&gt;</content><author><name>Lee Dohm</name><email>lee@lee-dohm.com</email></author><summary type="html">When macOS Catalina was released the other day, I set about backing up my main machine in preparation. Talking about it with coworkers, I mentioned the various layers of backups I have for my computers. They mentioned to me that they were impressed and confessed that they didn’t have a similar system. The thing is, having the recommended system of backups isn’t nearly as hard as it used to be and it can be, for the most part, completely automated.</summary></entry><entry><title type="html">Unnerving Voices</title><link href="https://www.lee-dohm.com/2019/08/28/unnerving-voices/" rel="alternate" type="text/html" title="Unnerving Voices" /><published>2019-08-28T08:22:44-07:00</published><updated>2019-08-28T08:22:44-07:00</updated><id>https://www.lee-dohm.com/2019/08/28/unnerving-voices</id><content type="html" xml:base="https://www.lee-dohm.com/2019/08/28/unnerving-voices/">&lt;p&gt;I was talking with a friend last night about the new game &lt;a href=&quot;https://controlgame.com&quot;&gt;Control&lt;/a&gt;, from the makers of &lt;a href=&quot;http://www.alanwake.com&quot;&gt;Alan Wake&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Quantum_Break&quot;&gt;Quantum Break&lt;/a&gt;. &lt;em&gt;Alan Wake&lt;/em&gt; is a horror- or thriller-themed action-adventure game, depending on where your personal dividing line is between the two, and &lt;em&gt;Control&lt;/em&gt; is a game in a very similar vein. In both of these games, there are whispering voices that are hard to make out that I find to be very unnerving. What was interesting to me was that these whispered voices are &lt;em&gt;more&lt;/em&gt; unnerving for me than the disembodied voices from the game &lt;a href=&quot;https://www.hellblade.com&quot;&gt;Hellblade: Senua’s Sacrifice&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Hellblade&lt;/em&gt; has received a lot of praise for its depiction of psychosis, including auditory hallucinations. These auditory hallucinations take the form, mostly, of voices in the main character’s head, some of them supporting her and others discouraging her or plotting against her. The game studio behind &lt;em&gt;Hellblade&lt;/em&gt; worked closely with neuroscientists, mental health specialists, and people suffering from psychosis to properly depict it in the game.&lt;/p&gt;
+
+&lt;p&gt;So why the difference in how the two sets of voices affect me? The best I can figure out is that, specifically, it is hard to make out what the indistinct, whispered voices in &lt;em&gt;Control&lt;/em&gt; are saying, whereas the auditory hallucinations from &lt;em&gt;Hellblade&lt;/em&gt; are mostly clear and understandable. Apparently, I’m much more able to cope with someone openly and honestly plotting my downfall than someone who is whispering vaguely malevolent things that I can’t quite make out.&lt;/p&gt;
+
+&lt;p&gt;I’m pretty certain this isn’t a universal thing but I thought it was interesting to note in case I ever decide to make a game or movie of the horror or thriller variety :grinning:&lt;/p&gt;</content><author><name>Lee Dohm</name><email>lee@lee-dohm.com</email></author><summary type="html">I was talking with a friend last night about the new game Control, from the makers of Alan Wake and Quantum Break. Alan Wake is a horror- or thriller-themed action-adventure game, depending on where your personal dividing line is between the two, and Control is a game in a very similar vein. In both of these games, there are whispering voices that are hard to make out that I find to be very unnerving. What was interesting to me was that these whispered voices are more unnerving for me than the disembodied voices from the game Hellblade: Senua’s Sacrifice.</summary></entry><entry><title type="html">Why Markdown Should Be Used on All Message Boards</title><link href="https://www.lee-dohm.com/2019/08/18/why-markdown-should-be-used-on-all-message-boards/" rel="alternate" type="text/html" title="Why Markdown Should Be Used on All Message Boards" /><published>2019-08-18T17:29:39-07:00</published><updated>2019-08-18T17:29:39-07:00</updated><id>https://www.lee-dohm.com/2019/08/18/why-markdown-should-be-used-on-all-message-boards</id><content type="html" xml:base="https://www.lee-dohm.com/2019/08/18/why-markdown-should-be-used-on-all-message-boards/">&lt;p&gt;Since the dawn of computers, there have been message boards. Whether they were called “bulletin board systems”, “forums”, or “message boards”; it was obvious that people wanted to be able to communicate with others who shared their interests no matter where they live in the world. As a matter of fact, innovation in the space of message boards continues even now: Facebook, Twitter, and even services like Instagram or Snapchat are iterations on the concept of message boards. But I want to talk mostly about the standard message board where people come to congregate around an interest, a group, a product, or some other subject; there are topics of discussion, and posts on topics.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-problem&quot;&gt;The problem&lt;/h2&gt;
+
+&lt;p&gt;Over the decades, there have been a great number of systems for posting information in message boards. We first started with plain text, because that’s all computers could display. But as things became more advanced and especially with the advent of the web, forum participants clamored for the ability to control the format of the posts they were authoring.&lt;/p&gt;
+
+&lt;p&gt;The earliest systems that offered this were ones that allowed you to add in snippets of HTML in your post. Originally, this was fine because most of the people writing in those early web forums were Internet enthusiasts who probably knew at least a little HTML. But as Ma and Pa, and eventually Grandma, started to explore, HTML was simply too complex, too obscure, too hard to type, and definitely too hard to read while you were composing for it to be usable for someone who didn’t want to be at least a part-time web-developer. And it also didn’t help that HTML could be used to do bad things to message boards or their participants if it wasn’t scrubbed clean before displaying in a never-ending arms race.&lt;/p&gt;
+
+&lt;p&gt;After HTML, there were a few different efforts that fell into two broad categories: HTML-lite and rich-text editing. The systems that fall into the HTML-lite category are things like &lt;a href=&quot;https://en.wikipedia.org/wiki/BBCode&quot;&gt;BBCode&lt;/a&gt; that essentially “fix” one or two of HTML’s drawbacks but are simply reimaginings of HTML intended to make it easier for normal people. The rich-text editing systems are essentially simplified word processors in a box on a website. They allow you to compose your post in a &lt;a href=&quot;https://en.wikipedia.org/wiki/WYSIWYG&quot;&gt;WYSIWYG&lt;/a&gt; manner, formatting the text as you input it.&lt;/p&gt;
+
+&lt;p&gt;Most people would say that the rich-text editing systems solved the problem of making posting formatted text approachable for everyone. Unfortunately, it introduced at least a couple more: bad formatting, both intentionally and unintentionally.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; Essentially, because everyone can format their text any way they want they can, either intentionally or unintentionally, make their content hard or even annoying to read. Think of gigantic blinking red text calling the previous poster a loser.&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;So, to sum up, the various systems in the past exposed the following requirements for a system of easily formatting message board posts:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Understandable to non-web-developers&lt;/li&gt;
+  &lt;li&gt;Memorable even when used occasionally&lt;/li&gt;
+  &lt;li&gt;Easy to type&lt;/li&gt;
+  &lt;li&gt;Can’t be used to assault the eyes of other people, even accidentally&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;why-is-markdown-the-answer&quot;&gt;Why is Markdown the answer?&lt;/h2&gt;
+
+&lt;p&gt;Given these requirements, why do I say that all message boards should use Markdown? If you’re not familiar with &lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;, it is:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;… a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid [HTML for display].&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;How does it do this? Well, it uses long-established conventions that have been used in plain text situations like email, chat rooms, and message boards. For example, this Markdown text:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Let's _emphasize_ an idea. Or should we make a **bold** statement? Or we could quote someone smart:
+
+&amp;gt; May the forces of evil become confused on the way to your house.
+&amp;gt;
+&amp;gt; -- _George Carlin_
+
+We can even make a list:
+
+* Thing one
+* Thing two
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;becomes this:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Let’s &lt;em&gt;emphasize&lt;/em&gt; an idea. Or should we make a &lt;strong&gt;bold&lt;/strong&gt; statement? Or we could quote someone smart:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;May the forces of evil become confused on the way to your house.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;em&gt;George Carlin&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We can even make a list:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Thing one&lt;/li&gt;
+  &lt;li&gt;Thing two&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;These conventions became standardized because they were conceived of by people who were trying to convey the &lt;em&gt;idea&lt;/em&gt; of formatted text in a plain text world. And it was John Gruber’s brilliant idea to take a &lt;a href=&quot;https://en.wikipedia.org/wiki/Desire_path&quot;&gt;pave the cow path&lt;/a&gt; approach to the problem of making composing HTML-compatible formatted text memorable, understandable, and easy-to-type even for non-technical people.&lt;/p&gt;
+
+&lt;p&gt;And while that is enough to make Markdown pretty special already, what convinces me that Markdown should be the &lt;em&gt;lingua franca&lt;/em&gt; of formatted forum text is that while it makes the most common formatting tasks easy, it restricts people to a “sensible subset” of choices. With Markdown, you can’t change the color of the text, you can’t change the typeface, you can’t change the size of the text arbitrarily, and because Markdown works very much like a well-designed word processor or desktop publishing &lt;a href=&quot;https://en.wikipedia.org/wiki/Style_sheet_(desktop_publishing)&quot;&gt;style sheet&lt;/a&gt;, everyone’s text looks pretty much the same.&lt;/p&gt;
+
+&lt;p&gt;Why is it important that everyone’s text look the same? On a message board, you want everyone’s posts to be on an equal footing, to give &lt;em&gt;everyone&lt;/em&gt; a voice. Giving people the tools, through formatting, to distract attention away from others, to shout others down, contravenes the mission of message boards, which is to allow people from all around the world to communicate with each other. Additionally, it makes your message board a more pleasant place to visit because everything that the participants post looks like it belongs on the site since it shares the same cohesive visual style.&lt;/p&gt;
+
+&lt;p&gt;And like a well-designed style sheet, Markdown makes it easy to do standardized formatting that requires multiple steps in many rich-text editors. For example, headings, subheadings, sub-subheadings, and etc are often rendered in a different typeface, at different sizes, and using different weights than regular text. So what might be three separate steps in a rich text editor is achieved with the addition of a single character in Markdown:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# This is a Level One Header
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And moreover, that level one header will look like everyone else’s level one header with no effort expended on the part of forum participants.&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Giving people the tools to communicate better, by making it easy and approachable to convey their idea in a way that others will understand and is a pleasure to read, &lt;strong&gt;that&lt;/strong&gt; is what makes message boards even better and more effective. And Markdown makes it easy.&lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Yet another arguable problem with rich-text editing in websites is that every website has a slightly different editing experience because it’s the web and that means only the most basic of functionality is standardized. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Ok, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Blink_element&quot;&gt;blinking part&lt;/a&gt; is a thing of the past since it made a lot of people angry and has been widely regarded as a bad move. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Some people believe that Markdown is designed primarily for software developers because many of these “macro” features that replace multiple formatting steps are things like rendering things in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;monospace font&lt;/code&gt; or “fenced code blocks” like what I used to display the sample Markdown text in this post. While it is true that Markdown has a couple features that are specifically designed for communicating software source code, all the rest of it is generally applicable to communicating about anything. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;If you want to put a WYSIWYG interface on top of Markdown or add extensions to Markdown for things like tables and footnotes, that’s fine too. Keep in mind the goal of making things easy and giving everyone an equal voice. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Lee Dohm</name><email>lee@lee-dohm.com</email></author><summary type="html">Since the dawn of computers, there have been message boards. Whether they were called “bulletin board systems”, “forums”, or “message boards”; it was obvious that people wanted to be able to communicate with others who shared their interests no matter where they live in the world. As a matter of fact, innovation in the space of message boards continues even now: Facebook, Twitter, and even services like Instagram or Snapchat are iterations on the concept of message boards. But I want to talk mostly about the standard message board where people come to congregate around an interest, a group, a product, or some other subject; there are topics of discussion, and posts on topics.</summary></entry><entry><title type="html">Reliable Mirroring of a Git Repository</title><link href="https://www.lee-dohm.com/2019/07/23/reliable-mirroring-of-a-git-repository/" rel="alternate" type="text/html" title="Reliable Mirroring of a Git Repository" /><published>2019-07-23T07:37:57-07:00</published><updated>2019-07-23T07:37:57-07:00</updated><id>https://www.lee-dohm.com/2019/07/23/reliable-mirroring-of-a-git-repository</id><content type="html" xml:base="https://www.lee-dohm.com/2019/07/23/reliable-mirroring-of-a-git-repository/">&lt;p&gt;Interesting post describing the process of mirroring Git repositories and some challenges. Includes a script to make the process simple and reliable.&lt;/p&gt;</content><author><name>Lee Dohm</name><email>lee@lee-dohm.com</email></author><summary type="html">Interesting post describing the process of mirroring Git repositories and some challenges. Includes a script to make the process simple and reliable.</summary></entry><entry><title type="html">Thoughts on Open Source Maintenance</title><link href="https://www.lee-dohm.com/2019/07/20/thoughts-on-open-source-maintenance/" rel="alternate" type="text/html" title="Thoughts on Open Source Maintenance" /><published>2019-07-20T06:02:20-07:00</published><updated>2019-07-20T06:02:20-07:00</updated><id>https://www.lee-dohm.com/2019/07/20/thoughts-on-open-source-maintenance</id><content type="html" xml:base="https://www.lee-dohm.com/2019/07/20/thoughts-on-open-source-maintenance/">&lt;p&gt;Maintaining an open source project is an exercise in balancing a number of different priorities and the tensions between a few different groups. There are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;People who want the project changed&lt;/li&gt;
+  &lt;li&gt;People who want the project to remain as it is&lt;/li&gt;
+  &lt;li&gt;People who want to know what the maintainers plan to do or are in the process of doing&lt;/li&gt;
+  &lt;li&gt;People who want to contribute themselves&lt;/li&gt;
+  &lt;li&gt;And many others&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In any non-trivial project, there is never enough time or enough people to do everything that everyone wants, even if what people want isn’t diametrically opposed to some other group of people. So maintaining an open source project is, at its very core, about making decisions. Whether it is a decision about how time will be spent or how it won’t be spent, any time one makes a decision, it is likely that someone is going to disagree with it.&lt;/p&gt;
+
+&lt;h2 id=&quot;disagreements-and-productivity&quot;&gt;Disagreements and Productivity&lt;/h2&gt;
+
+&lt;p&gt;When I worked at a previous job, many years ago, they had a class that everyone had to take as part of their onboarding called “Effective Meetings”. One of the things that was taught in this class was that there are three &lt;em&gt;productive&lt;/em&gt; courses of action that one can take when a decision is made:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Agree — agree with the decision and move forward&lt;/li&gt;
+  &lt;li&gt;Disagree and Commit — disagree with the decision, but commit to the decided course of action anyway&lt;/li&gt;
+  &lt;li&gt;Disagree and Don’t Commit — disagree with the decision and recuse yourself from further participation in the project or activity&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Unfortunately, what some people do when they disagree with a decision is they disagree and refuse to let it go. They keep bringing it up, preventing the project from moving forward, preventing productive actions from being taken. The discussion comes up again and again, and often the same decision is made because &lt;em&gt;nothing has changed.&lt;/em&gt; All this does is consume a bunch of time, time that could be better spent making forward progress rather than rehashing a decision that has already been made.&lt;/p&gt;
+
+&lt;h2 id=&quot;explanations-and-obligations&quot;&gt;Explanations and Obligations&lt;/h2&gt;
+
+&lt;p&gt;Sometimes when people disagree with a decision that is made, it is because they don’t see the full picture. If you take the time to explain it to them, they may understand and be able to accept the decision was the right one, even if it is not the one they would prefer. Other times, you may explain the full reasoning, context, and rationale behind the decision, and they will still disagree but they will disagree and commit. Sometimes, you will spend a bunch of time explaining everything, giving them the benefit of perspective that is gained only from spending years of your life devoted to a project, and they will disagree and not commit, leaving the project to contribute somewhere else. And finally, sometimes you will spend all that time, painstakingly laying out all of the things that were considered, opening everything up for debate, and it will all be ignored because the person wants what they want and will attempt to argue you into submission, browbeat you and harass you until you acquiesce so they get what they want.&lt;/p&gt;
+
+&lt;p&gt;But even making the decision to spend that time has to be weighed against the other things that could be achieved spending that time in some other way. It is hard to teach someone everything that you know about a subject, even if the person you’re attempting to mentor is receptive to what you’re trying to teach. It is doubly hard if they are combative, hostile, or simply don’t care what you have to say and only want you to agree with them. Would open source be a better place if we could always take the time to explain everything to everyone who wanted or needed something explained? Undoubtedly. But as I said before, there is never enough time to do everything. So sometimes, it is ultimately better for the project to not explain things and spend that time making a positive contribution in some other way. Sometimes it is better to ignore a confrontational person and hope they get the message, because you simply &lt;a href=&quot;https://en.wikipedia.org/wiki/Spoon_theory&quot;&gt;don’t have the spoons&lt;/a&gt; to deal with them in a constructive way right now. And it is definitely better to ignore a confrontational person than to deal with them in a harsh or destructive manner.&lt;/p&gt;
+
+&lt;p&gt;To be clear, the open source world would definitely benefit from people with more information, perspective, context, or expertise sharing it with those who have less of those things. But an open source maintainer is not &lt;em&gt;obligated&lt;/em&gt; to share what they have with everyone who wants it, let alone those who believe they have the right to demand it. Personally, I spend a lot of time and energy sharing everything that I can with people that I believe will benefit from it and use what I know to make things better for others. And I feel no guilt withholding my time, knowledge, and energy from those that I believe will squander or ignore it. Moreover, I believe that withholding these things from that kind of person is the right thing to do for myself, my mental health, the projects that I maintain, and the community surrounding them.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Do I make incorrect decisions? Absolutely. I do my best to examine all of my decisions, to learn from the ones that succeed and the ones that fail. Do I have the time or energy to do everything that would be beneficial? No, I do not. I do my best to spend the time and emotional energy I have every day wisely, or at least in the best way that I know how. Am I obligated to give something to someone simply because they want it, feel they deserve it, or even if it would be a objectively good thing to do? &lt;a href=&quot;https://sfwriter.com/2009/06/trekkie-word-of-day-supererogation.html&quot;&gt;No, I am not.&lt;/a&gt; Do I feel guilty for being a limited and fallible being, what some might call “human”? Sometimes, I do. But I’m doing my best to fix that about myself.&lt;/p&gt;</content><author><name>Lee Dohm</name><email>lee@lee-dohm.com</email></author><summary type="html">Maintaining an open source project is an exercise in balancing a number of different priorities and the tensions between a few different groups. There are:</summary></entry></feed>

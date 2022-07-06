@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Raleway' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="application/atom+xml" rel="alternate" href="https://www.lee-dohm.com/feed.xml" title="lee-dohm.com" />
+    <link rel="icon" type="image/png" href="/favicon-icon.png"/>
+
+    <!-- Bootstrap -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+
+    <!-- Site -->
+    <link href="/stylesheets/styles.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+    <!-- Battle for the Net widget https://github.com/fightforthefuture/battleforthenet-widget -->
+    <!-- <script src="https://widget.battleforthenet.com/widget.js" async></script> -->
+
+    <!-- analytics.html -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17382346-2', 'lee-dohm.com');
+  ga('send', 'pageview');
+</script>
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Files Are an Implementation Detail | lee-dohm.com</title>
+<meta name="generator" content="Jekyll v4.1.0" />
+<meta property="og:title" content="Files Are an Implementation Detail" />
+<meta name="author" content="Lee Dohm" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="John C. Dvorak recently wrote that the desktop gets no respect, and it should. This column has been a source of discussion and disagreement between my friends since it made the rounds. Leaving aside the whole “licensing” issue, what Mr. Dvorak nearly captures is the divide between what most people need to use computers for and what professionals need to use computers for. He claims that the desktop can do things that appliances can’t. I disagree, one only needs to look at the TiVo to see an example of an appliance that does things that one would once have needed a desktop computer to do or had to do manually. But let me start by defining my terms …" />
+<meta property="og:description" content="John C. Dvorak recently wrote that the desktop gets no respect, and it should. This column has been a source of discussion and disagreement between my friends since it made the rounds. Leaving aside the whole “licensing” issue, what Mr. Dvorak nearly captures is the divide between what most people need to use computers for and what professionals need to use computers for. He claims that the desktop can do things that appliances can’t. I disagree, one only needs to look at the TiVo to see an example of an appliance that does things that one would once have needed a desktop computer to do or had to do manually. But let me start by defining my terms …" />
+<link rel="canonical" href="https://www.lee-dohm.com/2010/08/08/files-are-an-implementation-detail/" />
+<meta property="og:url" content="https://www.lee-dohm.com/2010/08/08/files-are-an-implementation-detail/" />
+<meta property="og:site_name" content="lee-dohm.com" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2010-08-08T08:46:00-07:00" />
+<script type="application/ld+json">
+{"datePublished":"2010-08-08T08:46:00-07:00","url":"https://www.lee-dohm.com/2010/08/08/files-are-an-implementation-detail/","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.lee-dohm.com/2010/08/08/files-are-an-implementation-detail/"},"author":{"@type":"Person","name":"Lee Dohm"},"description":"John C. Dvorak recently wrote that the desktop gets no respect, and it should. This column has been a source of discussion and disagreement between my friends since it made the rounds. Leaving aside the whole “licensing” issue, what Mr. Dvorak nearly captures is the divide between what most people need to use computers for and what professionals need to use computers for. He claims that the desktop can do things that appliances can’t. I disagree, one only needs to look at the TiVo to see an example of an appliance that does things that one would once have needed a desktop computer to do or had to do manually. But let me start by defining my terms …","headline":"Files Are an Implementation Detail","dateModified":"2010-08-08T08:46:00-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-custom" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Lee Dohm</a>
+        <p class="navbar-text">Games and Technology Should Include EVERYone</p>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/feed.xml">Feed</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="/about">About Lee</a></li>
+              <li><a href="/this-blog">About This Blog</a></li>
+              <li><a href="/appearances">Appearances</a></li>
+              <li><a href="/colophon">Colophon</a></li>
+              <li><a href="/disclaimer">Disclaimers</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<div class="content">
+  <h1><a class="title" href="/2010/08/08/files-are-an-implementation-detail/">Files Are an Implementation Detail</a></h1>
+  <!-- dateline.html -->
+<h4 class="dateline">
+  August 08, 2010
+  •
+  <a href="/2010/08/08/files-are-an-implementation-detail/"><span class="octicon octicon-link"></span></a>
+</h4>
+
+
+  <p>John C. Dvorak recently wrote that <a href="http://www.pcmag.com/article2/0,2817,2367202,00.asp">the desktop gets no respect, and it should</a>.  This column has been a source of discussion and disagreement between my friends since it made the rounds.  Leaving aside the whole “licensing” issue, what Mr. Dvorak nearly captures is the divide between what most people need to use computers for and what professionals need to use computers for.  He claims that the desktop can do things that appliances can’t.  I disagree, one only needs to look at the <a href="http://en.wikipedia.org/wiki/TiVo">TiVo</a> to see an example of an appliance that does things that one would once have needed a desktop computer to do or had to do manually.  But let me start by defining my terms …</p>
+
+<p>An <a href="http://en.wikipedia.org/wiki/appliance">appliance</a>, for the purposes of our discussion, is a device that performs a task or set of related tasks in a way that a user can learn to operate it by intuition or usage and hides most if not all implementation details from the user.  A refrigerator is an appliance because you don’t need to know how it works in order to keep your food cold, you just open the door, stick something in and a few hours later it is cold.</p>
+
+<p>A desktop computer is not an appliance because you need to learn aspects of how it operates in order to properly use it.  You need to know about files, folders, networks, programs and a whole lot more.  And the more the computer can do, the more you have to learn.  A desktop computer does not hide its implementation details.  As a matter of fact, its job is more to piece together various things that let you use the implementation details without hiding them.  Yes, you can plug in to a network nowadays without needing to know much about <a href="http://en.wikipedia.org/wiki/Tcp/ip">TCP/IP</a>, network protocols or the <a href="http://en.wikipedia.org/wiki/OSI_stack">OSI stack</a>.  But it doesn’t keep that stuff from you either.  A refrigerator doesn’t give you access to its compressor and let you tweak it.<sup id="fnref:compressor" role="doc-noteref"><a href="#fn:compressor" class="footnote">1</a></sup></p>
+
+<p>Here’s another point where I disagree with Mr. Dvorak.  The modern automobile <em>is</em> an appliance.  I don’t need to know anything about how a car works in order to operate it.  I don’t need to know about the transmission, the engine, or the brakes.  I just need to know that putting the car in <code class="language-plaintext highlighter-rouge">D</code> and pushing the accelerator makes it go.  I take my car to a mechanic to fix it, just like I have a professional come and fix the refrigerator if its broken.  It is only the American love affair with the automobile that has kept it so the average person still can get access to the engine and other internals.  And while I know more than many about how an automobile works, I have only the most basic grasp of newer automotive technology like anti-lock brakes and traction control.  Those are things that I have decided I don’t need to understand, they just work.  That’s the magic of an appliance, I don’t need to know in order for it to work.</p>
+
+<p>So let’s take a look at what I believe computers are and should be evolving into, the modern photo camera.<sup id="fnref:photo-vs-video" role="doc-noteref"><a href="#fn:photo-vs-video" class="footnote">2</a></sup>  You have the <a href="http://en.wikipedia.org/wiki/Point-and-shoot_camera">point-and-shoot camera</a> for consumers and you have the <a href="http://en.wikipedia.org/wiki/Single-lens_reflex_camera">SLR</a> camera for enthusiasts and professionals.  With the point-and-shoot camera, I don’t need to know about <a href="http://en.wikipedia.org/wiki/White_balance">white balance</a>, <a href="http://en.wikipedia.org/wiki/F-stop">f-stop</a> or any of a bunch of other technical aspects of photography.  I simply point it at what I want to take a picture of and click the button.  On the other end of the spectrum, there are the SLR cameras where I may not need to know those things in order to take a picture … but it doesn’t hide those things from me either.  The point-and-shoot camera is an appliance.  The SLR camera is not.</p>
+
+<p>What does a general computing appliance look like?  Simply enough, it looks like the iPhone or iPad as far as the way it operates.  With these devices, you don’t need to know about files or folders or networks.  You turn it on, download an app and perform a task.  Everything else is taken care of for you.  Does this mean you can’t “calculate, with accuracy, the trajectory of a rocket shot to the moon, and the amount of fuel it needs to get there”?  Of course not, but you do need an app for that … which someone else must have made for you.  Does it mean that you can’t connect a Wacom tablet and do cool, unspecified things with Adobe Illustrator?  Well, for now, yes … but the concept of a general computing appliance doesn’t preclude this.  A general computing appliance is something for consumers and will hide the implementation details of how the computer works, but that doesn’t mean it can’t do powerful things or allow one to attach peripherals such as a Wacom tablet or a keyboard.</p>
+
+<p>And here’s where we get to files, the big argument amongst my friends was that files are the glue between applications that are never perfect.  A file allows one to take data that was created by one application that does part of the task I want to another application that allows me to finish the task.  The implicit fear is that on a general computing appliance, apps will turn into data islands that do not allow me to perform this kind of assembly-line workflow that the desktop PC has enabled since its inception.  If you look at the iPhone, this is mostly the case.  One app’s data is not shared to any other apps, with the exception of some built-in applications like the camera and the photos app.</p>
+
+<p>On Android, it is a different story.  Android has a system whereby one application can serve up its data to the rest of the device via a content provider system.  This allows any application on the device to integrate with the built-in contacts application, or the photo gallery application.  It allows new applications to serve new kinds of data and control how that data can be accessed or changed.  This system also does not resort to sharing files.  It is an OS-controlled communication protocol that allows an application to have its own data strongly protected but also affords sharing.  This type of system is what will allow for files and folders to truly become an implementation detail on consumer-level general computing appliances.</p>
+
+<p>This is my idea of what the general computing appliance nirvana looks like from the user’s perspective:</p>
+
+<ul>
+  <li>A way to download, install and uninstall applications.</li>
+  <li>A means of launching an application.</li>
+  <li>A system whereby installed applications can notify the user of events.</li>
+  <li>A means of switching between running applications and controlling what applications are running.</li>
+  <li>A system of configuring the settings of applications.</li>
+</ul>
+
+<p>Additionally, a general computing appliance should afford the following without the user having to be involved:</p>
+
+<ul>
+  <li>Sharing of data between applications.</li>
+  <li>Access to the device’s peripherals.</li>
+  <li>Other integration points between applications (a la Intents in Android).</li>
+</ul>
+
+<p>And that’s about it as far as a consumer is concerned.  This is the genius behind the iPhone and why I believe it will be considered revolutionary in the years to come.  It was the first true general computing appliance.</p>
+
+<p>Where does this leave the desktop PC?  Should it get more respect or should it become the computing world’s <a href="http://en.wikipedia.org/wiki/Rodney_Dangerfield">Rodney Dangerfield</a>?  I partially agree with Mr. Dvorak here.  The traditional desktop PC will continue to have its place in the computing future.  But it will belong to enthusiasts and professionals, not to the consumer.  The people who are writing apps for consumer devices will use a desktop PC (or the future’s version of it).  The people who are doing more free-form computing tasks will likely use a desktop PC, perhaps engineers or scientists or data miners, people who aren’t performing the same task all the time.  I believe though that over time the set of people that use what we now call the desktop PC environment will shrink slowly but inevitably.  As operating systems evolve and developers begin to understand more of what people actually use computers for, we will be able to simplify more tasks to the level of an appliance.  It does not mean the end of the enthusiast or the professional, simply that one does not have to be an enthusiast or professional to get the benefit of the technology.</p>
+
+<p>This is not something to be reviled, but something to be considered natural.  It is the march of progress.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:compressor" role="doc-endnote">
+      <p>Other than the knob that just has some mysterious single-digit numbers on it or the never-explained “cold” and “colder” labels. <a href="#fnref:compressor" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:photo-vs-video" role="doc-endnote">
+      <p>As opposed to a camera used for video, which I feel still tend to be less on the appliance side. <a href="#fnref:photo-vs-video" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+</div>
+</body></html>
+
+          </div>
+        </div>
+
+        <div class="col-md-8 col-md-offset-2">
+          <hr/>
+          <div class="text-center">
+            <p>
+              <a href="mailto:lee@lee-dohm.com"><span class="octicon octicon-mail"></span></a>&nbsp;&nbsp;
+              <a href="https://github.com/lee-dohm"><span class="octicon octicon-mark-github"></span></a>&nbsp;&nbsp;
+              <a href="//stackoverflow.com/users/1954/lee"><i class="fa fa-stack-exchange"></i></a>&nbsp;&nbsp;
+              <a href="https://twitter.com/leedohm"><i class="fa fa-twitter"></i></a>
+            </p>
+            <p>
+              Copyright &copy; 2010-2022 by Lee Dohm
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/javascripts/lightbox.min.js"></script>
+  </body>
+</html>

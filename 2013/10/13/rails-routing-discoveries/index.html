@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Raleway' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="application/atom+xml" rel="alternate" href="https://www.lee-dohm.com/feed.xml" title="lee-dohm.com" />
+    <link rel="icon" type="image/png" href="/favicon-icon.png"/>
+
+    <!-- Bootstrap -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+
+    <!-- Site -->
+    <link href="/stylesheets/styles.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+    <!-- Battle for the Net widget https://github.com/fightforthefuture/battleforthenet-widget -->
+    <!-- <script src="https://widget.battleforthenet.com/widget.js" async></script> -->
+
+    <!-- analytics.html -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17382346-2', 'lee-dohm.com');
+  ga('send', 'pageview');
+</script>
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Rails Routing Discoveries | lee-dohm.com</title>
+<meta name="generator" content="Jekyll v4.1.0" />
+<meta property="og:title" content="Rails Routing Discoveries" />
+<meta name="author" content="Lee Dohm" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I’ve been working on a project using Rails v4 and ran into an interesting question about which there seems to be a lot of confusion. Rails has convenient helper functions for generating REST-style links: *_path and *_url. It seems everyone is clear on the fact that the _path version gives a relative path, whereas the _url version gives an absolute URL. The confusion lies in when is it appropriate to use which one? The general guidance is to use paths in views and urls in controllers … but there isn’t really an explanation for why. I found a StackOverflow question and answer that seems to answer the question, but it didn’t sound like a very confident answer and seemed to be based a bit on hearsay. So I decided to dig in and look at the various specifications and documentation and see if I couldn’t figure it out for myself …" />
+<meta property="og:description" content="I’ve been working on a project using Rails v4 and ran into an interesting question about which there seems to be a lot of confusion. Rails has convenient helper functions for generating REST-style links: *_path and *_url. It seems everyone is clear on the fact that the _path version gives a relative path, whereas the _url version gives an absolute URL. The confusion lies in when is it appropriate to use which one? The general guidance is to use paths in views and urls in controllers … but there isn’t really an explanation for why. I found a StackOverflow question and answer that seems to answer the question, but it didn’t sound like a very confident answer and seemed to be based a bit on hearsay. So I decided to dig in and look at the various specifications and documentation and see if I couldn’t figure it out for myself …" />
+<link rel="canonical" href="https://www.lee-dohm.com/2013/10/13/rails-routing-discoveries/" />
+<meta property="og:url" content="https://www.lee-dohm.com/2013/10/13/rails-routing-discoveries/" />
+<meta property="og:site_name" content="lee-dohm.com" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-10-13T09:33:09-07:00" />
+<script type="application/ld+json">
+{"datePublished":"2013-10-13T09:33:09-07:00","url":"https://www.lee-dohm.com/2013/10/13/rails-routing-discoveries/","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.lee-dohm.com/2013/10/13/rails-routing-discoveries/"},"author":{"@type":"Person","name":"Lee Dohm"},"description":"I’ve been working on a project using Rails v4 and ran into an interesting question about which there seems to be a lot of confusion. Rails has convenient helper functions for generating REST-style links: *_path and *_url. It seems everyone is clear on the fact that the _path version gives a relative path, whereas the _url version gives an absolute URL. The confusion lies in when is it appropriate to use which one? The general guidance is to use paths in views and urls in controllers … but there isn’t really an explanation for why. I found a StackOverflow question and answer that seems to answer the question, but it didn’t sound like a very confident answer and seemed to be based a bit on hearsay. So I decided to dig in and look at the various specifications and documentation and see if I couldn’t figure it out for myself …","headline":"Rails Routing Discoveries","dateModified":"2013-10-13T09:33:09-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-custom" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Lee Dohm</a>
+        <p class="navbar-text">Games and Technology Should Include EVERYone</p>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/feed.xml">Feed</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="/about">About Lee</a></li>
+              <li><a href="/this-blog">About This Blog</a></li>
+              <li><a href="/appearances">Appearances</a></li>
+              <li><a href="/colophon">Colophon</a></li>
+              <li><a href="/disclaimer">Disclaimers</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<div class="content">
+  <h1><a class="title" href="/2013/10/13/rails-routing-discoveries/">Rails Routing Discoveries</a></h1>
+  <!-- dateline.html -->
+<h4 class="dateline">
+  October 13, 2013
+  •
+  <a href="/2013/10/13/rails-routing-discoveries/"><span class="octicon octicon-link"></span></a>
+</h4>
+
+
+  <p>I’ve been working on a project using <a href="http://rubyonrails.org/">Rails v4</a> and ran into an interesting question about which there seems to be a lot of confusion. Rails has convenient helper functions for generating REST-style links: <code class="language-plaintext highlighter-rouge">*_path</code> and <code class="language-plaintext highlighter-rouge">*_url</code>. It seems everyone is clear on the fact that the <code class="language-plaintext highlighter-rouge">_path</code> version gives a relative path, whereas the <code class="language-plaintext highlighter-rouge">_url</code> version gives an absolute URL. The confusion lies in when is it appropriate to use which one? The general guidance is to use paths in views and urls in controllers … but there isn’t really an explanation for why. I found a <a href="http://stackoverflow.com/q/2350539/1954">StackOverflow question</a> and <a href="http://stackoverflow.com/a/2350837/1954">answer</a> that seems to answer the question, but it didn’t sound like a very confident answer and seemed to be based a bit on hearsay. So I decided to dig in and look at the various specifications and documentation and see if I couldn’t figure it out for myself …</p>
+
+<p>From <a href="http://viget.com/extend/rails-named-routes-path-vs-url">this article</a> I found the guidance that there are two situations where one needs to use the absolute URL:</p>
+
+<ol>
+  <li>When redirecting to another page</li>
+  <li>When switching to or from SSL (<code class="language-plaintext highlighter-rouge">https</code> to <code class="language-plaintext highlighter-rouge">http</code> or vice versa)</li>
+</ol>
+
+<p>Other than those two cases, using the relative path is fine. I’m going to skip over the SSL one because there seems to be plenty of agreement on that one.</p>
+
+<p>In my earlier investigation I had already looked into the <a href="http://tools.ietf.org/html/rfc2616">HTTP protocol specification</a> and found the <a href="http://tools.ietf.org/html/rfc2616#page-61">relevant section on redirects</a> and <a href="http://tools.ietf.org/html/rfc2616#section-14.30">the definition of the Location field</a>. The specification does explicitly say that an absolute URI should be used. Most people seem to be hand-waving this away saying that “modern browsers understand” if you use a relative path, which is fine for them I guess. I don’t like making a potential bug for myself later on by using undocumented features if I don’t have to. So I kept looking to see if I couldn’t find a definitive answer.</p>
+
+<p>That’s when I looked specifically at <a href="http://api.rubyonrails.org/classes/ActionController/Redirecting.html#method-i-redirect_to">the documentation for the Rails <code class="language-plaintext highlighter-rouge">redirect_to</code> method</a>. It states that the first parameter can take one of a few forms. There are actually two entries in that list regarding <code class="language-plaintext highlighter-rouge">String</code> objects:</p>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">String</code> starting with <code class="language-plaintext highlighter-rouge">protocol://</code> (like <code class="language-plaintext highlighter-rouge">http://</code>) or a protocol relative reference (like <code class="language-plaintext highlighter-rouge">//</code>) is passed straight through as the target for redirection</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">String</code> not containing a protocol - The current protocol and host is prepended to the string</li>
+</ul>
+
+<p>And there is our answer. The Rails <code class="language-plaintext highlighter-rouge">redirect_to</code> method automatically converts our relative paths into absolute urls for the Location field in the redirect response.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup> So we only need to use an absolute URL when changing protocols or when an absolute URL is truly needed (like a link in an email or something).</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>As long as in your configuration the URL is just the path with the protocol and host prepended, but this is the default configuration so it will be the common case. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+</div>
+</body></html>
+
+          </div>
+        </div>
+
+        <div class="col-md-8 col-md-offset-2">
+          <hr/>
+          <div class="text-center">
+            <p>
+              <a href="mailto:lee@lee-dohm.com"><span class="octicon octicon-mail"></span></a>&nbsp;&nbsp;
+              <a href="https://github.com/lee-dohm"><span class="octicon octicon-mark-github"></span></a>&nbsp;&nbsp;
+              <a href="//stackoverflow.com/users/1954/lee"><i class="fa fa-stack-exchange"></i></a>&nbsp;&nbsp;
+              <a href="https://twitter.com/leedohm"><i class="fa fa-twitter"></i></a>
+            </p>
+            <p>
+              Copyright &copy; 2010-2022 by Lee Dohm
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/javascripts/lightbox.min.js"></script>
+  </body>
+</html>

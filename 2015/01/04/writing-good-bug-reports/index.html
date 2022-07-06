@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Raleway' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="application/atom+xml" rel="alternate" href="https://www.lee-dohm.com/feed.xml" title="lee-dohm.com" />
+    <link rel="icon" type="image/png" href="/favicon-icon.png"/>
+
+    <!-- Bootstrap -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+
+    <!-- Site -->
+    <link href="/stylesheets/styles.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+    <!-- Battle for the Net widget https://github.com/fightforthefuture/battleforthenet-widget -->
+    <!-- <script src="https://widget.battleforthenet.com/widget.js" async></script> -->
+
+    <!-- analytics.html -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17382346-2', 'lee-dohm.com');
+  ga('send', 'pageview');
+</script>
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Writing Good Bug Reports | lee-dohm.com</title>
+<meta name="generator" content="Jekyll v4.1.0" />
+<meta property="og:title" content="Writing Good Bug Reports" />
+<meta name="author" content="Lee Dohm" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="If there is only one thing that is true about all computer science, it is that every program beyond “Hello World” has bugs. And when a bug happens, you want it to get fixed. You know what the best way to get a bug fixed is, whether it is someone else’s or your own? Writing a good bug report." />
+<meta property="og:description" content="If there is only one thing that is true about all computer science, it is that every program beyond “Hello World” has bugs. And when a bug happens, you want it to get fixed. You know what the best way to get a bug fixed is, whether it is someone else’s or your own? Writing a good bug report." />
+<link rel="canonical" href="https://www.lee-dohm.com/2015/01/04/writing-good-bug-reports/" />
+<meta property="og:url" content="https://www.lee-dohm.com/2015/01/04/writing-good-bug-reports/" />
+<meta property="og:site_name" content="lee-dohm.com" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2015-01-04T14:37:46-08:00" />
+<script type="application/ld+json">
+{"datePublished":"2015-01-04T14:37:46-08:00","url":"https://www.lee-dohm.com/2015/01/04/writing-good-bug-reports/","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.lee-dohm.com/2015/01/04/writing-good-bug-reports/"},"author":{"@type":"Person","name":"Lee Dohm"},"description":"If there is only one thing that is true about all computer science, it is that every program beyond “Hello World” has bugs. And when a bug happens, you want it to get fixed. You know what the best way to get a bug fixed is, whether it is someone else’s or your own? Writing a good bug report.","headline":"Writing Good Bug Reports","dateModified":"2015-01-04T14:37:46-08:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-custom" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Lee Dohm</a>
+        <p class="navbar-text">Games and Technology Should Include EVERYone</p>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/feed.xml">Feed</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="/about">About Lee</a></li>
+              <li><a href="/this-blog">About This Blog</a></li>
+              <li><a href="/appearances">Appearances</a></li>
+              <li><a href="/colophon">Colophon</a></li>
+              <li><a href="/disclaimer">Disclaimers</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<div class="content">
+  <h1><a class="title" href="/2015/01/04/writing-good-bug-reports/">Writing Good Bug Reports</a></h1>
+  <!-- dateline.html -->
+<h4 class="dateline">
+  January 04, 2015
+  •
+  <a href="/2015/01/04/writing-good-bug-reports/"><span class="octicon octicon-link"></span></a>
+</h4>
+
+
+  <p>If there is only one thing that is true about all computer science, it is that every program beyond “Hello World” has bugs. And when a bug happens, you want it to get fixed. You know what the best way to get a bug fixed is, whether it is someone else’s or your own? Writing a good bug report.</p>
+
+<h2 id="the-problem">The Problem</h2>
+
+<p>Most people think that writing a good bug report is just writing a couple of sentences describing the problem and that’s it. The issue is that they’ll write something like this:</p>
+
+<blockquote>
+  <p>I’m not sure what I did to break it, but “Open in dev mode” is now opening files in the same window.</p>
+</blockquote>
+
+<p>This doesn’t actually describe the issue though. There are multiple ways to execute that command and it turned out in this case that <a href="https://discuss.atom.io/t/open-in-dev-mode-opens-in-same-window-on-os-x/14026/4?u=leedohm">one of the ways worked and another was broken</a>.<sup id="fnref:broken" role="doc-noteref"><a href="#fn:broken" class="footnote">1</a></sup></p>
+
+<p>The goal of reporting a bug is <em>to get the bug fixed</em>, otherwise why report the bug at all? So your goal in writing a bug report should be to make it as easy as possible for the developer to fix the bug. You can point fingers and argue over whether it should be the developer that is responsible for doing the legwork, not the user. But when it comes right down to it … if you’re the first person reporting this bug, it may well be that there is something peculiar about your setup, how you perform the task, your machine or something really crazy that the developer <em>cannot</em> replicate without help.</p>
+
+<p>In development circles one of the jokes about the lazy programmer is, “It works fine on my machine!” It’s also true that a bug report consisting only of “X is broken on my machine” is, unfortunately, just as lazy and unhelpful. We’ll get back to it when all the other bugs are fixed, thankyouverymuch …</p>
+
+<h2 id="the-solution">The Solution</h2>
+
+<p>So now that we know a little about why to write a good bug report, let’s talk about how. The absolute bare minimum things to include are:</p>
+
+<ol>
+  <li>Include steps to reproduce the problem as reliably as possible</li>
+  <li>Include what you expected to happen</li>
+  <li>Include what actually happened</li>
+</ol>
+
+<p>There are plenty of other helpful things to include like:</p>
+
+<ul>
+  <li>What OS and version of the OS you’re running (especially if the program is cross-platform or you’re using an unreleased version of the OS)</li>
+  <li>What versions of other related software you have installed</li>
+  <li>Your software environment (like your <code class="language-plaintext highlighter-rouge">PATH</code> environment variable, how much RAM you have, is your system low on disk space)</li>
+</ul>
+
+<p>Generally, almost any information you provide <em>could</em> help. So if you have time, provide more. It can only help your chances of getting your bug fixed before someone else’s. But let’s go back to the minimums …</p>
+
+<h2 id="repro-steps">Repro Steps</h2>
+
+<p>Hopefully, everyone reading this has heard of the <a href="http://www.nrpa.org/blog/how-to-make-a-peanut-butter-and-jelly-sandwich-a-speed-session-preview/">peanut-butter and jelly sandwich exercise</a>. The one where you get a bunch of people to write a list of instructions on how to make a peanut-butter and jelly sandwich. Then you read the instructions and interpret them more or less literally<sup id="fnref:jerk-or-comedy" role="doc-noteref"><a href="#fn:jerk-or-comedy" class="footnote">2</a></sup> to show them how badly things can go wrong, especially as misinterpretations are compounded. The same is true of repro steps in a bug report. You have to be really clear about what you’re doing because if there is more than one way to do something … if you’re writing the bug report, you’re probably doing it differently than other people. Let’s take a relatively simple task, opening a file. Most people would write it like this:</p>
+
+<ol>
+  <li>Open a file</li>
+</ol>
+
+<p>Here’s a better example:</p>
+
+<ol>
+  <li>Create a file in the <code class="language-plaintext highlighter-rouge">HOME</code> directory using <code class="language-plaintext highlighter-rouge">touch test.txt</code><sup id="fnref:file-alternates" role="doc-noteref"><a href="#fn:file-alternates" class="footnote">3</a></sup>
+</li>
+  <li>Launch the application by double-clicking on its icon<sup id="fnref:launch-alternates" role="doc-noteref"><a href="#fn:launch-alternates" class="footnote">4</a></sup>
+</li>
+  <li>Wait for the application to finish loading and the cursor to start blinking in the open editor<sup id="fnref:blinking-cursor" role="doc-noteref"><a href="#fn:blinking-cursor" class="footnote">5</a></sup>
+</li>
+  <li>Open the Open File dialog by pressing <kbd>⌘O</kbd><sup id="fnref:open-file-alternates" role="doc-noteref"><a href="#fn:open-file-alternates" class="footnote">6</a></sup>
+</li>
+  <li>Navigate to the <code class="language-plaintext highlighter-rouge">HOME</code> directory by clicking the appropriate folder in the sidebar</li>
+  <li>Double-click the <code class="language-plaintext highlighter-rouge">test.txt</code> file in the dialog<sup id="fnref:file-selection-alternates" role="doc-noteref"><a href="#fn:file-selection-alternates" class="footnote">7</a></sup>
+</li>
+</ol>
+
+<p>As you can see, there are a lot of assumptions that go into how one opens a file, something that most people consider to be the most basic of operations. And each of these assumptions can be the key to helping the developer track down the bug and fix it for you.</p>
+
+<p>Don’t be discouraged by the excruciating detail in the repro steps though. A lot of bug reports for <a href="https://atom.io">Atom</a> include an animated GIF as their repro steps<sup id="fnref:licecap" role="doc-noteref"><a href="#fn:licecap" class="footnote">8</a></sup> and it serves just as well, sometimes better! So even if you’re dealing with language issues, you can still be specific and clear.</p>
+
+<h2 id="expected-and-actual">Expected and Actual</h2>
+
+<p>Being specific about what you <strong>expected</strong> to happen and what <strong>actually</strong> happened is also very important when writing a good bug report. Almost always, people will describe only one or the other. They will describe what actually happened, thinking that what they expect to happen is obvious. Or they will describe what they expected to happen, assuming that of course you can reproduce the actual issue exactly as they have.</p>
+
+<p>Now, sometimes it <em>is</em> clear what is expected to happen … like when the application crashes or some crazy exception dialog appears.<sup id="fnref:blue-menu" role="doc-noteref"><a href="#fn:blue-menu" class="footnote">9</a></sup> You expect the application to not crash and not show dialogs with bunches of text and just an <code class="language-plaintext highlighter-rouge">Ok</code> button at the bottom. But these are (hopefully) pretty rare and most of the time good applications have crash-reporting systems built into them that give far more information about what was going on in the application at the time than you could.</p>
+
+<p>But let’s take a look at <a href="https://github.com/atom/atom/issues/1626">an example</a>:</p>
+
+<blockquote>
+  <p>When soft wrapping, the cursor gets behind by one character.</p>
+</blockquote>
+
+<p>Well, that’s kind of weak even for an actual. What do you mean by “soft-wrapping”? Do you mean when you toggle soft-wrap mode on? Do you mean when it is already on and a line becomes soft-wrapped by typing more characters into it? What does it mean for the cursor to “get behind by one character”? Here’s a much better explanation (based on the one in the actual bug report):</p>
+
+<blockquote>
+  <p>The place where the cursor is displayed and the place the cursor actually is becomes different after toggling soft-wrap.</p>
+</blockquote>
+
+<p>This allows the developer to know exactly what to look for and a much better idea of how to reproduce the issue. And it really wouldn’t have taken that much more effort to write twice as many words.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>We all would rather be using software that has fewer bugs. Yes, it can be frustrating to pay for software (though that is becoming less and less common, really) and then have it not work. And whether you think of it as catching more flies with honey than vinegar or just from a utilitarian point of view, taking the extra effort to write a <em>good</em> bug report, if you’re going to make the effort at all, just makes sense.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:broken" role="doc-endnote">
+      <p>But it may have only been broken on the reporter’s machine. After they built from the latest <code class="language-plaintext highlighter-rouge">master</code> version, everything worked fine. <a href="#fnref:broken" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:jerk-or-comedy" role="doc-endnote">
+      <p>I’ve seen it done both in hilariously comic interpretations or just plain asinine interpretations … the point comes across either way, I guess. <a href="#fnref:jerk-or-comedy" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:file-alternates" role="doc-endnote">
+      <p>The contents or location of the file being opened might be important. Or even the fact that the file exists <em>before</em> the application is launched, rather than the file being created after the application is launched. <a href="#fnref:file-alternates" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:launch-alternates" role="doc-endnote">
+      <p>Because maybe you can open the program from either the icon or the command line and <a href="http://apple.stackexchange.com/questions/87282/in-mountain-lion-how-do-i-set-in-one-place-the-path-environment-variable-for-a/87283#87283">it behaves differently depending on how you launch it</a>. <a href="#fnref:launch-alternates" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:blinking-cursor" role="doc-endnote">
+      <p>Sometimes there can be timing issues with people trying to click on something “too fast” or even the fact that an editor view is open (so that a cursor is shown and blinking) could be the difference. <a href="#fnref:blinking-cursor" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:open-file-alternates" role="doc-endnote">
+      <p>Maybe there is a difference between opening a file using the key combination and opening a file using the <code class="language-plaintext highlighter-rouge">File &gt; Open</code> menu. <a href="#fnref:open-file-alternates" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:file-selection-alternates" role="doc-endnote">
+      <p>Double-clicking the file might behave differently than single-clicking the file and then clicking the <code class="language-plaintext highlighter-rouge">Open</code> button. <a href="#fnref:file-selection-alternates" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:licecap" role="doc-endnote">
+      <p>A lot of the Atom contributors use <a href="http://www.cockos.com/licecap/">LICEcap</a> as the tool of choice for capturing animated GIFs of repro steps. It’s available for both Windows and OS X. <a href="#fnref:licecap" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:blue-menu" role="doc-endnote">
+      <p>Or you expect <a href="https://github.com/atom/atom/issues/4688">the menu to not turn blue</a>. <a href="#fnref:blue-menu" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+</div>
+</body></html>
+
+          </div>
+        </div>
+
+        <div class="col-md-8 col-md-offset-2">
+          <hr/>
+          <div class="text-center">
+            <p>
+              <a href="mailto:lee@lee-dohm.com"><span class="octicon octicon-mail"></span></a>&nbsp;&nbsp;
+              <a href="https://github.com/lee-dohm"><span class="octicon octicon-mark-github"></span></a>&nbsp;&nbsp;
+              <a href="//stackoverflow.com/users/1954/lee"><i class="fa fa-stack-exchange"></i></a>&nbsp;&nbsp;
+              <a href="https://twitter.com/leedohm"><i class="fa fa-twitter"></i></a>
+            </p>
+            <p>
+              Copyright &copy; 2010-2022 by Lee Dohm
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/javascripts/lightbox.min.js"></script>
+  </body>
+</html>

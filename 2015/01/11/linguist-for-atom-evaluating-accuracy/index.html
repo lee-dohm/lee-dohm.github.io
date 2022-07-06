@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Raleway' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="application/atom+xml" rel="alternate" href="https://www.lee-dohm.com/feed.xml" title="lee-dohm.com" />
+    <link rel="icon" type="image/png" href="/favicon-icon.png"/>
+
+    <!-- Bootstrap -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+
+    <!-- Site -->
+    <link href="/stylesheets/styles.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+    <!-- Battle for the Net widget https://github.com/fightforthefuture/battleforthenet-widget -->
+    <!-- <script src="https://widget.battleforthenet.com/widget.js" async></script> -->
+
+    <!-- analytics.html -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17382346-2', 'lee-dohm.com');
+  ga('send', 'pageview');
+</script>
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Linguist for Atom: Evaluating Accuracy | lee-dohm.com</title>
+<meta name="generator" content="Jekyll v4.1.0" />
+<meta property="og:title" content="Linguist for Atom: Evaluating Accuracy" />
+<meta name="author" content="Lee Dohm" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="In writing a version of Linguist for Atom, it is important to be able to evaluate whether we are making things better or worse. To do that, we need to have a system for creating a numeric representation of how accurate a language classification system is." />
+<meta property="og:description" content="In writing a version of Linguist for Atom, it is important to be able to evaluate whether we are making things better or worse. To do that, we need to have a system for creating a numeric representation of how accurate a language classification system is." />
+<link rel="canonical" href="https://www.lee-dohm.com/2015/01/11/linguist-for-atom-evaluating-accuracy/" />
+<meta property="og:url" content="https://www.lee-dohm.com/2015/01/11/linguist-for-atom-evaluating-accuracy/" />
+<meta property="og:site_name" content="lee-dohm.com" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2015-01-11T14:03:23-08:00" />
+<script type="application/ld+json">
+{"datePublished":"2015-01-11T14:03:23-08:00","url":"https://www.lee-dohm.com/2015/01/11/linguist-for-atom-evaluating-accuracy/","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.lee-dohm.com/2015/01/11/linguist-for-atom-evaluating-accuracy/"},"author":{"@type":"Person","name":"Lee Dohm"},"description":"In writing a version of Linguist for Atom, it is important to be able to evaluate whether we are making things better or worse. To do that, we need to have a system for creating a numeric representation of how accurate a language classification system is.","headline":"Linguist for Atom: Evaluating Accuracy","dateModified":"2015-01-11T14:03:23-08:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-custom" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Lee Dohm</a>
+        <p class="navbar-text">Games and Technology Should Include EVERYone</p>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/feed.xml">Feed</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="/about">About Lee</a></li>
+              <li><a href="/this-blog">About This Blog</a></li>
+              <li><a href="/appearances">Appearances</a></li>
+              <li><a href="/colophon">Colophon</a></li>
+              <li><a href="/disclaimer">Disclaimers</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<div class="content">
+  <h1><a class="title" href="/2015/01/11/linguist-for-atom-evaluating-accuracy/">Linguist for Atom: Evaluating Accuracy</a></h1>
+  <!-- dateline.html -->
+<h4 class="dateline">
+  January 11, 2015
+  •
+  <a href="/2015/01/11/linguist-for-atom-evaluating-accuracy/"><span class="octicon octicon-link"></span></a>
+</h4>
+
+
+  <p>In writing a version of Linguist for Atom, it is important to be able to evaluate whether we are making things better or worse. To do that, we need to have a system for creating a numeric representation of how accurate a language classification system is.</p>
+
+<p>In designing this numeric system, it is important to take a look at what answers, both desirable and undesirable, we can get back from our classifier. Imagining that we have a list of languages that we can recognize <code class="language-plaintext highlighter-rouge">A</code> through <code class="language-plaintext highlighter-rouge">Z</code> and a default of plain text,<sup id="fnref:plain-text" role="doc-noteref"><a href="#fn:plain-text" class="footnote">1</a></sup> our classifier can give us the following answers:</p>
+
+<ul>
+  <li>Language is X - Classifier answers X</li>
+  <li>Language is X - Classifier answers something other than X</li>
+  <li>Language is X - Classifier answers Unknown</li>
+</ul>
+
+<p>We could take a very simplistic view and say that answer #1 is correct and all other answers are incorrect. This is simple to create a numeric rating for, we simply use what most people think of when they think of the term “accuracy” and use the percentage of correct answers. So if our classifier gets 42 out of 100 correct, then it is 42% accurate.</p>
+
+<p>But this doesn’t take into account that in some cases there is a wrong answer that is no big deal and a wrong answer that has negative implications. In medical testing, <a href="https://en.wikipedia.org/wiki/Binary_classification">binary classification</a> systems are often used to determine if a patient has (a positive result which we’ll call <code class="language-plaintext highlighter-rouge">P</code>) or does not have (a negative result which we’ll call <code class="language-plaintext highlighter-rouge">N</code>) a disease. Programmers will recognize that this fits neatly into a truth table:</p>
+
+<div class="row">
+<div class="col-md-8 col-md-offset-2">
+<table class="table table-bordered">
+<tr>
+<th>Patient</th>
+<th>Test Result</th>
+<th></th>
+</tr>
+<tr class="success">
+<td>P</td>
+<td>P</td>
+<td>Sick patient identified as sick or <strong>True Positive</strong>
+</td>
+</tr>
+<tr class="danger">
+<td>P</td>
+<td>N</td>
+<td>Sick patient identified as healthy or <strong>False Negative</strong>
+</td>
+</tr>
+<tr class="warning">
+<td>N</td>
+<td>P</td>
+<td>Healthy patient identified as sick or <strong>False Positive</strong>
+</td>
+</tr>
+<tr class="success">
+<td>N</td>
+<td>N</td>
+<td>Healthy patient identified as healthy or <strong>True Negative</strong>
+</td>
+</tr>
+</table>
+</div>
+</div>
+
+<p>Obviously, the <strong>True Positive</strong> and <strong>True Negative</strong> outcomes are the most desirable. But in medical testing, it isn’t that simple because both of the incorrect answers can have significant implications for the patients that are trusting the results of the test. A <strong>False Negative</strong> can mean that a patient might put off life-saving treatments until it is too late. Even a <strong>False Positive</strong> can mean social stigma for a patient that is incorrectly identified as having a disease such as AIDS or syphilis.</p>
+
+<p>Now, the medical classification systems are generally “binary” classifiers in that they are attempting to determine which of two possible answers to return, positive or negative. Our language classifier could return one of \(n+1\) answers with \(n\) being the number of languages our system can recognize.<sup id="fnref:multiclass-classifiers" role="doc-noteref"><a href="#fn:multiclass-classifiers" class="footnote">2</a></sup> But there is still only one correct answer.<sup id="fnref:one-answer" role="doc-noteref"><a href="#fn:one-answer" class="footnote">3</a></sup> So how do we apply the system of True and False, Positive and Negative to our more nuanced system? I haven’t found literature on this,<sup id="fnref:literature" role="doc-noteref"><a href="#fn:literature" class="footnote">4</a></sup> but this is the system I’ll use:</p>
+
+<ul>
+  <li>Identifies X as X — True Positive or Correct Identification</li>
+  <li>Identifies X as not X — False Positive or Incorrect Identification</li>
+  <li>Identifies X as Unknown — False Negative or No Identification</li>
+</ul>
+
+<p>I could potentially add:</p>
+
+<ul>
+  <li>Identifies Plain Text as X</li>
+  <li>Identifies Plain Text as Unknown</li>
+</ul>
+
+<p>But I think this would unnecessarily complicate things by requiring that I create a corpus of plain text files as well as the corpus of actual language files. And I don’t think that it would provide a commensurate benefit in determining the accuracy of the classifier.</p>
+
+<p>Now let’s take a look at what these types of answers mean as far as their impact on the user experience in Atom:</p>
+
+<ul>
+  <li>Correct Identification → Correct grammar loaded</li>
+  <li>Incorrect Identification → Incorrect grammar loaded</li>
+  <li>No Identification → Null grammar loaded</li>
+</ul>
+
+<p>While both the null grammar and an incorrect grammar being loaded means the same corrective action is required of the user, to go to the grammar selection menu and select the correct one, the incorrect grammar being loaded means that it might <em>appear</em> that the correct grammar is loaded until the error is detected later. Later detection may be after extra frustration has been incurred by expected functionality not showing up or working, incorrect snippets being expanded, etc. This means to me that a Correct Identification result is good, an Incorrect Identification result is bad and a No Identification result is neutral. So I’ll use the following point system:<sup id="fnref:sat-points" role="doc-noteref"><a href="#fn:sat-points" class="footnote">5</a></sup></p>
+
+<ul>
+  <li>Correct Identification = +1</li>
+  <li>Incorrect Identification = <strong>-1</strong>
+</li>
+  <li>No Identification = 0</li>
+</ul>
+
+<p>So if our system is given 100 files to classify and it identifies 42 of them correctly, 23 of them incorrectly, and the rest it does not identify, this would come out to 42-23 = 19 points out of 100 or 19% accurate. This also means that a classifier implementation could have a negative accuracy. I think this is completely valid since it would mean that the implementation is giving an incorrect answer more often than a correct one, making it misleading like the car navigation system that tells you to drive off a cliff.</p>
+
+<p>Once I have a couple of implementations to compare, a corpus of example source code files, and the list of correct answers for the entire corpus, I’ll create a test harness to execute the tests and give the accuracy values in this format. I think the data will be interesting to analyze!</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:plain-text" role="doc-endnote">
+      <p>Atom considers plain text files to be the default. In the source code, the plain text grammar is referred to as the “null grammar”. Despite this, there is actually a <a href="https://github.com/atom/language-text">plain text grammar</a> that is loaded as the null grammar. <a href="#fnref:plain-text" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:multiclass-classifiers" role="doc-endnote">
+      <p>These types of systems are referred to as “multiclass” classifiers. <a href="#fnref:multiclass-classifiers" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:one-answer" role="doc-endnote">
+      <p>While a file may contain <a href="https://discuss.atom.io/t/better-syntax-highlighting/7176">multiple languages</a>, as far as Atom is concerned there is only one grammar loaded to handle a particular file. So we need to concentrate on identifying the “primary” language in a file. <a href="#fnref:one-answer" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:literature" role="doc-endnote">
+      <p>Though I confess to not looking too hard. <a href="#fnref:literature" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:sat-points" role="doc-endnote">
+      <p>Anyone that has taken an SAT preparation course will recognize this kind of point system, where giving <em>no</em> answer is better for your ultimate score than giving an incorrect one. <a href="#fnref:sat-points" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+</div>
+</body></html>
+
+          </div>
+        </div>
+
+        <div class="col-md-8 col-md-offset-2">
+          <hr/>
+          <div class="text-center">
+            <p>
+              <a href="mailto:lee@lee-dohm.com"><span class="octicon octicon-mail"></span></a>&nbsp;&nbsp;
+              <a href="https://github.com/lee-dohm"><span class="octicon octicon-mark-github"></span></a>&nbsp;&nbsp;
+              <a href="//stackoverflow.com/users/1954/lee"><i class="fa fa-stack-exchange"></i></a>&nbsp;&nbsp;
+              <a href="https://twitter.com/leedohm"><i class="fa fa-twitter"></i></a>
+            </p>
+            <p>
+              Copyright &copy; 2010-2022 by Lee Dohm
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/javascripts/lightbox.min.js"></script>
+  </body>
+</html>

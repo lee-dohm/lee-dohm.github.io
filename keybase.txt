@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/leedohm
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.lee-dohm.com
+  * I am leedohm (https://keybase.io/leedohm) on keybase.
+  * I have a public key ASBwGdqJ3h8yZpUuj7xMjFxk3zSn4Aws6awuHcT7baEKwwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01014dcea0a3b872f55862db4d41804200562b11df466043b523afc03ffc42e9fd050a",
+            "host": "keybase.io",
+            "kid": "01207019da89de1f3266952e8fbc4c8c5c64df34a7e00c2ce9ac2e1dc4fb6da10ac30a",
+            "uid": "73734a30730833e680959b6b77ce8b19",
+            "username": "leedohm"
+        },
+        "service": {
+            "hostname": "www.lee-dohm.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1468372360,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1468372348,
+        "hash": "f65e94bc85742b9d604ed02286652c82f86dc4ac98ce73ee534051904107186bc9e6148436903f7e7c6af042f636a5d2df433dd91a79e1d3cecca3665fca8575",
+        "seqno": 520503
+    },
+    "prev": "4f26e6b8ade1908fac4627b1b875d2e99113ff6522e5561e38d827c908488187",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgcBnaid4fMmaVLo+8TIxcZN80p+AMLOmsLh3E+22hCsMKp3BheWxvYWTFAvZ7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNGRjZWEwYTNiODcyZjU1ODYyZGI0ZDQxODA0MjAwNTYyYjExZGY0NjYwNDNiNTIzYWZjMDNmZmM0MmU5ZmQwNTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNzAxOWRhODlkZTFmMzI2Njk1MmU4ZmJjNGM4YzVjNjRkZjM0YTdlMDBjMmNlOWFjMmUxZGM0ZmI2ZGExMGFjMzBhIiwidWlkIjoiNzM3MzRhMzA3MzA4MzNlNjgwOTU5YjZiNzdjZThiMTkiLCJ1c2VybmFtZSI6ImxlZWRvaG0ifSwic2VydmljZSI6eyJob3N0bmFtZSI6Ind3dy5sZWUtZG9obS5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE2In0sImN0aW1lIjoxNDY4MzcyMzYwLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NjgzNzIzNDgsImhhc2giOiJmNjVlOTRiYzg1NzQyYjlkNjA0ZWQwMjI4NjY1MmM4MmY4NmRjNGFjOThjZTczZWU1MzQwNTE5MDQxMDcxODZiYzllNjE0ODQzNjkwM2Y3ZTdjNmFmMDQyZjYzNmE1ZDJkZjQzM2RkOTFhNzllMWQzY2VjY2EzNjY1ZmNhODU3NSIsInNlcW5vIjo1MjA1MDN9LCJwcmV2IjoiNGYyNmU2YjhhZGUxOTA4ZmFjNDYyN2IxYjg3NWQyZTk5MTEzZmY2NTIyZTU1NjFlMzhkODI3YzkwODQ4ODE4NyIsInNlcW5vIjo5LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQAUb7VLK25YFrSHfsShl5DwS7Z0IKR6CEjOXBTl26GdxZeCtNqYQlMGfA23yNhxJL6m2dIrj/bStdMhFxLfZrQioc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCAY8HdcSW2ay846tG5NXI/beHBdu1RjDOpwMHHZvy2D/aN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/leedohm
+
+==================================================================
