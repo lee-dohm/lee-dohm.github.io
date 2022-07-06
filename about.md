@@ -47,22 +47,18 @@ I can be found in the following ways:
 * [Twitter <i class="fa fa-twitter"></i>][twitter]
 * [Ask Me Anything][ama]
 
-You can see the packages I've written and maintain for [Atom][atom] here: [Atom Author Page][package-author]
-
 [^1]: Like with [line numbers][line-numbers] and everything!
 [^2]: More for data analysis than actual programming, but it replaced the need to write a bunch of tools.
 
 [ama]: https://github.com/lee-dohm/ama
 [atari-400]: http://www.oldcomputers.net/atari400.html
 [atari-800]: http://www.oldcomputers.net/atari800.html
-[atom]: https://atom.io
 [beos]: https://en.wikipedia.org/wiki/BeOS
 [cpm]: https://en.wikipedia.org/wiki/CP/M
 [email]: mailto:lee@lee-dohm.com
 [github]: https://github.com/lee-dohm
 [line-numbers]: http://en.wikipedia.org/wiki/Line_number
 [os2]: https://en.wikipedia.org/wiki/OS/2
-[package-author]: https://atom.io/users/lee-dohm
 [stack-overflow]: http://stackoverflow.com/users/1954/lee
 [twitter]: https://twitter.com/leedohm
 [z80]: https://en.wikipedia.org/wiki/Zilog_Z80
